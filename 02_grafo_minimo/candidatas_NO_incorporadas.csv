@@ -1,0 +1,4 @@
+﻿Sujeto,Relacion_candidata,Objeto,Motivo,Validacion_necesaria,Estado
+RecorridoRegistrado2026,asociadoAGrupo,NacionPaucartambo,"Equipo ha descrito participación situada, pero el conjunto GPS es un registro individual; no autoriza atribuir los 12 tramos al colectivo",Confirmación de responsables de campo de qué tramos siguieron comparsa y qué tramos fueron desplazamientos individuales,NO incorporada al TTL
+Tramo05,proximoAReferencia,ColquePunku,El archivo menciona Colque Punku pero el waypoint ALTA_Colque_Punku_PRE no coincide dentro del umbral (puede estar mal posicionado),Revisión cartográfica independiente y documentación del lugar,NO incorporada al TTL
+Fotografias2026,asociadaALugar,Cualquier lugar,Las imágenes compartidas carecen de GPS EXIF; no puede inferirse la posición de captura,Metadatos originales de dron o validación por equipo de campo,NO incorporada al TTL

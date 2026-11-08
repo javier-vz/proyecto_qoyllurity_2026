@@ -1,0 +1,220 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix qr26: <urn:qoylluriti:registro2026:> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+qr26:Grupo a rdfs:Class ;
+    rdfs:label "Grupo o colectivo"@es ;
+    rdfs:comment "Denominación documentada de un colectivo, sin inferir membresía individual"@es .
+
+qr26:LugarReferencia a rdfs:Class ;
+    rdfs:label "Lugar de referencia"@es ;
+    rdfs:comment "Topónimo o referencia de campo, no delimitación geográfica oficial"@es .
+
+qr26:Recorrido a rdfs:Class ;
+    rdfs:label "Recorrido documentado"@es ;
+    rdfs:comment "Conjunto de tramos registrados en la campaña 2026; no equivale a ruta oficial o normativa"@es .
+
+qr26:Tramo a rdfs:Class ;
+    rdfs:label "Tramo de trayectoria GPS"@es ;
+    rdfs:comment "Una traza temporal registrada por un dispositivo"@es .
+
+qr26:NacionPaucartambo a qr26:Grupo ;
+    rdfs:label "Nación Paucartambo"@es ;
+    dcterms:source "UNESCO, expediente 00567: nación identificada por denominación de origen; la relación no implica pertenencia de participantes fotografiados ni de todas las trazas GPS"@es ;
+    qr26:vinculadoALugar qr26:Paucartambo .
+
+qr26:RecorridoRegistrado2026 a qr26:Recorrido ;
+    rdfs:label "Recorrido documentado de Qoyllur Rit’i, 2026"@es ;
+    dcterms:date "2026"^^xsd:gYear ;
+    rdfs:comment "Agrupación documental de 12 archivos GPX con tramos a pie y en vehículo. No representa todas las rutas de todas las naciones ni un itinerario oficial."@es ;
+    qr26:contieneTramo qr26:Tramo01,
+        qr26:Tramo02,
+        qr26:Tramo03,
+        qr26:Tramo04,
+        qr26:Tramo05,
+        qr26:Tramo06,
+        qr26:Tramo07,
+        qr26:Tramo08,
+        qr26:Tramo09,
+        qr26:Tramo10,
+        qr26:Tramo11,
+        qr26:Tramo12 .
+
+qr26:asociadoAGrupo a rdf:Property ;
+    rdfs:label "asociado a grupo"@es ;
+    rdfs:comment "Relación reservada para adscripción de tramos o recorridos a colectivos solo con evidencia específica"@es .
+
+qr26:contieneTramo a rdf:Property ;
+    rdfs:label "contiene tramo"@es ;
+    rdfs:comment "Vincula el registro global con las trazas que lo componen"@es .
+
+qr26:mencionaLugar a rdf:Property ;
+    rdfs:label "menciona lugar"@es ;
+    rdfs:comment "El topónimo figura en el nombre original del archivo GPX; no es una comprobación espacial"@es .
+
+qr26:proximoAReferencia a rdf:Property ;
+    rdfs:label "próximo a referencia"@es ;
+    rdfs:comment "La polilínea GPX se aproximó a menos de 200 metros de un waypoint de campo guardado; ver CSV de evidencia"@es .
+
+qr26:vinculadoALugar a rdf:Property ;
+    rdfs:label "vinculado a lugar"@es ;
+    rdfs:comment "Relación documental entre entidad de grupo y topónimo, atribuida a fuente explícita"@es .
+
+qr26:ColquePunku a qr26:LugarReferencia ;
+    rdfs:label "Colque Punku"@es .
+
+qr26:Tramo01 a qr26:Tramo ;
+    rdfs:label "GPX-01 · 2026-05-31_18-56_Sun paucartambo huancarani"@es ;
+    dcterms:identifier "GPX-01" ;
+    dcterms:source "2026-05-31_18-56_Sun paucartambo huancarani.gpx" ;
+    qr26:inicioUTC "2026-05-31T23:56:50+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 42.649 ;
+    qr26:mencionaLugar qr26:Huancarani,
+        qr26:Paucartambo ;
+    qr26:modalidad "vehiculo"@es ;
+    qr26:proximoAReferencia qr26:Huancarani,
+        qr26:Paucartambo .
+
+qr26:Tramo02 a qr26:Tramo ;
+    rdfs:label "GPX-02 · 2026-05-31_21-06_Sun huancarani ccatcca"@es ;
+    dcterms:identifier "GPX-02" ;
+    dcterms:source "2026-05-31_21-06_Sun huancarani ccatcca.gpx" ;
+    qr26:inicioUTC "2026-06-01T02:06:30+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 25.455 ;
+    qr26:mencionaLugar qr26:Ccatcca,
+        qr26:Huancarani ;
+    qr26:modalidad "vehiculo"@es ;
+    qr26:proximoAReferencia qr26:Ccatcca,
+        qr26:Huancarani .
+
+qr26:Tramo03 a qr26:Tramo ;
+    rdfs:label "GPX-03 · 2026-06-01_03-01_Mon ocongate mahuayani"@es ;
+    dcterms:identifier "GPX-03" ;
+    dcterms:source "2026-06-01_03-01_Mon ocongate mahuayani.gpx" ;
+    qr26:inicioUTC "2026-06-01T08:01:42+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 21.573 ;
+    qr26:mencionaLugar qr26:Mahuayani,
+        qr26:Ocongate ;
+    qr26:modalidad "vehiculo"@es .
+
+qr26:Tramo04 a qr26:Tramo ;
+    rdfs:label "GPX-04 · 2026-06-01_05-12_Mahu santuario"@es ;
+    dcterms:identifier "GPX-04" ;
+    dcterms:source "2026-06-01_05-12_Mahu santuario .gpx" ;
+    qr26:inicioUTC "2026-06-01T10:12:42+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 9.679 ;
+    qr26:mencionaLugar qr26:Mahuayani,
+        qr26:Santuario ;
+    qr26:modalidad "pie"@es ;
+    qr26:proximoAReferencia qr26:Mahuayani,
+        qr26:Santuario .
+
+qr26:Tramo05 a qr26:Tramo ;
+    rdfs:label "GPX-05 · 2026-06-01_23-53_Mon santuario Colque punku"@es ;
+    dcterms:identifier "GPX-05" ;
+    dcterms:source "2026-06-01_23-53_Mon santuario Colque punku.gpx" ;
+    qr26:inicioUTC "2026-06-02T04:53:55+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 2.018 ;
+    qr26:mencionaLugar qr26:ColquePunku,
+        qr26:Santuario ;
+    qr26:modalidad "pie"@es ;
+    qr26:proximoAReferencia qr26:Santuario .
+
+qr26:Tramo06 a qr26:Tramo ;
+    rdfs:label "GPX-06 · 2026-06-02_07-16_Tue glaciar santuario"@es ;
+    dcterms:identifier "GPX-06" ;
+    dcterms:source "2026-06-02_07-16_Tue glaciar santuario .gpx" ;
+    qr26:inicioUTC "2026-06-02T12:16:07+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 1.187 ;
+    qr26:mencionaLugar qr26:Santuario ;
+    qr26:modalidad "pie"@es .
+
+qr26:Tramo07 a qr26:Tramo ;
+    rdfs:label "GPX-07 · 2026-06-02_10-56_Tue santuario wataskama"@es ;
+    dcterms:identifier "GPX-07" ;
+    dcterms:source "2026-06-02_10-56_Tue santuario wataskama.gpx" ;
+    qr26:inicioUTC "2026-06-02T15:56:47+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 5.739 ;
+    qr26:mencionaLugar qr26:Santuario,
+        qr26:Wataskama ;
+    qr26:modalidad "pie"@es ;
+    qr26:proximoAReferencia qr26:Santuario .
+
+qr26:Tramo08 a qr26:Tramo ;
+    rdfs:label "GPX-08 · 2026-06-02_15-46_watascama yanacancha"@es ;
+    dcterms:identifier "GPX-08" ;
+    dcterms:source "2026-06-02_15-46_watascama yanacancha.gpx" ;
+    qr26:inicioUTC "2026-06-02T20:46:09+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 1.99 ;
+    qr26:mencionaLugar qr26:Wataskama,
+        qr26:Yanaqancha ;
+    qr26:modalidad "pie"@es .
+
+qr26:Tramo09 a qr26:Tramo ;
+    rdfs:label "GPX-09 · 2026-06-02_20-00_Tue tayancani"@es ;
+    dcterms:identifier "GPX-09" ;
+    dcterms:source "2026-06-02_20-00_Tue tayancani.gpx" ;
+    qr26:inicioUTC "2026-06-03T01:00:00+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 12.352 ;
+    qr26:mencionaLugar qr26:Tayankani ;
+    qr26:modalidad "pie"@es ;
+    qr26:proximoAReferencia qr26:Yanaqancha .
+
+qr26:Tramo10 a qr26:Tramo ;
+    rdfs:label "GPX-10 · 2026-06-03_06-20_Wed"@es ;
+    dcterms:identifier "GPX-10" ;
+    dcterms:source "2026-06-03_06-20_Wed.gpx" ;
+    qr26:inicioUTC "2026-06-03T11:20:33+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 2.319 ;
+    qr26:modalidad "pie"@es ;
+    qr26:proximoAReferencia qr26:Tayankani .
+
+qr26:Tramo11 a qr26:Tramo ;
+    rdfs:label "GPX-11 · 2026-06-03_14-07_Wed"@es ;
+    dcterms:identifier "GPX-11" ;
+    dcterms:source "2026-06-03_14-07_Wed.gpx" ;
+    qr26:inicioUTC "2026-06-03T19:07:06+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 1.259 ;
+    qr26:modalidad "pie"@es .
+
+qr26:Tramo12 a qr26:Tramo ;
+    rdfs:label "GPX-12 · Ccatcca ocongate"@es ;
+    dcterms:identifier "GPX-12" ;
+    dcterms:source "Ccatcca ocongate.gpx" ;
+    qr26:inicioUTC "2026-06-01T05:25:43+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 31.373 ;
+    qr26:mencionaLugar qr26:Ccatcca,
+        qr26:Ocongate ;
+    qr26:modalidad "vehiculo"@es ;
+    qr26:proximoAReferencia qr26:Ccatcca,
+        qr26:Ocongate .
+
+qr26:Tayankani a qr26:LugarReferencia ;
+    rdfs:label "Tayankani"@es .
+
+qr26:Wataskama a qr26:LugarReferencia ;
+    rdfs:label "Wataskama / Watascama (grafías documentadas)"@es .
+
+qr26:Yanaqancha a qr26:LugarReferencia ;
+    rdfs:label "Yanaqancha / Yanacancha"@es .
+
+qr26:Mahuayani a qr26:LugarReferencia ;
+    rdfs:label "Mahuayani"@es .
+
+qr26:Ocongate a qr26:LugarReferencia ;
+    rdfs:label "Ocongate"@es .
+
+qr26:Paucartambo a qr26:LugarReferencia ;
+    rdfs:label "Paucartambo"@es .
+
+qr26:Ccatcca a qr26:LugarReferencia ;
+    rdfs:label "Ccatcca (Ccatca)"@es .
+
+qr26:Huancarani a qr26:LugarReferencia ;
+    rdfs:label "Huancarani"@es .
+
+qr26:Santuario a qr26:LugarReferencia ;
+    rdfs:label "Santuario del Señor de Qoyllur Rit’i"@es .
+

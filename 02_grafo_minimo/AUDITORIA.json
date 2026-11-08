@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "fecha": "2026-11-08",
+  "fuentes": [
+    "GPX 2026 y favoritos del repositorio rutas_qoyllurity",
+    "UNESCO 00567 (relación nominal de Nación Paucartambo)"
+  ],
+  "conteos": {
+    "triples": 181,
+    "tramos": 12,
+    "enlaces_proximidad": 12,
+    "menciones_toponimicas": 18,
+    "grupos": 1,
+    "relaciones_asociadoAGrupo": 0
+  },
+  "criterio": "Proximidad <200 m a un waypoint guardado; no son geocodificaciones oficiales ni rutas grupales",
+  "politica": "Sin coordenadas ni identificadores personales; las fotografías no se integran sin evidencia"
+}
