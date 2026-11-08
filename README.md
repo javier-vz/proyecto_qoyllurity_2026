@@ -1,0 +1,1 @@
+# proyecto_qoyllurity_2026
