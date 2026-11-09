@@ -1,0 +1,13 @@
+{
+  "triples": 1986,
+  "clases_owl": 34,
+  "practicas_individuos": 30,
+  "eventos_rituales": 34,
+  "otras_actividades": 51,
+  "lugares": 44,
+  "tramos_gps": 12,
+  "colectivos": 7,
+  "relaciones_objeto_owl": 50,
+  "nodos_imagen_individual": 0,
+  "triplas_removidas_de_baseline": 132
+}

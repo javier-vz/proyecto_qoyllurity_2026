@@ -1,0 +1,2303 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo1: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix qr: <http://example.org/festividades#> .
+@prefix qr26: <urn:qoylluriti:registro2026:> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+qr:AcampadaSantuarioRelatada a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Acampada de ukumaris en el Santuario"@es ;
+    qr:detalleEtnografico "Tras llegar al Santuario, los ukumaris de Paucartambo se instalan en un espacio de acampada o celda en una zona elevada próxima al camino hacia Colque Punku, sobre terreno de bofedal. Allí se deja parte del equipaje, se descansa y se prepara la subida nocturna. Este episodio procede de participación directa aunque no haya una fotografía de la celda."@es ;
+    qr:instanciaDePractica qr:PracticaCampamentoSantuario ;
+    qr:ocurreEnLugar qr:BofedalCeldaUkumaris ;
+    qr:participaColectivo qr:UkumarisPaucartambo ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:BanderasNaciones a qr:InsigniaRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Banderas de distintas naciones"@es ;
+    qr:detalleEtnografico "Banderas portadas en ascensos, descensos, desplazamientos y reuniones; la mera apariencia no identifica individualmente las naciones."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:BautizoMorocoTayankani2025 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Bautizo de moroco al final del Inti Alabado (2025)"@es ;
+    qr:asociadaAFestividad qr:QoyllurRiti2025 ;
+    qr:condicionAcceso "Descripción pública anonimizada. Fotografías personales bajo custodia privada."@es,
+        "restringido"@es ;
+    qr:detalleEtnografico "Al finalizar el Inti Alabado de 2025, en el entorno de la gruta de Tayankani, el participante documenta su propio bautizo como moroco dentro de los ukumaris de Nación Paucartambo. Se distingue este momento de la iniciación descrita en Colque Punku. La descripción pública conserva el acontecimiento sin exponer identidad ni fotografías personales."@es ;
+    qr:instanciaDePractica qr:PracticaBautizoMoroco ;
+    qr:involucraRol qr:Moroco ;
+    qr:ocurreEnLugar qr:GrutaTayankani,
+        qr:Tayancani ;
+    qr:participaColectivo qr:UkumarisPaucartambo ;
+    qr:sigueA qr:IntiAlabado_2025 ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:Caicay a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Caicay" ;
+    rdfs:comment "Distrito que conforma la Nación Paucartambo."@es .
+
+qr:CaminoMahuayaniSantuario2025 qr:detalleEtnografico "La caminata desde Mahuayani hacia el Santuario transcurre por un sendero concurrido, con vendedores y puestos de comida. Los ukumaris cargan queperinas con ropa, tienda, saco de dormir y vestimenta; los morocos pueden llevar además leña y otros bultos para el apoyo común. Algunos equipos se transportan a caballo. Desde el inicio ascendente se observa Mahuayani a la distancia."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:CapillaTayankani a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Capilla de Tayankani"@es ;
+    qr:estaEn qr:Tayancani ;
+    rdfs:comment "Capilla donde reside normalmente todo el año la imagen del Señor de Tayankani, y donde es depositada al final de la peregrinación."@es .
+
+qr:Caporal a qr:RolParticipante,
+        owl:NamedIndividual ;
+    rdfs:label "Caporal"@es ;
+    qr:detalleEtnografico "Rol de organización y coordinación situado en prácticas de los ukumaris."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:CargaLenia a qr:ObjetoMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "Leña y cargas comunitarias"@es ;
+    qr:detalleEtnografico "Parte de las cargas de apoyo en la caminata, particularmente a cargo de morocos en el relato de Paucartambo."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:Carpapampa a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Carpapampa, Paucartambo"@es ;
+    qr:detalleEtnografico "Barrio del lugar de ensayo, según testimonio."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:CasaPriosteOcongate a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Casa del Prioste en Ocongate"@es ;
+    qr:estaEn qr:Ocongate ;
+    rdfs:comment "Residencia del prioste, autoridad encargada de la organización de la fiesta, donde la Nación es recibida."@es .
+
+qr:Ccapi a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Ccapi" ;
+    rdfs:comment "Localidad de Quispicanchis que peregrina tradicionalmente con la Nación Paucartambo por ser la más antigua."@es .
+
+qr:Ccarhuayo a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Ccarhuayo" ;
+    rdfs:comment "Localidad de Quispicanchis que peregrina tradicionalmente con la Nación Paucartambo."@es .
+
+qr:Challabamba a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Challabamba" ;
+    rdfs:comment "Distrito que conforma la Nación Paucartambo."@es .
+
+qr:Chuzos a qr:Vestimenta,
+        owl:NamedIndividual ;
+    rdfs:label "Chuzos"@es ;
+    qr:hechoDeRitual "cuero con taches metálicos" ;
+    rdfs:comment "Zapatos de fútbol usados antiguamente para no resbalar en la nieve. Representaban las garras del oso. Ya no se usan en la actualidad."@es .
+
+qr:Colquepata a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Colquepata" ;
+    rdfs:comment "Distrito que conforma la Nación Paucartambo."@es .
+
+qr:CorpusChristiPaucartamboActividad2026 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Celebración de Corpus Christi en Paucartambo (2026)"@es ;
+    qr:asociadaAFestividad qr:CorpusChristiPaucartambo2026 ;
+    qr:cierraItinerarioDe qr:QoyllurRiti2026 ;
+    qr:condicionAcceso "No publicar fotografías identificables de menores sin autorización."@es,
+        "restringido para difusión de fotos con menores"@es ;
+    qr:detalleEtnografico "En la mañana del retorno, Corpus Christi se celebra por las calles de Paucartambo con procesión e imágenes religiosas. Participan danzas que han regresado de la peregrinación y escolares de localidades cercanas vestidos como diversas danzas; el participante destaca la presencia de niños con vestimenta de ukumari. Esta celebración marca el cierre del itinerario vivido por Nación Paucartambo y se distingue como festividad de Corpus Christi."@es ;
+    qr:instanciaDePractica qr:PracticaCorpusChristi ;
+    qr:ocurreEnLugar qr:Paucartambo ;
+    qr:participaColectivo qr:EscolaresDanzasCorpus,
+        qr:UkumarisPaucartambo ;
+    qr:sigueA qr:RegresoCamionPrevioCorpus2026 ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:DanzaCerroYanaqancha2025 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Actividad en la ladera de Yanaqancha (2025)"@es ;
+    qr:asociadaAFestividad qr:QoyllurRiti2025 ;
+    qr:detalleEtnografico "Durante la parada en Yanaqancha, otros ukumaris participan en una danza o actividad de movimiento en el cerro, visible en una larga fila sobre la ladera. El nombre de la práctica, su secuencia exacta y la relación con otras actividades lúdicas aún deben consultarse; no se inventa una denominación."@es ;
+    qr:estadoRevision "Por confirmar: nombre local, participantes y sentido de la actividad en la ladera."@es ;
+    qr:instanciaDePractica qr:PracticaDanzaCerroYanaqancha ;
+    qr:ocurreEnLugar qr:Yanaqancha ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:DescansoQespiCruz2025 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Descanso asociado a Q’espi Cruz durante la Lomada, 2025"@es ;
+    qr:anioObservado 2025 ;
+    qr:detalleEtnografico "Q’espi Cruz es un hito alto del recorrido en el que el participante recuerda personas descansando durante la Lomada. Se propuso que pudiera ser uno de los últimos puntos desde los cuales se ve Colque Punku, pero esta característica espacial específica todavía no está contrastada. No se establece aquí un orden exacto entre todos los hitos nocturnos."@es ;
+    qr:instanciaDePractica qr:PracticaDescansoQespiCruz ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:Dia1_SabadoPreparacion a qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Día 1: Sábado de preparación"@es ;
+    qr:defineMarcoTemporal qr:EventoPrevioPeregrinaje_Paucartambo_2025_06_14 ;
+    qr:esParteDeFestividad qr:FestividadQoylluriti ;
+    qr:tieneFecha "2025-06-14"^^xsd:date ;
+    qr:tieneOrden 1 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es ;
+    rdfs:comment "Sábado después de la Cuaresma. Dedicado a la gelación y ensayos en Paucartambo."@es .
+
+qr:Dia2_DomingoPartida a qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Día 2: Domingo de partida y viaje"@es ;
+    qr:defineMarcoTemporal qr:ComidaCcatcca_2025,
+        qr:MisaInicial_Paucartambo_2025,
+        qr:ParadaHuancarani_2025,
+        qr:PasoCasaPrioste,
+        qr:RitualVestimentaDanzantes_2025,
+        qr:RomeriaPaucartambo_2025_06_15,
+        qr:ViajeVehicular_Paucartambo_Mahuayani_2025 ;
+    qr:esParteDeFestividad qr:FestividadQoylluriti ;
+    qr:tieneFecha "2025-06-15"^^xsd:date ;
+    qr:tieneOrden 2 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es ;
+    rdfs:comment "Domingo. Incluye misa, romería, anuncio público y viaje en vehículo hasta Mahuayani."@es .
+
+qr:Dia3_LunesAscenso a qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Día 3: Lunes de ascenso al santuario"@es ;
+    qr:defineMarcoTemporal qr:Caminata_Mahuayani_Santuario_2025,
+        qr:CeremoniaVeneracion_Templo_Qoylluriti_2025,
+        qr:DescansoCeldaUkukus_2025,
+        qr:MisaUkukus_2025,
+        qr:Pachakunapata,
+        qr:ProcesionMamachapata_2025 ;
+    qr:esParteDeFestividad qr:FestividadQoylluriti ;
+    qr:tieneFecha "2025-06-16"^^xsd:date,
+        "lunes"@es ;
+    qr:tieneOrden 3 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es ;
+    rdfs:comment "Lunes. Caminata desde Mahuayani al santuario, Misa de Ukukus, ingreso por P'achakunapata y actividades en el santuario."@es .
+
+qr:Dia4_MartesDescensoYLomada a qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Día 4: Martes de descenso e inicio de la lomada"@es ;
+    qr:defineMarcoTemporal qr:BajadaColquePunku_2025,
+        qr:DescansoYanaqancha_2025,
+        qr:Lomada_2025,
+        qr:RitualDespedida_Yanaqocha_2025,
+        qr:RitualMachuCruz_2025 ;
+    qr:esParteDeFestividad qr:FestividadQoylluriti ;
+    qr:tieneFecha "2025-06-17"^^xsd:date ;
+    qr:tieneOrden 5 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es ;
+    rdfs:comment "Martes por la mañana. Comprende el descenso desde Colque Punku al santuario y el inicio de la caminata ritual de 24 horas (lomada)."@es .
+
+qr:Dia5_MiercolesAlba a qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Día 5: Miércoles del alba y finalización"@es ;
+    qr:defineMarcoTemporal qr:DejaImagenEnCapillaTayancani_2025,
+        qr:IntiAlabado_2025,
+        qr:ProcesionEntradaOcongate_2025,
+        qr:RitualGrutaTayankani_2025,
+        qr:TrasladoImagenSenorOcongate_Tayancani_2025 ;
+    qr:tieneFecha "2025-06-18"^^xsd:date ;
+    qr:tieneOrden 7 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es ;
+    rdfs:comment "Amanecer del miércoles. Incluye el evento del Inti Alabado, la llegada a Tayankani y el retorno a Ocongate."@es .
+
+qr:EncuentroBanderasColque2025 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Concentración de ukumaris y banderas tras Colque Punku, 2025"@es ;
+    qr:anioObservado 2025 ;
+    qr:detalleEtnografico "En la llegada, banderas de distintas naciones, y transporte conjunto de cruz; práctica específica vinculada a traslado de cruz."@es ;
+    qr:instanciaDePractica qr:PracticaReunionBanderas ;
+    qr:ocurreEnLugar qr:SantuarioQoylluriti ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:EncuentroBanderasSantuario2026 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Concentración de ukumaris y banderas al llegar al Santuario, 2026"@es ;
+    qr:anioObservado 2026 ;
+    qr:detalleEtnografico "En el sector de entrada se encuentran ukumaris de distintas naciones y muchas banderas; no identificar otras naciones visualmente."@es ;
+    qr:instanciaDePractica qr:PracticaReunionBanderas ;
+    qr:ocurreEnLugar qr:SantuarioQoylluriti ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:EncuentroWataskamaDocumentado a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Encuentro y juegos en Wataskama"@es ;
+    qr:detalleEtnografico "Wataskama (también Watascama o Guatascama) es recordado como un encuentro amistoso en un valle con un riachuelo. Distintas agrupaciones de Nación Paucartambo, incluidos ukumaris, Qollas y Chunchus, se ubican en lados opuestos y cruzan corriendo por turnos. Se producen bromas y juegos, también entre caporales; la aparente penalización de quien pierde tiene carácter lúdico en este relato. El participante no dispone de fotografías propias, pero ha documentado la experiencia en su testimonio."@es ;
+    qr:instanciaDePractica qr:PracticaEncuentroWataskama ;
+    qr:ocurreEnLugar qr:Wataskama ;
+    qr:participaColectivo qr:ChunchusPaucartambo,
+        qr:QollasPaucartambo,
+        qr:UkumarisPaucartambo ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:EnsayoGeneralPaucartambo a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Ensayo general en Paucartambo"@es ;
+    qr:detalleEtnografico "En la preparación previa a la peregrinación, el participante sitúa un ensayo general el sábado en la losa deportiva Huáscar, barrio Carpapampa, Paucartambo. Esta referencia documenta el contexto de Nación Paucartambo y se conserva separada de la salida en camiones."@es ;
+    qr:instanciaDePractica qr:PracticaEnsayoGeneral ;
+    qr:ocurreEnLugar qr:LosaHuascarCarpapampa ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:EscolaresCorpus2026 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Presencia de escolares vestidos como danzas en Corpus Christi 2026"@es ;
+    qr:anioObservado 2026 ;
+    qr:detalleEtnografico "Participación de niños, incluidos niños con vestimenta de ukumari, según testimonio; no identificar escuelas ni niños en fotos."@es ;
+    qr:instanciaDePractica qr:PracticaCorpusChristi ;
+    qr:ocurreEnLugar qr:Paucartambo ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:EsperaCanchaOcongateDocumentada a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Espera en cancha de Ocongate hasta la noche"@es ;
+    qr:detalleEtnografico "Participantes permanecen en cancha hasta la noche antes de viajar en camión; testimonio, sin fotografía de espera nocturna."@es ;
+    qr:instanciaDePractica qr:PracticaEncuentroCanchaOcongate ;
+    qr:ocurreEnLugar qr:CanchaOcongate ;
+    qr:sigueA qr:EncuentroCanchaOcongateDocumentado ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:GrutaYanaqancha a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Gruta de Yanaqancha"@es ;
+    qr:estaEn qr:Yanaqancha ;
+    rdfs:comment "Gruta en Yanaqancha donde la Nación desciende bailando después del descanso."@es .
+
+qr:IniciacionMorocosColqueDocumentada a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Iniciación de morocos en Colque Punku"@es ;
+    qr:detalleEtnografico "El participante describe un momento de iniciación de morocos durante la subida o permanencia en Colque Punku: se arrodillan, reciben tres golpes rituales de sorriago por parte del caporal y luego un abrazo. Esta descripción corresponde a la experiencia situada y no se generaliza automáticamente a todas las naciones."@es ;
+    qr:instanciaDePractica qr:PracticaIniciacionColque ;
+    qr:involucraObjeto qr:Sorriago ;
+    qr:ocurreEnLugar qr:GrutaColquePunku ;
+    qr:participaColectivo qr:UkumarisPaucartambo ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:LaderaYanaqancha a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Ladera del cerro de Yanaqancha"@es ;
+    qr:detalleEtnografico "Actividad de danza descrita en Yanaqancha; nombre específico pendiente."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:Mamawairi a qr:RolParticipante,
+        owl:NamedIndividual ;
+    rdfs:label "Mamawairi"@es ;
+    qr:detalleEtnografico "Rol de apoyo de familiares y acompañantes en transporte, comida y organización colectiva."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:MamawairisApoyo a qr:Colectivo,
+        owl:NamedIndividual ;
+    rdfs:label "Mamawairis y familias de apoyo"@es ;
+    qr:detalleEtnografico "Familiares y personas de apoyo logístico: transporte, cocina y cargas, según el relato situado."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:Mollomarca a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Mollomarca (sector alto de Paucartambo)"@es ;
+    rdfs:comment "Comunidad campesina del sector alto de Paucartambo que participa en la peregrinación."@es ;
+    rdfs:seeAlso "CONFIRMAR LAT LON"@es .
+
+qr:NocheLunesMartes_Glaciar a qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Noche del lunes al martes (en el glaciar)"@es ;
+    qr:defineMarcoTemporal qr:SubidaColquePunku_2025 ;
+    qr:esParteDeFestividad qr:FestividadQoylluriti ;
+    qr:tieneFecha "2025-06-16"^^xsd:date ;
+    qr:tieneOrden 4 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es ;
+    rdfs:comment "Franja nocturna dedicada a la subida y permanencia en el glaciar Colque Punku para realizar rituales."@es .
+
+qr:NocheMartesMiercoles_Lomada a qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Noche del martes al miércoles (durante la lomada)"@es ;
+    qr:defineMarcoTemporal qr:CantoQespiCruz_2025,
+        qr:Escalerachayoq,
+        qr:Lomada_2025 ;
+    qr:esParteDeFestividad qr:FestividadQoylluriti ;
+    qr:tieneFecha "2025-06-17"^^xsd:date ;
+    qr:tieneOrden 6 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es ;
+    rdfs:comment "Franja nocturna en la que se desarrolla la parte central de la caminata de 24 horas, incluyendo hitos como Q'espi Cruz."@es .
+
+qr:ParadaCcatccaDocumentada a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Parada y encuentro alimentario en Ccatcca"@es ;
+    qr:detalleEtnografico "En Ccatcca el participante recuerda un encuentro con personas de la localidad y una práctica de reciprocidad alimentaria: se comparte carne y maíz. La denominación canónica del pueblo es Ccatcca. La fecha exacta de todas las imágenes asociadas permanece abierta."@es ;
+    qr:estadoRevision "testimonio_fotos_anio_pendiente" ;
+    qr:instanciaDePractica qr:PracticaReciprocidadCcatcca ;
+    qr:ocurreEnLugar qr:Ccatcca ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:ParticipacionDanzasCorpus2026 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Participación de danzas en Corpus Christi, Paucartambo, 2026"@es ;
+    qr:anioObservado 2026 ;
+    qr:detalleEtnografico "Según testimonio, danzas de Nación Paucartambo vuelven a participar en Corpus Christi; escenas muestran procesión y vestimenta de danza."@es ;
+    qr:instanciaDePractica qr:PracticaCorpusChristi ;
+    qr:ocurreEnLugar qr:Paucartambo ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:PasoEscalerachayoq2025 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Paso por Escalerachayoq (2025)"@es ;
+    qr:detalleEtnografico "Escalerachayoq designa un sector del recorrido hacia Tayankani con un descenso por escalones de piedra, recordado como difícil y de riesgo durante la noche o la madrugada. En el TTL se distinguen el lugar y la actividad de atravesarlo."@es ;
+    qr:instanciaDePractica qr:PracticaPasoEscalerachayoq ;
+    qr:ocurreEnLugar qr:Escalerachayoq ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es .
+
+qr:PasoEscalerachayoqDocumentado a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Paso nocturno por Escalerachayoq"@es ;
+    qr:detalleEtnografico "Recuerdo situado y topónimo previamente documentado; no se asigna año particular."@es ;
+    qr:instanciaDePractica qr:PracticaPasoEscalerachayoq ;
+    qr:ocurreEnLugar qr:Escalerachayoq ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:PracticaCaminoTayankaniOcongate a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Camino de Tayankani a Ocongate"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es ;
+    rdfs:comment "Caminata posterior al Inti Alabado"@es .
+
+qr:QueperinasYanaqancha2025 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Traslado de queperinas por morocos en Yanaqancha (2025)"@es ;
+    qr:asociadaAFestividad qr:QoyllurRiti2025 ;
+    qr:detalleEtnografico "En Yanaqancha, el participante recuerda que los morocos de primeros años, especialmente los de los dos primeros, trasladan queperinas y otras pertenencias hasta el lugar de descanso. Su experiencia del segundo año incluyó esta tarea, mientras otros ukumaris participaban en una actividad en el cerro. Es una distribución situada de tareas, no una definición universal del rol."@es ;
+    qr:instanciaDePractica qr:PracticaTransporteQueperinas ;
+    qr:involucraObjeto qr:Queperina ;
+    qr:involucraRol qr:Moroco ;
+    qr:ocurreEnLugar qr:Yanaqancha ;
+    qr:participaColectivo qr:UkumarisPaucartambo ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:RecibimientoChichaOcongate a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Ofrecimiento de chicha en recepción de Ocongate"@es ;
+    qr:detalleEtnografico "La población recibe con alegría a los peregrinos y les ofrece chicha; el ofrecimiento procede del testimonio del participante."@es ;
+    qr:instanciaDePractica qr:PracticaRecepcionOcongate ;
+    qr:ocurreEnLugar qr:Ocongate ;
+    qr:participaColectivo qr:PobladoresOcongate ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:RitualPachakunapata2025 a qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Actividad en P’achakunapata (2025)"@es ;
+    qr:detalleEtnografico "Actividad ceremonial de entrada al Santuario descrita por el TTL de 2025."@es ;
+    qr:ocurreEnLugar qr:Pachakunapata ;
+    qr:realizadoPor qr:NacionPaucartambo ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es .
+
+qr:SectorColquePunku2026 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Permanencia junto al sector glaciar, 2026"@es ;
+    qr:anioObservado 2026 ;
+    qr:detalleEtnografico "Tomas y relato de grupo de ukumaris en paisaje glaciar; comparaciones de nieve con 2025 son cualitativas."@es ;
+    qr:instanciaDePractica qr:PracticaLlegadaGrutaColque ;
+    qr:ocurreEnLugar qr:ColquePunku ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:SectorRiachueloWataskama a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Riachuelo de Wataskama"@es ;
+    qr:detalleEtnografico "Referencia al sitio de los encuentros y cruces descritos por participante."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:SecuenciaQueperinasInti2025 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Queperinas reunidas antes de formación del Inti Alabado, 2025"@es ;
+    qr:anioObservado 2025 ;
+    qr:detalleEtnografico "El participante identifica un momento inicial de queperinas reunidas, seguido de formación en filas y zigzag. No atribuir todas las imágenes a cada gesto."@es ;
+    qr:instanciaDePractica qr:PracticaIntiAlabado ;
+    qr:ocurreEnLugar qr:Tayancani ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:Unesco a qr:PaginaWeb,
+        owl:NamedIndividual ;
+    rdfs:label "Unesco"@es ;
+    qr:documentaLugar qr:SantuarioQoylluriti .
+
+qr:ZigzagIntiAlabado2025 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Zigzag del Inti Alabado, 2025"@es ;
+    qr:anioObservado 2025 ;
+    qr:detalleEtnografico "Desplazamiento colectivo en zigzag descrito por participante; no se interpreta su significado ritual."@es ;
+    qr:instanciaDePractica qr:PracticaIntiAlabado ;
+    qr:ocurreEnLugar qr:Tayancani ;
+    qr:participaColectivo qr:UkumarisVariasNaciones ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:ZigzagIntiAlabado2026 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Zigzag del Inti Alabado, 2026"@es ;
+    qr:anioObservado 2026 ;
+    qr:detalleEtnografico "Desplazamiento colectivo al amanecer, documentado en contexto de fotos y videos; el significado queda abierto."@es ;
+    qr:instanciaDePractica qr:PracticaIntiAlabado ;
+    qr:ocurreEnLugar qr:Tayancani ;
+    qr:participaColectivo qr:UkumarisVariasNaciones ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:anioObservado a owl:DatatypeProperty ;
+    rdfs:label "año de la observación"@es .
+
+qr:antesDe a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "antes de"@es ;
+    rdfs:comment "Orden temporal. Transitiva: si A es antes de B y B es antes de C, entonces A es antes de C."@es ;
+    rdfs:domain qr:EventoRitual ;
+    rdfs:range qr:EventoRitual .
+
+qr:asociadaAFestividad a owl:ObjectProperty ;
+    rdfs:label "actividad asociada a festividad"@es .
+
+qr:autor a owl:DatatypeProperty ;
+    rdfs:domain qr:FuenteBibliografica ;
+    rdfs:range xsd:string .
+
+qr:cantidadAproximada a owl:DatatypeProperty ;
+    rdfs:domain qr:Danzante ;
+    rdfs:range xsd:string .
+
+qr:cierraItinerarioDe a owl:ObjectProperty ;
+    rdfs:label "marca el cierre de un itinerario documentado"@es .
+
+qr:colectivoDeNacion a owl:ObjectProperty ;
+    rdfs:label "colectivo que forma parte de una nación"@es .
+
+qr:condicionAcceso a owl:DatatypeProperty ;
+    rdfs:label "nivel de difusión recomendado"@es .
+
+qr:conduceA a owl:ObjectProperty ;
+    rdfs:label "conduce a"@es ;
+    rdfs:range qr:Lugar .
+
+qr:contiene a owl:ObjectProperty ;
+    rdfs:label "contiene"@es ;
+    rdfs:comment "Indica que un lugar contiene geográficamente a otro."@es ;
+    rdfs:domain qr:Lugar ;
+    rdfs:range qr:Lugar ;
+    owl:inverseOf qr:estaEn .
+
+qr:contieneActividad a owl:ObjectProperty ;
+    rdfs:label "contiene actividad"@es .
+
+qr:defineMarcoTemporal a owl:ObjectProperty ;
+    rdfs:label "define marco temporal" ;
+    rdfs:comment "Este evento ritual define el tiempo en que ocurren otros eventos rituales"@es ;
+    rdfs:domain qr:EventoRitual ;
+    rdfs:range qr:EventoRitual .
+
+qr:desde a owl:ObjectProperty ;
+    rdfs:label "desde"@es ;
+    rdfs:range qr:Lugar .
+
+qr:detalleEtnografico a owl:DatatypeProperty ;
+    rdfs:label "descripción etnográfica de la actividad"@es .
+
+qr:documentaEvento a owl:ObjectProperty ;
+    rdfs:label "documenta evento"@es ;
+    rdfs:comment "Relaciona un recurso multimedia con el evento ritual específico que captura."@es ;
+    rdfs:domain qr:RecursoMultimedia ;
+    rdfs:range qr:EventoRitual .
+
+qr:documentaLugar a owl:ObjectProperty ;
+    rdfs:label "documenta lugar"@es ;
+    rdfs:comment "Relaciona un recurso multimedia con el lugar específico donde fue capturado."@es ;
+    rdfs:domain qr:RecursoMultimedia ;
+    rdfs:range qr:Lugar .
+
+qr:documentaParticipante a owl:ObjectProperty ;
+    rdfs:label "documenta participante"@es ;
+    rdfs:comment "Relaciona un recurso multimedia con participantes individuales o colectivos que aparecen en él."@es ;
+    rdfs:domain qr:RecursoMultimedia ;
+    rdfs:range qr:Participante .
+
+qr:documentaPracticaCultural a owl:ObjectProperty ;
+    rdfs:label "documenta práctica cultural"@es ;
+    rdfs:comment "Relaciona un recurso multimedia con prácticas culturales específicas que muestra."@es ;
+    rdfs:domain qr:RecursoMultimedia ;
+    rdfs:range qr:PracticaCultural .
+
+qr:documentadoEnRecorrido a owl:ObjectProperty ;
+    rdfs:label "edición documentada parcialmente por recorrido GPS"@es .
+
+qr:edicionDe a owl:ObjectProperty ;
+    rdfs:label "edición anual de una festividad"@es .
+
+qr:ejecutaDanza a owl:ObjectProperty ;
+    rdfs:comment "Relación entre un danzante y la danza en la que participa."@es,
+        "ejecuta danza"@es ;
+    rdfs:domain qr:Danzante ;
+    rdfs:range qr:Danza .
+
+qr:esParteDe a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "es parte de"@es ;
+    rdfs:comment "Indica que un objeto es componente de otro objeto mayor. Transitiva: si A es parte de B y B es parte de C, entonces A es parte de C."@es ;
+    rdfs:domain qr:ObjetoRitual ;
+    rdfs:range qr:ObjetoRitual ;
+    owl:inverseOf qr:tieneParte .
+
+qr:esParteDeConjunto a owl:ObjectProperty ;
+    rdfs:label "es parte de conjunto"@es ;
+    rdfs:comment "Agrupa recursos multimedia relacionados (ej: todas las fotos de un mismo evento)."@es ;
+    rdfs:domain qr:RecursoMultimedia ;
+    rdfs:range qr:ConjuntoMultimedia .
+
+qr:esParteDeFestividad a owl:ObjectProperty ;
+    rdfs:domain qr:EventoRitual ;
+    rdfs:range qr:Festividad .
+
+qr:esParteDelApu a owl:ObjectProperty ;
+    rdfs:label "es parte del apu"@es ;
+    rdfs:comment "Indica que un lugar sagrado forma parte de un apu (espíritu de montaña)."@es ;
+    rdfs:domain qr:LugarSagrado ;
+    rdfs:range qr:Apu .
+
+qr:esPeriodicoCon a owl:ObjectProperty ;
+    rdfs:label "es periódico con"@es ;
+    rdfs:domain qr:EventoRitual ;
+    rdfs:range qr:Periodicidad .
+
+qr:esPortadoPor a owl:ObjectProperty ;
+    rdfs:label "es portado por"@es ;
+    rdfs:comment "Un objeto es portado por participante(s)."@es ;
+    rdfs:domain qr:ObjetoRitual ;
+    rdfs:range qr:Participante ;
+    owl:inverseOf qr:portaObjeto .
+
+qr:esUsadoPor a owl:ObjectProperty ;
+    rdfs:label "es usado por"@es ;
+    rdfs:comment "Un objeto ritual es usado por participante(s)."@es ;
+    rdfs:domain qr:ObjetoRitual ;
+    rdfs:range qr:Participante ;
+    owl:inverseOf qr:usaObjetoRitual .
+
+qr:estaConformadaPor a owl:ObjectProperty ;
+    rdfs:label "está conformada por"@es ;
+    rdfs:comment "Distritos o comunidades que conforman una nación."@es ;
+    rdfs:domain qr:Nacion ;
+    rdfs:range qr:Lugar ;
+    owl:inverseOf qr:perteneceA .
+
+qr:estadoRevision a owl:DatatypeProperty ;
+    rdfs:label "estado de revisión de esta afirmación"@es .
+
+qr:hechoDeRitual a owl:DatatypeProperty ;
+    rdfs:label "hecho de"@es ;
+    rdfs:comment "Material del que está hecho el objeto ritual."@es ;
+    rdfs:domain qr:ObjetoRitual ;
+    rdfs:range xsd:string .
+
+qr:instanciaDePractica a owl:ObjectProperty ;
+    rdfs:label "actividad documentada de una práctica recurrente"@es ;
+    rdfs:domain qr:Actividad ;
+    rdfs:range qr:PracticaCultural .
+
+qr:involucraObjeto a owl:ObjectProperty ;
+    rdfs:label "objeto material usado o referido en una actividad"@es .
+
+qr:involucraRol a owl:ObjectProperty ;
+    rdfs:label "rol presente en una actividad"@es .
+
+qr:ocurreEnLugar a owl:ObjectProperty ;
+    rdfs:domain qr:Actividad ;
+    rdfs:range qr:Lugar .
+
+qr:participaColectivo a owl:ObjectProperty ;
+    rdfs:label "colectivo participante en una actividad"@es .
+
+qr:participaEn a owl:ObjectProperty ;
+    rdfs:label "participa en"@es ;
+    rdfs:comment "Relación general de participación."@es ;
+    rdfs:domain qr:Participante ;
+    rdfs:range qr:EventoRitual ;
+    owl:inverseOf qr:realizadoPor .
+
+qr:pasaPor a owl:ObjectProperty ;
+    rdfs:label "pasa por"@es ;
+    rdfs:comment "Indica que un trayecto/ruta pasa por un lugar específico"@es ;
+    rdfs:range qr:Lugar .
+
+qr:seAsociaARecorrido a owl:ObjectProperty ;
+    rdfs:label "actividad asociada a recorrido narrado"@es .
+
+qr:seRelacionaConTramoGPS a owl:ObjectProperty ;
+    rdfs:label "relación documental con un tramo GPS"@es .
+
+qr:sigueA a owl:ObjectProperty ;
+    rdfs:label "actividad posterior a otra actividad documentada"@es .
+
+qr:sigueRuta a owl:ObjectProperty ;
+    rdfs:domain qr:EventoRitual ;
+    rdfs:range qr:RecorridoCultural .
+
+qr:sucedeInmediatamenteA a owl:ObjectProperty ;
+    rdfs:label "sucede inmediatamente a"@es ;
+    rdfs:comment "Sucesión temporal directa. NO transitiva porque 'inmediatamente' implica sin intermedios."@es ;
+    rdfs:domain qr:EventoRitual ;
+    rdfs:range qr:EventoRitual .
+
+qr:tieneAltitudMetros a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "tiene altitud en metros"@es ;
+    rdfs:comment "Altitud sobre el nivel del mar en metros."@es ;
+    rdfs:domain qr:Lugar ;
+    rdfs:range xsd:integer .
+
+qr:tieneDescripcion a owl:DatatypeProperty ;
+    rdfs:label "tiene descripción"@es ;
+    rdfs:comment "Descripción textual del contenido del recurso, observaciones de campo, etc."@es ;
+    rdfs:domain qr:RecursoMultimedia ;
+    rdfs:range xsd:string .
+
+qr:tieneDuracionHoras a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "tiene duración en horas"@es ;
+    rdfs:comment "Duración en horas. Funcional: un evento tiene UNA SOLA duración."@es ;
+    rdfs:domain qr:EventoRitual ;
+    rdfs:range xsd:decimal .
+
+qr:tieneEtapa a owl:ObjectProperty ;
+    rdfs:label "itinerario incluye etapa o actividad"@es .
+
+qr:tieneFecha a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "tieneFecha",
+        "tiene fecha"@es ;
+    rdfs:comment "Fecha específica. Formato: YYYY-MM-DD."@es ;
+    rdfs:domain qr:EventoRitual ;
+    rdfs:range xsd:date .
+
+qr:tieneFechaCaptura a owl:DatatypeProperty ;
+    rdfs:label "tiene fecha y hora de captura"@es ;
+    rdfs:comment "Marca de tiempo EXIF o momento exacto en que se documentó el evento."@es ;
+    rdfs:domain qr:RecursoMultimedia ;
+    rdfs:range xsd:dateTime .
+
+qr:tieneHoraInicio a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "tiene hora de inicio"@es ;
+    rdfs:comment "Hora de inicio. Formato: HH:MM:SS."@es ;
+    rdfs:domain qr:EventoRitual ;
+    rdfs:range xsd:time .
+
+qr:tieneImportancia a owl:DatatypeProperty ;
+    rdfs:label "tiene importancia"@es ;
+    rdfs:comment "Nivel de importancia: 'central' (núcleo de la festividad), 'secundario' (importante pero no esencial), 'menor' (complementario)."@es ;
+    rdfs:domain owl:Thing ;
+    rdfs:range xsd:string .
+
+qr:tieneNombreArchivo a owl:DatatypeProperty ;
+    rdfs:label "tiene nombre de archivo"@es ;
+    rdfs:comment "Nombre original del archivo multimedia."@es ;
+    rdfs:domain qr:RecursoMultimedia ;
+    rdfs:range xsd:string .
+
+qr:tieneNombreConjunto a owl:DatatypeProperty ;
+    rdfs:label "tiene nombre del conjunto"@es ;
+    rdfs:domain qr:ConjuntoMultimedia ;
+    rdfs:range xsd:string .
+
+qr:tieneNombreLocal a owl:DatatypeProperty ;
+    rdfs:domain qr:EventoRitual,
+        qr:Lugar ;
+    rdfs:range xsd:string .
+
+qr:tieneOrden a owl:DatatypeProperty ;
+    rdfs:comment "Orden secuencial de los marcos temporales (días) en la festividad"@es ;
+    rdfs:domain qr:EventoRitual ;
+    rdfs:range xsd:integer .
+
+qr:tieneOrdenEvento a owl:DatatypeProperty ;
+    rdfs:comment "Orden del evento dentro de su marco temporal específico"@es ;
+    rdfs:domain qr:EventoRitual ;
+    rdfs:range xsd:integer .
+
+qr:tieneTipoArchivo a owl:DatatypeProperty ;
+    rdfs:label "tiene tipo de archivo"@es ;
+    rdfs:comment "Formato MIME del recurso (image/jpeg, video/mp4, audio/mpeg, etc.)."@es ;
+    rdfs:domain qr:RecursoMultimedia ;
+    rdfs:range xsd:string .
+
+qr:tieneURL a owl:DatatypeProperty ;
+    rdfs:label "tiene URL de acceso"@es ;
+    rdfs:comment "Enlace directo al archivo multimedia almacenado (ej: en GitHub, servidor, etc.)."@es ;
+    rdfs:domain qr:RecursoMultimedia ;
+    rdfs:range xsd:anyURI .
+
+qr:usaVestimenta a owl:ObjectProperty ;
+    rdfs:label "usa vestimenta"@es ;
+    rdfs:comment "Relación entre un danzante y su traje ceremonial."@es ;
+    rdfs:domain qr:Danzante ;
+    rdfs:range qr:Vestimenta .
+
+qr:utilizaObjeto a owl:ObjectProperty ;
+    rdfs:label "utiliza objeto"@es ;
+    rdfs:comment "Relaciona un evento con objetos utilizados."@es ;
+    rdfs:domain qr:EventoRitual ;
+    rdfs:range qr:ObjetoRitual .
+
+dcterms:date a owl:AnnotationProperty .
+
+dcterms:identifier a owl:AnnotationProperty .
+
+dcterms:source a owl:AnnotationProperty .
+
+<http://www.semanticweb.org/jvera/ontologies/2026/1/untitled-ontology-10> a owl:Ontology .
+
+geo1:lat a owl:AnnotationProperty .
+
+geo1:long a owl:AnnotationProperty .
+
+qr26:NacionPaucartambo a qr26:Grupo ;
+    rdfs:label "Nación Paucartambo"@es ;
+    dcterms:source "UNESCO, expediente 00567: nación identificada por denominación de origen; la relación no implica pertenencia de participantes fotografiados ni de todas las trazas GPS"@es ;
+    owl:sameAs qr:NacionPaucartambo ;
+    qr26:vinculadoALugar qr26:Paucartambo .
+
+qr26:asociadoAGrupo a owl:ObjectProperty ;
+    rdfs:label "asociado a grupo"@es ;
+    rdfs:comment "Relación reservada para adscripción de tramos o recorridos a colectivos solo con evidencia específica"@es .
+
+qr26:contieneTramo a owl:ObjectProperty ;
+    rdfs:label "contiene tramo"@es ;
+    rdfs:comment "Vincula el registro global con las trazas que lo componen"@es .
+
+qr26:inicioUTC a owl:DatatypeProperty .
+
+qr26:longitudKm a owl:DatatypeProperty .
+
+qr26:mencionaLugar a owl:ObjectProperty ;
+    rdfs:label "menciona lugar"@es ;
+    rdfs:comment "El topónimo figura en el nombre original del archivo GPX; no es una comprobación espacial"@es .
+
+qr26:modalidad a owl:DatatypeProperty .
+
+qr26:ontologia a owl:Ontology ;
+    rdfs:label "Grafo documental mínimo de Qoyllur Rit’i 2026 (copia de edición Protégé)"@es .
+
+qr26:proximoAReferencia a owl:ObjectProperty ;
+    rdfs:label "próximo a referencia"@es ;
+    rdfs:comment "La polilínea GPX se aproximó a menos de 200 metros de un waypoint de campo guardado; ver CSV de evidencia"@es .
+
+qr26:vinculadoALugar a owl:ObjectProperty ;
+    rdfs:label "vinculado a lugar"@es ;
+    rdfs:comment "Relación documental entre entidad de grupo y topónimo, atribuida a fuente explícita"@es .
+
+qr:Anual a qr:Periodicidad,
+        owl:NamedIndividual ;
+    rdfs:label "Anual"@es .
+
+qr:Articulo a owl:Class ;
+    rdfs:subClassOf qr:FuenteBibliografica .
+
+qr:AscensoColquePunku2026 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Ascenso desde Santuario a Colque Punku (2026)"@es ;
+    qr:asociadaAFestividad qr:QoyllurRiti2026 ;
+    qr:detalleEtnografico "Ascenso nocturno desde Santuario a Colque Punku, en marco de una peregrinación físicamente exigente."@es ;
+    qr:instanciaDePractica qr:PracticaAscensoGlaciar ;
+    qr:ocurreEnLugar qr:ColquePunku ;
+    qr:seRelacionaConTramoGPS qr26:Tramo05 ;
+    qr:sigueA qr:CaminoMahuayaniSantuario2026 ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:BofedalCeldaUkumaris a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Bofedal y celda de ukumaris junto al Santuario"@es ;
+    qr:detalleEtnografico "Sector de acampada narrado, sin coordenada pública."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:CaminoMahuayaniSantuario2026 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Camino a pie de Mahuayani al Santuario (2026)"@es ;
+    qr:asociadaAFestividad qr:QoyllurRiti2026 ;
+    qr:detalleEtnografico "Tramo GPS de desplazamiento; no ubica cada acto en coordenada exacta."@es ;
+    qr:instanciaDePractica qr:PracticaLomada ;
+    qr:ocurreEnLugar qr:Mahuayani ;
+    qr:seRelacionaConTramoGPS qr26:Tramo04 ;
+    qr:sigueA qr:LlegadaMahuayani2026 ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:CaminoTayankaniOcongateDocumentado a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Caminata desde Tayankani hacia Ocongate"@es ;
+    qr:detalleEtnografico "Tras el Inti Alabado y las actividades de Tayankani, los participantes caminan hacia Ocongate. El relato describe el recorrido como una prolongación exigente de la peregrinación. Existe documentación visual de parte de la llegada, pero el año de ese conjunto aún no ha sido confirmado."@es ;
+    qr:instanciaDePractica qr:PracticaLomada ;
+    qr:ocurreEnLugar qr:Ocongate ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:CamisaBlanca a qr:Vestimenta,
+        owl:NamedIndividual ;
+    rdfs:label "Camisa blanca"@es ;
+    qr:esParteDe qr:TrajeUkumari ;
+    rdfs:comment "Camisa blanca usada debajo del pellón."@es .
+
+qr:CantoQespiCruz_2025 a qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Canto en Q'espi Cruz (2025)"@es ;
+    qr:ocurreEnLugar qr:QespiCruz ;
+    qr:realizadoPor qr:NacionPaucartambo ;
+    qr:tieneOrdenEvento 1 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es ;
+    rdfs:comment "A medianoche, toda la Nación canta la 'Canción de Despedida de los Qapaq Qollas' en Q'espi Cruz."@es .
+
+qr:CasaPriosteParada a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Casa del prioste (referencia contextual)"@es ;
+    qr:detalleEtnografico "Parada y descanso sin dirección pública, según testimonio."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:CementerioPaucartambo a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Cementerio de Paucartambo"@es ;
+    qr:detalleEtnografico "Lugar de romería y memoria de antiguos integrantes y familiares."@es ;
+    qr:estaEn qr:Paucartambo ;
+    rdfs:comment "Cementerio local donde se realiza la romería para honrar a los hermanos antiguos."@es .
+
+qr:CorpusChristiPaucartambo a qr:Festividad,
+        owl:NamedIndividual ;
+    rdfs:label "Corpus Christi en Paucartambo"@es ;
+    qr:detalleEtnografico "Celebración del calendario local vinculada en el itinerario narrado al regreso de Qoyllur Rit’i."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:CorpusChristiPaucartambo2026 a qr:Festividad,
+        owl:NamedIndividual ;
+    rdfs:label "Corpus Christi en Paucartambo (2026)"@es ;
+    qr:detalleEtnografico "Edición del Corpus Christi que cierra el itinerario relatado de Nación Paucartambo."@es ;
+    qr:edicionDe qr:CorpusChristiPaucartambo ;
+    dcterms:date "2026"^^xsd:gYear ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:CruzCobreUkuku a qr:ObjetoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Cruz de cobre del ukuku"@es ;
+    qr:esParteDe qr:TrajeUkumari ;
+    qr:hechoDeRitual "cobre" ;
+    rdfs:comment "Cruz de cobre portada en el pecho del ukuku."@es .
+
+qr:CruzColquePunku a qr:ObjetoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Cruz trasladada desde Colque Punku"@es ;
+    qr:detalleEtnografico "Cruz llevada a la gruta previamente y descendida por turnos de diferentes naciones. El testimonio indica que ukumaris de Paucartambo la llevaban en el registro de 2025."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:DanzaUkumari a qr:Danza,
+        owl:NamedIndividual ;
+    rdfs:label "Danza del Ukumari"@es ;
+    rdfs:comment "Danza ritual asociada al oso andino, conocido también como ukuku. En Qoyllur Rit’i, los ukumari constituyen una identidad ritual integral que articula prácticas de danza, dimensión espiritual y funciones sociales específicas dentro del orden ceremonial."@es .
+
+qr:DejaImagenEnCapillaTayancani_2025 a qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Dejar imagen en capilla de Tayancani (2025)"@es ;
+    qr:tieneOrdenEvento 3 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es ;
+    rdfs:comment "Depósito de la imagen en la capilla de Tayancani"@es .
+
+qr:DescansoCeldaUkukus_2025 a qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Descanso en celda de Ukukus (2025)"@es ;
+    qr:ocurreEnLugar qr:CeldaUkukusPaucartambo ;
+    qr:realizadoPor qr:Ukumaris_Paucartambo_2025 ;
+    qr:tieneOrdenEvento 6 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es ;
+    rdfs:comment "Descanso, comida y preparación en la celda de los Ukukus en el bofedal del santuario, antes de la subida nocturna al glaciar."@es .
+
+qr:DescensoColquePunku2026 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Descenso desde Colque Punku (2026)"@es ;
+    qr:asociadaAFestividad qr:QoyllurRiti2026 ;
+    qr:detalleEtnografico "El testimonio recuerda un día soleado y menos nieve visible en 2026 respecto de 2025; observación cualitativa, sin atribución causal climática."@es,
+        "Regreso al Santuario en día recordado como soleado y con menos nieve visible que 2025; comparación testimonial, no tendencia climática."@es ;
+    qr:instanciaDePractica qr:PracticaDescensoGlaciar ;
+    qr:ocurreEnLugar qr:ColquePunku ;
+    qr:seRelacionaConTramoGPS qr26:Tramo06 ;
+    qr:sigueA qr:AscensoColquePunku2026 ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:EscolaresDanzasCorpus a qr:Colectivo,
+        owl:NamedIndividual ;
+    rdfs:label "Escolares participantes en Corpus Christi de Paucartambo"@es ;
+    qr:detalleEtnografico "Participación infantil relatada; no se identifica a menores, escuelas ni participantes en fotografías."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:EventoPrevioPeregrinaje_Paucartambo_2025_06_14 a qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Evento previo al peregrinaje (2025)"@es ;
+    qr:tieneOrdenEvento 1 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es ;
+    rdfs:comment "Preparativos, gelación y ensayos en Paucartambo." .
+
+qr:GuantesUkuku a qr:Vestimenta,
+        owl:NamedIndividual ;
+    rdfs:label "Guantes del ukuku"@es ;
+    qr:esParteDe qr:TrajeUkumari ;
+    rdfs:comment "Guantes usados durante la subida al glaciar."@es .
+
+qr:Huaqollo a qr:Vestimenta,
+        owl:NamedIndividual ;
+    rdfs:label "Huaqollo"@es ;
+    qr:esParteDe qr:TrajeUkumari ;
+    qr:hechoDeRitual "lana tejida" ;
+    qr:tieneNombreLocal "huaqollo"@qu ;
+    rdfs:comment "Careta tejida de lana que cubre el rostro del ukuku."@es .
+
+qr:IglesiaCcatcca a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Iglesia de Ccatcca"@es ;
+    qr:estaEn qr:Ccatcca ;
+    rdfs:comment "Templo que se visita ritualmente marcando el paso por el pueblo."@es .
+
+qr:IglesiaPaucartambo a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Iglesia de Paucartambo"@es ;
+    qr:detalleEtnografico "Misa previa a la peregrinación y punto de paso en el recorrido urbano."@es ;
+    qr:estaEn qr:Paucartambo ;
+    rdfs:comment "Iglesia principal de Paucartambo."@es .
+
+qr:ImagenReligiosa a owl:Class ;
+    rdfs:label "Imagen Religiosa"@es ;
+    rdfs:comment "Representaciones sagradas de Cristo, santos o deidades veneradas en procesiones."@es ;
+    rdfs:subClassOf qr:ObjetoRitual .
+
+qr:IntiAlabado2026 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Inti Alabado en Tayankani (2026)"@es ;
+    qr:asociadaAFestividad qr:QoyllurRiti2026 ;
+    qr:detalleEtnografico "Durante el Inti Alabado de 2026, también en Tayankani y al amanecer, se observan grupos de ukumaris de diferentes naciones formándose en filas y moviéndose en zigzag. El registro permite comparar la continuidad del acto con 2025 sin asumir identidad completa de la ejecución, ni un simbolismo no corroborado."@es ;
+    qr:instanciaDePractica qr:PracticaIntiAlabado ;
+    qr:ocurreEnLugar qr:Tayancani ;
+    qr:participaColectivo qr:UkumarisVariasNaciones ;
+    qr:seRelacionaConTramoGPS qr26:Tramo09,
+        qr26:Tramo10 ;
+    qr:sigueA qr:Lomada2026 ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:IntiLloksimuy a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Inti Lloksimuy"@es ;
+    qr:estaEn qr:Tayancani ;
+    rdfs:comment "Lugar en las alturas de Tayankani donde se espera la salida del sol para el homenaje. Según la tradición, aquí empieza el Inti Raymi."@es .
+
+qr:Libro a owl:Class ;
+    rdfs:subClassOf qr:FuenteBibliografica .
+
+qr:LlegadaGrutaColquePunku2025 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Concentración cerca de gruta de Colque Punku, 2025"@es ;
+    qr:anioObservado 2025 ;
+    qr:detalleEtnografico "En el sector de la gruta de Colque Punku se encuentran ukumaris de diversas naciones y sus banderas cerca de la cruz, que había sido llevada a la parte alta con anterioridad. Este lugar se distingue explícitamente de la gruta de Tayankani relacionada con el bautizo."@es ;
+    qr:instanciaDePractica qr:PracticaLlegadaGrutaColque ;
+    qr:ocurreEnLugar qr:GrutaColquePunku ;
+    qr:sigueA qr:SubidaColquePunku_2025 ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:LlegadaMahuayani2026 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Llegada a Mahuayani, 2026"@es ;
+    qr:anioObservado 2026 ;
+    qr:detalleEtnografico "Concentración de camiones y equipos; peregrinos preparan queperinas y materiales antes de caminar. Se observan fotografías contextuales."@es ;
+    qr:instanciaDePractica qr:PracticaLlegadaMahuayani ;
+    qr:ocurreEnLugar qr:Mahuayani ;
+    qr:sigueA qr:ViajeVehiculo2026 ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:LlegadaSantuario2026 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Llegada al Santuario tras el descenso (2026)"@es ;
+    qr:asociadaAFestividad qr:QoyllurRiti2026 ;
+    qr:detalleEtnografico "Concentración de banderas de diferentes naciones."@es ;
+    qr:instanciaDePractica qr:PracticaLomada ;
+    qr:ocurreEnLugar qr:SantuarioQoylluriti ;
+    qr:participaColectivo qr:UkumarisVariasNaciones ;
+    qr:sigueA qr:DescensoColquePunku2026 ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:Lomada2026 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Lomada de 2026"@es ;
+    qr:asociadaAFestividad qr:QoyllurRiti2026 ;
+    qr:detalleEtnografico "Ruta de 24 horas desde Santuario, con secuencia de tramos GPX de 2026; no es toda la fiesta ni todos los itinerarios."@es ;
+    qr:instanciaDePractica qr:PracticaLomada ;
+    qr:ocurreEnLugar qr:SantuarioQoylluriti ;
+    qr:seRelacionaConTramoGPS qr26:Tramo07,
+        qr26:Tramo08,
+        qr26:Tramo09 ;
+    qr:sigueA qr:LlegadaSantuario2026 ;
+    qr:sigueRuta qr:RutaLomada ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:LosaHuascarCarpapampa a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Losa deportiva Huáscar, barrio Carpapampa"@es ;
+    qr:detalleEtnografico "Ensayo general previo al viaje, según testimonio."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:MisaUkukus_2025 a qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Misa de Ukukus (2025)"@es ;
+    qr:antesDe qr:SubidaColquePunku_2025 ;
+    qr:ocurreEnLugar qr:SantuarioQoylluriti ;
+    qr:realizadoPor qr:Ukumaris_Paucartambo_2025 ;
+    qr:tieneOrdenEvento 2 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es ;
+    rdfs:comment "Misa especial para los ukukus"@es .
+
+qr:OfrendaMaterial a owl:Class ;
+    rdfs:label "Ofrenda Material"@es ;
+    rdfs:comment "Objetos ofrecidos a deidades: coca, chicha, etc."@es ;
+    rdfs:subClassOf qr:ObjetoRitual .
+
+qr:Pellon a qr:Vestimenta,
+        owl:NamedIndividual ;
+    rdfs:label "Pellón"@es ;
+    qr:esParteDe qr:TrajeUkumari ;
+    qr:hechoDeRitual "lana" ;
+    qr:tieneNombreLocal "bellón"@es,
+        "pellón"@qu ;
+    rdfs:comment "Traje principal del ukuku, también llamado bellón."@es .
+
+qr:Peregrino a owl:Class ;
+    rdfs:label "Peregrino"@es ;
+    rdfs:comment "Participante que realiza la peregrinación sin un rol ritual específico."@es ;
+    rdfs:subClassOf qr:Individuo .
+
+qr:PlazaCcatcca a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Plaza de Armas de Ccatcca"@es ;
+    qr:estaEn qr:Ccatcca ;
+    rdfs:comment "Lugar donde se descansa en camino a Mahuayani y se comparte una comida comunitaria (asado con mote)."@es .
+
+qr:PlazaOcongate a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Plaza de Ocongate"@es ;
+    qr:estaEn qr:Ocongate ;
+    rdfs:comment "Plaza donde oficialmente termina la festividad del Señor de Qoyllur Rit'i para la Nación Paucartambo."@es .
+
+qr:PlazaPaucartambo a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Plaza de Armas de Paucartambo"@es ;
+    qr:estaEn qr:Paucartambo ;
+    rdfs:comment "Plaza principal de Paucartambo donde se realiza el ritual público de vestimenta de los danzantes Ukukus antes de la partida hacia el santuario."@es .
+
+qr:PortadorCruz a qr:RolParticipante,
+        owl:NamedIndividual ;
+    rdfs:label "Portador de la cruz"@es ;
+    qr:detalleEtnografico "Papel rotativo desempeñado durante el descenso de la cruz entre ukumaris de distintas naciones."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:PracticaBautizoMoroco a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Bautizo de moroco"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es .
+
+qr:PracticaCampamentoSantuario a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Acampada en la celda del Santuario"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es ;
+    rdfs:comment "Preparación de descanso, pertenencias y equipo antes del ascenso"@es .
+
+qr:PracticaDanzaCerroYanaqancha a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Danza en el cerro de Yanaqancha (nombre pendiente)"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es .
+
+qr:PracticaDescansoQespiCruz a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Descanso en Q’espi Cruz"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es ;
+    rdfs:comment "Descanso asociado al lugar por testimonio; última visibilidad de glaciar sin confirmar"@es .
+
+qr:PracticaDescansoYanaqancha a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Descanso en Yanaqancha"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es .
+
+qr:PracticaEncuentroWataskama a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Encuentro de Wataskama"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es ;
+    rdfs:comment "Cruces del riachuelo, carreras y bromas descritas, sin inferir rivalidad generalizada"@es .
+
+qr:PracticaEnsayoGeneral a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Ensayo general previo a la peregrinación"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es ;
+    rdfs:comment "Ensayo y preparación en Paucartambo antes de la salida"@es .
+
+qr:PracticaIniciacionColque a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Iniciación de morocos en Colque Punku"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es ;
+    rdfs:comment "Relato de iniciación con sorriago y abrazo; alcance colectivo por precisar"@es .
+
+qr:PracticaLlegadaMahuayani a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Llegada a Mahuayani"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es ;
+    rdfs:comment "Llegada de vehículos, bultos y organización para caminar"@es .
+
+qr:PracticaMisaSalida a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Misa previa a la salida"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es ;
+    rdfs:comment "Celebración religiosa previo a romería y partida"@es .
+
+qr:PracticaMisaSantuario a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Misa en el Santuario"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es ;
+    rdfs:comment "Momentos previos al ingreso o al interior de la iglesia documentados en 2025"@es .
+
+qr:PracticaParadaPrioste a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Parada en casa del prioste"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es ;
+    rdfs:comment "Encuentro y descanso con ukumaris, Qollas y Chunchus durante el viaje"@es .
+
+qr:PracticaReciprocidadCcatcca a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Encuentro y entrega de alimentos en Ccatcca"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es ;
+    rdfs:comment "Carne y maíz compartidos según testimonio; fecha del lote de imágenes pendiente"@es .
+
+qr:PracticaRecorridoPueblo a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Recorrido festivo por el pueblo"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es ;
+    rdfs:comment "Desplazamientos y carreras por calles de Paucartambo antes del viaje"@es .
+
+qr:PracticaRegresoCamion a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Regreso en camión"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es .
+
+qr:PracticaRomeria a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Romería"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es ;
+    rdfs:comment "Visita y recuerdo a antiguos integrantes y familiares; se conserva práctica"@es .
+
+qr:PracticaTransporteQueperinas a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Traslado de queperinas"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es .
+
+qr:PracticaTrasladoCruz a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Transporte colectivo de la cruz"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es .
+
+qr:PreparacionPaucartambo2026 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Vestimenta para peregrinación en Paucartambo, 2026"@es ;
+    qr:anioObservado 2026 ;
+    qr:detalleEtnografico "Fotografía personal con indumentaria de ukumari; fecha de captura individual no verificada, archivo sugiere 2026."@es ;
+    qr:instanciaDePractica qr:PracticaVestirseUkumari ;
+    qr:ocurreEnLugar qr:Paucartambo ;
+    qr:participaColectivo qr:UkumarisPaucartambo ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:ProcesionEntradaOcongate_2025 a qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Procesión de entrada a Ocongate (2025)"@es ;
+    qr:ocurreEnLugar qr:PlazaOcongate ;
+    qr:realizadoPor qr:NacionPaucartambo ;
+    qr:tieneOrdenEvento 5 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es ;
+    rdfs:comment "Procesión final en Ocongate que marca el término oficial de la festividad para la Nación Paucartambo."@es .
+
+qr:ProcesionMamachapata_2025 a qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Procesión a Mamachapata (2025)"@es ;
+    qr:ocurreEnLugar qr:Mamachapata ;
+    qr:realizadoPor qr:NacionPaucartambo ;
+    qr:tieneOrdenEvento 5 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es ;
+    rdfs:comment "Procesión con la imagen del Señor de Tayankani hacia el área de Mamachapata dentro del santuario. La Nación Paucartambo tiene el derecho histórico de ser los primeros en sacar esta imagen."@es .
+
+qr:Puyka a qr:Instrumento,
+        owl:NamedIndividual ;
+    rdfs:label "Puyka"@es ;
+    qr:esParteDe qr:TrajeUkumari ;
+    qr:hechoDeRitual "caña" ;
+    qr:tieneNombreLocal "puyka"@qu ;
+    rdfs:comment "Especie de caña para hacer ruido. Representa el sonido que hacen los hombres-oso al agruparse."@es .
+
+qr:QquchiyocWayqo a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Qquchiyoc Wayq'o"@es ;
+    rdfs:comment "Lugar donde pasa un riachuelo durante la Lomada nocturna, entre Yanaqancha y Q'espi Cruz."@es .
+
+qr:Queperina a qr:ObjetoMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "Queperina"@es ;
+    qr:detalleEtnografico "Tejido/bulto empleado para transportar pertenencias en la peregrinación; durante el descanso de Yanaqancha los morocos trasladan queperinas."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:RecepcionOcongateDocumentada a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Recibimiento en Ocongate"@es ;
+    qr:detalleEtnografico "Al llegar a Ocongate, los peregrinos son recibidos con alegría por personas del pueblo. El participante recuerda muestras de hospitalidad, incluido el ofrecimiento de chicha. Esta afirmación procede del testimonio; la entrega puntual no se identifica inequívocamente en las fotografías."@es ;
+    qr:estadoRevision "testimonio_y_fotos_anio_pendiente",
+        "Por confirmar: año de las cinco fotografías del recorrido y la cancha de Ocongate."@es ;
+    qr:instanciaDePractica qr:PracticaRecepcionOcongate ;
+    qr:ocurreEnLugar qr:Ocongate ;
+    qr:participaColectivo qr:PobladoresOcongate ;
+    qr:sigueA qr:CaminoTayankaniOcongateDocumentado ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:RecorridoPuebloPaucartambo2025 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Recorrido festivo por Paucartambo, 2025"@es ;
+    qr:anioObservado 2025 ;
+    qr:detalleEtnografico "Desplazamientos por calles del pueblo, carreras y parada junto a iglesia antes del transporte en camiones."@es ;
+    qr:instanciaDePractica qr:PracticaRecorridoPueblo ;
+    qr:ocurreEnLugar qr:Paucartambo ;
+    qr:participaColectivo qr:UkumarisPaucartambo ;
+    qr:sigueA qr:RomeriaPaucartambo_2025_06_15 ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:RegresoCamionPrevioCorpus2026 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Retorno nocturno desde Ocongate hacia Paucartambo, previo a Corpus Christi 2026"@es ;
+    qr:asociadaAFestividad qr:QoyllurRiti2026 ;
+    qr:detalleEtnografico "Después de permanecer en la cancha de Ocongate hasta la noche, los participantes regresan en camión a Paucartambo y llegan de madrugada. Descansan antes de participar en la celebración de Corpus Christi de la mañana siguiente. Esta es la continuidad narrada del itinerario de Nación Paucartambo."@es ;
+    qr:instanciaDePractica qr:PracticaRegresoCamion ;
+    qr:ocurreEnLugar qr:Paucartambo ;
+    qr:sigueA qr:EncuentroCanchaOcongateDocumentado,
+        qr:IntiAlabado2026 ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:RitualDespedida_Yanaqocha_2025 a qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Ritual de despedida en Yanaqocha (2025)"@es ;
+    qr:ocurreEnLugar qr:Yanaqocha ;
+    qr:realizadoPor qr:NacionPaucartambo ;
+    qr:tieneOrdenEvento 3 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es ;
+    rdfs:comment "Rituales de despedida entre miembros de la Nación en la Laguna Yanaqocha, corriendo y abrazándose."@es .
+
+qr:RitualGrutaTayankani_2025 a qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Ritual en gruta de Tayankani (2025)"@es ;
+    qr:ocurreEnLugar qr:GrutaTayankani ;
+    qr:realizadoPor qr:Ukumaris_Paucartambo_2025 ;
+    qr:tieneOrdenEvento 2 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es ;
+    rdfs:comment "Últimos rituales de los Ukukus en la gruta de Tayankani antes del ingreso procesional al pueblo."@es .
+
+qr:RitualMachuCruz_2025 a qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Ritual en Machu Cruz (2025)"@es ;
+    qr:ocurreEnLugar qr:MachuCruz ;
+    qr:realizadoPor qr:NacionPaucartambo ;
+    qr:tieneOrdenEvento 2 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es ;
+    rdfs:comment "Pausa ritual a poco más de una hora del santuario para comer maíz y queso, en acto simbólico de despedida del espacio sagrado."@es .
+
+qr:RutaPaucartamboMahuayani a qr:RecorridoCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Ruta Paucartambo - Mahuayani"@es ;
+    rdfs:comment "Ruta terrestre seguida por la Nación Paucartambo en vehículo durante el viaje al santuario."@es .
+
+qr:SalidaNocturnaYanaqancha2025 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Reanudación nocturna de la Lomada desde Yanaqancha, 2025"@es ;
+    qr:anioObservado 2025 ;
+    qr:detalleEtnografico "Luego del descanso de Yanaqancha se reanuda la caminata de noche o madrugada. El siguiente sector implica ascensos de altura y descensos exigentes sobre piedras, vividos con cansancio acumulado por quienes participaron en la jornada de 24 horas."@es ;
+    qr:instanciaDePractica qr:PracticaLomada ;
+    qr:ocurreEnLugar qr:Yanaqancha ;
+    qr:sigueA qr:DescansoYanaqancha_2025 ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:SilbatoUkuku a qr:Instrumento,
+        owl:NamedIndividual ;
+    rdfs:label "Silbato del ukuku"@es ;
+    qr:esParteDe qr:TrajeUkumari ;
+    rdfs:comment "Silbato usado para hacer saber que el ukuku está presente."@es .
+
+qr:TrasladoCruz2025 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Transporte de la cruz al finalizar el descenso (2025)"@es ;
+    qr:asociadaAFestividad qr:QoyllurRiti2025 ;
+    qr:detalleEtnografico "Durante el regreso desde Colque Punku, la cruz que había sido llevada a la gruta el día anterior desciende mediante transporte colectivo y turnos entre ukumaris de distintas naciones. Los cambios y la disputa por llevarla tienen un componente lúdico, pero a veces pueden tornarse físicamente ásperos. En el video de 2025 se ve a ukumaris de Nación Paucartambo llevando la cruz; no se afirma que se filme el cambio de turno."@es ;
+    qr:instanciaDePractica qr:PracticaTrasladoCruz ;
+    qr:involucraObjeto qr:CruzColquePunku ;
+    qr:involucraRol qr:PortadorCruz ;
+    qr:ocurreEnLugar qr:SantuarioQoylluriti ;
+    qr:participaColectivo qr:UkumarisPaucartambo,
+        qr:UkumarisVariasNaciones ;
+    qr:sigueA qr:BajadaColquePunku_2025 ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:TrasladoImagenSenorOcongate_Tayancani_2025 a qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Traslado de la imagen a Ocongate (2025)"@es ;
+    qr:ocurreEnLugar qr:Ocongate ;
+    qr:tieneOrdenEvento 4 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es ;
+    rdfs:comment "Procesión con la imagen desde Tayancani hacia Ocongate"@es .
+
+qr:Ukumari a owl:Class ;
+    rdfs:label "Ukumari (Ukuku)" ;
+    rdfs:comment "Danzante ritual asociado al oso andino, conocido también como ukuku. En Qoyllur Rit’i, el ukumari constituye una identidad ritual integral que articula práctica de danza, dimensión espiritual y funciones sociales específicas dentro del orden ceremonial."@es ;
+    rdfs:subClassOf qr:Danzante .
+
+qr:Umakhara a qr:Vestimenta,
+        owl:NamedIndividual ;
+    rdfs:label "Umak'ara"@es ;
+    qr:esParteDe qr:TrajeUkumari ;
+    qr:hechoDeRitual "cuero" ;
+    qr:tieneNombreLocal "umak'ara"@qu,
+        "umaqhara"@qu ;
+    rdfs:comment "Pedazo de cuero colocado en la cabeza del ukuku."@es .
+
+qr:ViajeVehiculo2026 a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Desplazamiento vehicular a Mahuayani, 2026"@es ;
+    qr:anioObservado 2026 ;
+    qr:detalleEtnografico "Tramos GPS 01–03 y 12 documentan recorrido en vehículo; no inferir detalles de paradas por proximidad GPS."@es ;
+    qr:instanciaDePractica qr:PracticaLomada ;
+    qr:seRelacionaConTramoGPS qr26:Tramo01,
+        qr26:Tramo02,
+        qr26:Tramo03,
+        qr26:Tramo12 ;
+    qr:sigueA qr:PreparacionPaucartambo2026 ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:VisitaIglesiaCcatcca_2025 a qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Visita a la iglesia de Ccatcca (2025)"@es ;
+    qr:antesDe qr:ComidaCcatcca_2025 ;
+    qr:ocurreEnLugar qr:IglesiaCcatcca ;
+    qr:realizadoPor qr:Ukumaris_Paucartambo_2025 ;
+    qr:tieneOrdenEvento 5 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es ;
+    rdfs:comment "Visita ritual a la iglesia del pueblo de Ccatcca, marcando el paso de los Ukumari en su ruta hacia el santuario."@es .
+
+qr:estaEn a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "está ubicado en"@es ;
+    rdfs:comment "Un lugar está contenido geográficamente dentro de otro lugar. Transitiva: si A está en B y B está en C, entonces A está en C."@es ;
+    rdfs:range qr:Lugar .
+
+qr:perteneceA a owl:ObjectProperty ;
+    rdfs:label "pertenece a"@es ;
+    rdfs:comment "Relación de un participante con su nación."@es ;
+    rdfs:domain qr:Participante ;
+    rdfs:range qr:Nacion .
+
+qr:portaObjeto a owl:ObjectProperty ;
+    rdfs:label "porta objeto"@es ;
+    rdfs:comment "Objeto portado por participante."@es ;
+    rdfs:domain qr:Participante ;
+    rdfs:range qr:ObjetoRitual .
+
+qr:realizadoPor a owl:ObjectProperty ;
+    rdfs:label "realizado por"@es ;
+    rdfs:comment "Especifica el participante principal de un evento."@es ;
+    rdfs:domain qr:EventoRitual ;
+    rdfs:range qr:Participante .
+
+qr:tieneParte a owl:ObjectProperty ;
+    rdfs:label "tiene parte"@es ;
+    rdfs:comment "Relaciona un objeto compuesto con sus componentes. Permite modelar objetos rituales que están formados por múltiples partes."@es ;
+    rdfs:domain qr:ObjetoRitual ;
+    rdfs:range qr:ObjetoRitual .
+
+qr:usaObjetoRitual a owl:ObjectProperty ;
+    rdfs:label "usa objeto ritual"@es ;
+    rdfs:domain qr:Participante ;
+    rdfs:range qr:ObjetoRitual .
+
+xsd:date a rdfs:Datatype .
+
+xsd:time a rdfs:Datatype .
+
+qr26:ColquePunku a qr26:LugarReferencia ;
+    rdfs:label "Colque Punku"@es ;
+    owl:sameAs qr:ColquePunku .
+
+qr26:Grupo a owl:Class ;
+    rdfs:label "Grupo o colectivo"@es ;
+    rdfs:comment "Denominación documentada de un colectivo, sin inferir membresía individual"@es ;
+    rdfs:subClassOf qr:Colectivo .
+
+qr26:Recorrido a owl:Class ;
+    rdfs:label "Recorrido documentado"@es ;
+    rdfs:comment "Conjunto de tramos registrados en la campaña 2026; no equivale a ruta oficial o normativa"@es ;
+    rdfs:subClassOf qr:RegistroEspacial .
+
+qr26:RecorridoRegistrado2026 a qr26:Recorrido ;
+    rdfs:label "Recorrido documentado de Qoyllur Rit’i, 2026"@es ;
+    dcterms:date "2026"^^xsd:gYear ;
+    rdfs:comment "Agrupación documental de 12 archivos GPX con tramos a pie y en vehículo. No representa todas las rutas de todas las naciones ni un itinerario oficial."@es ;
+    qr26:contieneTramo qr26:Tramo01,
+        qr26:Tramo02,
+        qr26:Tramo03,
+        qr26:Tramo04,
+        qr26:Tramo05,
+        qr26:Tramo06,
+        qr26:Tramo07,
+        qr26:Tramo08,
+        qr26:Tramo09,
+        qr26:Tramo10,
+        qr26:Tramo11,
+        qr26:Tramo12 .
+
+qr26:Tramo11 a qr26:Tramo ;
+    rdfs:label "GPX-11 · 2026-06-03_14-07_Wed"@es ;
+    dcterms:identifier "GPX-11" ;
+    dcterms:source "2026-06-03_14-07_Wed.gpx" ;
+    qr26:inicioUTC "2026-06-03T19:07:06+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 1.259 ;
+    qr26:modalidad "pie"@es .
+
+qr:BajadaColquePunku_2025 a qr:Actividad,
+        qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Bajada del Colque Punku (2025)"@es ;
+    qr:asociadaAFestividad qr:QoyllurRiti2025 ;
+    qr:detalleEtnografico "En el descenso de 2025 el participante recuerda filas de peregrinos, nieve abundante y superficies heladas, además de la luz del amanecer. La nevada fue experimentada con una intensa dimensión afectiva y religiosa; esta vivencia no constituye una medición ambiental. Frente a 2026, la comparación de nieve visible es cualitativa."@es ;
+    qr:instanciaDePractica qr:PracticaDescensoGlaciar ;
+    qr:ocurreEnLugar qr:ColquePunku,
+        qr:SantuarioQoylluriti ;
+    qr:sigueA qr:LlegadaGrutaColquePunku2025 ;
+    qr:tieneDuracionHoras 3.0 ;
+    qr:tieneOrdenEvento 1 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es,
+        "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es ;
+    rdfs:comment "Descenso desde el glaciar Colque Punku al santuario del Señor de Qoyllu Rit'i."@es .
+
+qr:Caminata_Mahuayani_Santuario_2025 a qr:Actividad,
+        qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Caminata Mahuayani-Santuario (2025)"@es ;
+    qr:anioObservado 2025 ;
+    qr:detalleEtnografico "Se observa el sendero con peregrinos, zonas de comida y panorámica de Mahuayani al poco de comenzar la caminata; el participante relata carga de pertenencias."@es ;
+    qr:instanciaDePractica qr:PracticaLomada ;
+    qr:ocurreEnLugar qr:Mahuayani,
+        qr:SantuarioQoylluriti ;
+    qr:sigueA qr:PasoCasaPrioste ;
+    qr:tieneDuracionHoras 5.0 ;
+    qr:tieneOrdenEvento 1 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es,
+        "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es ;
+    rdfs:comment "Ascenso desde Mahuayani hasta el santuario del Señor de Qoyllu Rit'i."@es .
+
+qr:CanchaOcongate a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Cancha de Ocongate"@es ;
+    qr:detalleEtnografico "Encuentro y espera de peregrinos antes del regreso nocturno; denominación oficial pendiente."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:CeldaUkukusPaucartambo a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Celda de los Ukukus de Paucartambo"@es ;
+    qr:estaEn qr:SantuarioQoylluriti ;
+    rdfs:comment "Alojamiento en el bofedal del santuario donde la Nación Paucartambo pasa la noche y organiza sus enseres."@es .
+
+qr:CeremoniaVeneracion_Templo_Qoylluriti_2025 a qr:Actividad,
+        qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Veneración en el templo del santuario (2025)"@es ;
+    qr:anioObservado 2025 ;
+    qr:detalleEtnografico "Secuencia de imágenes del exterior antes de entrar y del interior de iglesia. No atribuir a cada fotografía una misa específica."@es ;
+    qr:instanciaDePractica qr:PracticaMisaSantuario ;
+    qr:ocurreEnLugar qr:SantuarioQoylluriti ;
+    qr:realizadoPor qr:NacionPaucartambo ;
+    qr:sigueA qr:Caminata_Mahuayani_Santuario_2025 ;
+    qr:tieneOrdenEvento 4 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es,
+        "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es ;
+    rdfs:comment "Actos de veneración al Señor de Qoyllur Rit'i dentro del templo principal del santuario."@es .
+
+qr:ChunchusPaucartambo a qr:Colectivo,
+        owl:NamedIndividual ;
+    rdfs:label "Chunchus de Nación Paucartambo"@es ;
+    qr:colectivoDeNacion qr:NacionPaucartambo ;
+    qr:detalleEtnografico "Agrupación mencionada por el participante en encuentros y actividades."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:ComidaCcatcca_2025 a qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Comida comunitaria en Ccatcca (2025)"@es ;
+    qr:antesDe qr:PasoCasaPrioste ;
+    qr:ocurreEnLugar qr:PlazaCcatcca ;
+    qr:realizadoPor qr:Ukumaris_Paucartambo_2025 ;
+    qr:tieneOrdenEvento 6 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es ;
+    rdfs:comment "Descanso y comida (asado con mote) en la plaza de Ccatcca para reponer fuerzas antes de continuar el viaje."@es .
+
+qr:Danza a owl:Class ;
+    rdfs:label "Danza"@es ;
+    rdfs:comment "Práctica ritual relativamente estable, compuesta por un repertorio definido de movimientos, vestimenta, música y roles. Funciona como una forma de participación colectiva dentro de una festividad, articulando a personas, comunidades y territorios a través de la performance ritual. En el contexto de Qoyllur Rit’i, una danza se entiende como una tradición o comparsa asociada a una nación o comunidad específica, que se ejecuta en eventos rituales concretos: misas, ingresos ceremoniales, ascensos y descensos rituales, o caminatas colectivas."@es ;
+    rdfs:subClassOf qr:PracticaCultural .
+
+qr:EncuentroCanchaOcongateDocumentado a qr:Actividad,
+        owl:NamedIndividual ;
+    rdfs:label "Encuentro en la cancha de Ocongate"@es ;
+    qr:detalleEtnografico "En Ocongate las agrupaciones se reúnen en una cancha, donde las graderías son ocupadas por habitantes y espectadores. El participante describe un encuentro festivo y una espera hasta la noche, antes de regresar en camión a Paucartambo. Se conserva sin inventar un nombre oficial para el acto."@es ;
+    qr:estadoRevision "testimonio_y_fotos_anio_pendiente" ;
+    qr:instanciaDePractica qr:PracticaEncuentroCanchaOcongate ;
+    qr:ocurreEnLugar qr:CanchaOcongate ;
+    qr:sigueA qr:RecepcionOcongateDocumentada ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:GrutaColquePunku a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Gruta o sector de la cruz en Colque Punku"@es ;
+    qr:detalleEtnografico "Lugar referido en el ascenso y descenso; no equiparado a la gruta de Tayankani."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:GrutaTayankani a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Gruta de Tayankani"@es ;
+    qr:estaEn qr:Tayancani ;
+    rdfs:comment "Gruta en la parte alta del pueblo donde los Ukukus realizan sus últimos rituales antes del ingreso procesional."@es .
+
+qr:Individuo a owl:Class ;
+    rdfs:label "Individuo"@es ;
+    rdfs:comment "Participante individual (persona)."@es ;
+    rdfs:subClassOf qr:Participante .
+
+qr:InsigniaRitual a owl:Class ;
+    rdfs:label "Insignia Ritual"@es ;
+    rdfs:comment "Objetos que marcan identidad colectiva o fe: estandartes, cruces de peregrinación."@es ;
+    rdfs:subClassOf qr:ObjetoRitual .
+
+qr:MachuCruz a qr:Lugar,
+        qr:LugarSagrado,
+        owl:NamedIndividual ;
+    rdfs:label "Machu Cruz"@es ;
+    rdfs:comment "Punto fijo con una cruz a poco más de una hora del santuario. Lugar de pausa para comer maíz y queso en señal de despedida."@es .
+
+qr:Mamachapata a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Mamachapata"@es ;
+    qr:estaEn qr:SantuarioQoylluriti ;
+    rdfs:comment "Área dentro del recinto del santuario hacia donde se dirige la procesión con la imagen del Señor de Tayankani."@es .
+
+qr:MisaInicial_Paucartambo_2025 a qr:Actividad,
+        qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Misa inicial en Paucartambo (2025)"@es ;
+    qr:antesDe qr:RomeriaPaucartambo_2025_06_15 ;
+    qr:asociadaAFestividad qr:QoyllurRiti2025 ;
+    qr:detalleEtnografico "La misa dominical precede la romería y la salida hacia Mahuayani. El testimonio permite reconstruir esta secuencia local de Paucartambo sin atribuirla a todas las naciones."@es ;
+    qr:instanciaDePractica qr:PracticaMisaSalida ;
+    qr:ocurreEnLugar qr:IglesiaPaucartambo ;
+    qr:realizadoPor qr:NacionPaucartambo ;
+    qr:tieneOrdenEvento 1 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es,
+        "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es ;
+    rdfs:comment "Misa de envío a las 7:00 AM en la Iglesia de Paucartambo antes de la partida de la peregrinación."@es .
+
+qr:Moroco a qr:RolParticipante,
+        owl:NamedIndividual ;
+    rdfs:label "Moroco"@es ;
+    qr:detalleEtnografico "Denominación de quienes están en sus primeros años, en particular los primeros dos para el traslado de queperinas; puede abarcar dos o tres años según relato."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:ObjetoMaterial a owl:Class ;
+    rdfs:label "Objeto o material de la peregrinación"@es .
+
+qr:PaginaWeb a owl:Class ;
+    rdfs:subClassOf qr:FuenteBibliografica .
+
+qr:ParadaHuancarani_2025 a qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Parada en Huancarani (2025)"@es ;
+    qr:antesDe qr:VisitaIglesiaCcatcca_2025 ;
+    qr:ocurreEnLugar qr:Huancarani ;
+    qr:realizadoPor qr:NacionPaucartambo ;
+    qr:tieneOrdenEvento 4 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es ;
+    rdfs:comment "Reunión y espera de todos los danzantes de la Nación Paucartambo en el cruce vial de Huancarani."@es .
+
+qr:Periodicidad a owl:Class ;
+    rdfs:label "Periodicidad"@es ;
+    rdfs:comment "Patrón de repetición de un evento."@es .
+
+qr:PobladoresOcongate a qr:Colectivo,
+        owl:NamedIndividual ;
+    rdfs:label "Población que recibe a peregrinos en Ocongate"@es ;
+    qr:detalleEtnografico "Colectivo descriptivo del recibimiento, sin atribución a individuos."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:PracticaAscensoGlaciar a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Ascenso a Colque Punku"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es .
+
+qr:PracticaDescensoGlaciar a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Descenso de Colque Punku"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es .
+
+qr:PracticaEncuentroCanchaOcongate a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Encuentro en cancha de Ocongate"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es ;
+    rdfs:comment "Permanencia hasta la noche antes del regreso en camión"@es .
+
+qr:PracticaLlegadaGrutaColque a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Llegada a sector de gruta de Colque Punku"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es ;
+    rdfs:comment "Concentración de naciones cerca de gruta y cruz; no equiparar grutas"@es .
+
+qr:PracticaPasoEscalerachayoq a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Paso por Escalerachayoq"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es .
+
+qr:PracticaRecepcionOcongate a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Recepción en Ocongate"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es ;
+    rdfs:comment "Hospitalidad de la población según testimonio; fotos no demuestran entrega"@es .
+
+qr:PracticaReunionBanderas a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Concentración de banderas y ukumaris"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es ;
+    rdfs:comment "Encuentro al final del descenso cerca del Santuario"@es .
+
+qr:PracticaVestirseUkumari a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Preparación de vestimenta de ukumari"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es ;
+    rdfs:comment "Reunión y vestimenta cerca de zona del caporal, sin dirección"@es .
+
+qr:QespiCruz a qr:Lugar,
+        qr:LugarSagrado,
+        owl:NamedIndividual ;
+    rdfs:label "Q'espi Cruz" ;
+    qr:estadoRevision "Por confirmar: si corresponde a uno de los últimos puntos con vista al glaciar desde la Lomada."@es ;
+    rdfs:comment "Hito importante en la ruta de la lomada, punto de paso y posiblemente lugar de ritual"@es ;
+    skos:altLabel "Quespi Cruz"@es .
+
+qr:QollasPaucartambo a qr:Colectivo,
+        owl:NamedIndividual ;
+    rdfs:label "Qollas de Nación Paucartambo"@es ;
+    qr:colectivoDeNacion qr:NacionPaucartambo ;
+    qr:detalleEtnografico "Agrupación mencionada por el participante en encuentros y actividades."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:RegistroEspacial a owl:Class ;
+    rdfs:label "Registro instrumental de trayectoria o tramo GPS"@es .
+
+qr:RitualVestimentaDanzantes_2025 a qr:Actividad,
+        qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Ritual de vestimenta de danzantes (2025)"@es ;
+    qr:anioObservado 2025 ;
+    qr:antesDe qr:ParadaHuancarani_2025 ;
+    qr:detalleEtnografico "Antes de partir, los ukumaris se reúnen y se colocan su vestimenta cerca del punto de convocatoria. Luego recorren las calles del pueblo y se agrupan para subir a los camiones. Se omiten direcciones residenciales particulares."@es ;
+    qr:instanciaDePractica qr:PracticaVestirseUkumari ;
+    qr:ocurreEnLugar qr:PlazaPaucartambo ;
+    qr:participaColectivo qr:UkumarisPaucartambo ;
+    qr:realizadoPor qr:NacionPaucartambo,
+        qr:Ukumaris_Paucartambo_2025 ;
+    qr:tieneOrdenEvento 3 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es,
+        "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es ;
+    rdfs:comment "Acto público donde los danzantes se visten con sus trajes ceremoniales en la plaza de Paucartambo, anunciando la partida de la Nación."@es .
+
+qr:RutaLomada a qr:RecorridoCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Ruta cultural de la Lomada"@es ;
+    qr:conduceA qr:Tayancani ;
+    qr:desde qr:SantuarioQoylluriti ;
+    qr:detalleEtnografico "Itinerario narrado que comienza en el Santuario y continúa hacia Wataskama, Yanaqancha y Tayankani, con otros hitos documentados en el legado. No define un trazado oficial."@es ;
+    qr:pasaPor qr:Wataskama,
+        qr:Yanaqancha ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es .
+
+qr:Sinakara a qr:Lugar,
+        qr:LugarSagrado,
+        owl:NamedIndividual ;
+    rdfs:label "Sinakara"@es ;
+    qr:contiene qr:SantuarioQoylluriti ;
+    qr:estaEn qr:Ausangate ;
+    qr:tieneAltitudMetros 4650 ;
+    rdfs:comment "Área montañosa sagrada ubicada en las faldas del nevado Ausangate, donde se encuentra el Santuario del Señor de Qoyllur Rit'i. Sinakara es el centro geográfico de la peregrinación anual y concentra los eventos principales de la festividad."@es .
+
+qr:Yanaqocha a qr:Lugar,
+        qr:LugarSagrado,
+        owl:NamedIndividual ;
+    rdfs:label "Laguna Yanaqocha"@es ;
+    rdfs:comment "Laguna donde se realizan rituales de despedida entre miembros de la Nación durante la Lomada."@es .
+
+qr26:Tayankani a qr26:LugarReferencia ;
+    rdfs:label "Tayankani"@es ;
+    owl:sameAs qr:Tayancani .
+
+qr26:Tramo01 a qr26:Tramo ;
+    rdfs:label "GPX-01 · 2026-05-31_18-56_Sun paucartambo huancarani"@es ;
+    dcterms:identifier "GPX-01" ;
+    dcterms:source "2026-05-31_18-56_Sun paucartambo huancarani.gpx" ;
+    qr26:inicioUTC "2026-05-31T23:56:50+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 42.649 ;
+    qr26:mencionaLugar qr26:Huancarani,
+        qr26:Paucartambo ;
+    qr26:modalidad "vehiculo"@es ;
+    qr26:proximoAReferencia qr26:Huancarani,
+        qr26:Paucartambo .
+
+qr26:Tramo02 a qr26:Tramo ;
+    rdfs:label "GPX-02 · 2026-05-31_21-06_Sun huancarani ccatcca"@es ;
+    dcterms:identifier "GPX-02" ;
+    dcterms:source "2026-05-31_21-06_Sun huancarani ccatcca.gpx" ;
+    qr26:inicioUTC "2026-06-01T02:06:30+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 25.455 ;
+    qr26:mencionaLugar qr26:Ccatcca,
+        qr26:Huancarani ;
+    qr26:modalidad "vehiculo"@es ;
+    qr26:proximoAReferencia qr26:Ccatcca,
+        qr26:Huancarani .
+
+qr26:Tramo03 a qr26:Tramo ;
+    rdfs:label "GPX-03 · 2026-06-01_03-01_Mon ocongate mahuayani"@es ;
+    dcterms:identifier "GPX-03" ;
+    dcterms:source "2026-06-01_03-01_Mon ocongate mahuayani.gpx" ;
+    qr26:inicioUTC "2026-06-01T08:01:42+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 21.573 ;
+    qr26:mencionaLugar qr26:Mahuayani,
+        qr26:Ocongate ;
+    qr26:modalidad "vehiculo"@es .
+
+qr26:Tramo04 a qr26:Tramo ;
+    rdfs:label "GPX-04 · 2026-06-01_05-12_Mahu santuario"@es ;
+    dcterms:identifier "GPX-04" ;
+    dcterms:source "2026-06-01_05-12_Mahu santuario .gpx" ;
+    qr26:inicioUTC "2026-06-01T10:12:42+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 9.679 ;
+    qr26:mencionaLugar qr26:Mahuayani,
+        qr26:Santuario ;
+    qr26:modalidad "pie"@es ;
+    qr26:proximoAReferencia qr26:Mahuayani,
+        qr26:Santuario .
+
+qr26:Tramo05 a qr26:Tramo ;
+    rdfs:label "GPX-05 · 2026-06-01_23-53_Mon santuario Colque punku"@es ;
+    dcterms:identifier "GPX-05" ;
+    dcterms:source "2026-06-01_23-53_Mon santuario Colque punku.gpx" ;
+    qr26:inicioUTC "2026-06-02T04:53:55+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 2.018 ;
+    qr26:mencionaLugar qr26:ColquePunku,
+        qr26:Santuario ;
+    qr26:modalidad "pie"@es ;
+    qr26:proximoAReferencia qr26:Santuario .
+
+qr26:Tramo06 a qr26:Tramo ;
+    rdfs:label "GPX-06 · 2026-06-02_07-16_Tue glaciar santuario"@es ;
+    dcterms:identifier "GPX-06" ;
+    dcterms:source "2026-06-02_07-16_Tue glaciar santuario .gpx" ;
+    qr26:inicioUTC "2026-06-02T12:16:07+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 1.187 ;
+    qr26:mencionaLugar qr26:Santuario ;
+    qr26:modalidad "pie"@es .
+
+qr26:Tramo07 a qr26:Tramo ;
+    rdfs:label "GPX-07 · 2026-06-02_10-56_Tue santuario wataskama"@es ;
+    dcterms:identifier "GPX-07" ;
+    dcterms:source "2026-06-02_10-56_Tue santuario wataskama.gpx" ;
+    qr26:inicioUTC "2026-06-02T15:56:47+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 5.739 ;
+    qr26:mencionaLugar qr26:Santuario,
+        qr26:Wataskama ;
+    qr26:modalidad "pie"@es ;
+    qr26:proximoAReferencia qr26:Santuario .
+
+qr26:Tramo08 a qr26:Tramo ;
+    rdfs:label "GPX-08 · 2026-06-02_15-46_watascama yanacancha"@es ;
+    dcterms:identifier "GPX-08" ;
+    dcterms:source "2026-06-02_15-46_watascama yanacancha.gpx" ;
+    qr26:inicioUTC "2026-06-02T20:46:09+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 1.99 ;
+    qr26:mencionaLugar qr26:Wataskama,
+        qr26:Yanaqancha ;
+    qr26:modalidad "pie"@es .
+
+qr26:Tramo10 a qr26:Tramo ;
+    rdfs:label "GPX-10 · 2026-06-03_06-20_Wed"@es ;
+    dcterms:identifier "GPX-10" ;
+    dcterms:source "2026-06-03_06-20_Wed.gpx" ;
+    qr26:inicioUTC "2026-06-03T11:20:33+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 2.319 ;
+    qr26:modalidad "pie"@es ;
+    qr26:proximoAReferencia qr26:Tayankani .
+
+qr26:Tramo12 a qr26:Tramo ;
+    rdfs:label "GPX-12 · Ccatcca ocongate"@es ;
+    dcterms:identifier "GPX-12" ;
+    dcterms:source "Ccatcca ocongate.gpx" ;
+    qr26:inicioUTC "2026-06-01T05:25:43+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 31.373 ;
+    qr26:mencionaLugar qr26:Ccatcca,
+        qr26:Ocongate ;
+    qr26:modalidad "vehiculo"@es ;
+    qr26:proximoAReferencia qr26:Ccatcca,
+        qr26:Ocongate .
+
+qr26:Wataskama a qr26:LugarReferencia ;
+    rdfs:label "Wataskama / Watascama (grafías documentadas)"@es ;
+    owl:sameAs qr:Wataskama .
+
+qr26:Yanaqancha a qr26:LugarReferencia ;
+    rdfs:label "Yanaqancha / Yanacancha"@es ;
+    owl:sameAs qr:Yanaqancha .
+
+qr:Apu a owl:Class ;
+    rdfs:label "Apu"@es ;
+    rdfs:comment "Espíritu protector de montaña en la cosmovisión andina, asociado a nevados. Un apu (espíritu de montaña) no es un participante humano, objeto o fuente."@es ;
+    rdfs:subClassOf qr:LugarSagrado .
+
+qr:DescansoYanaqancha_2025 a qr:Actividad,
+        qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Descanso en Yanaqancha (2025)"@es ;
+    qr:asociadaAFestividad qr:QoyllurRiti2025 ;
+    qr:detalleEtnografico "Yanaqancha es un punto de descanso de la Lomada donde se instalan peregrinos, pertenencias y puestos de comida. Después de varias horas de actividad y caminata, los grupos descansan por un periodo limitado y vuelven a partir de noche o madrugada. Se mantiene separado el descanso del movimiento de danzantes por la ladera."@es ;
+    qr:instanciaDePractica qr:PracticaDescansoYanaqancha ;
+    qr:ocurreEnLugar qr:Yanaqancha ;
+    qr:realizadoPor qr:NacionPaucartambo ;
+    qr:sigueA qr:Lomada_2025 ;
+    qr:tieneOrdenEvento 4 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es ;
+    rdfs:comment "Descanso prolongado de 4 horas en Yanaqancha. Aquí se deja la imagen del Señor de Tayankani y la Nación se viste nuevamente."@es .
+
+qr:Huancarani a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Huancarani" ;
+    rdfs:comment "Distrito de Paucartambo. Cruce vial crucial donde la Nación se reúne y espera a todos los danzantes."@es .
+
+qr:IntiAlabado_2025 a qr:Actividad,
+        qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Inti Alabado (2025)"@es ;
+    qr:asociadaAFestividad qr:QoyllurRiti2025 ;
+    qr:detalleEtnografico "En Tayankani, al amanecer, se desarrolla el Inti Alabado. El participante describe primero las queperinas reunidas, después la formación de ukumaris de distintas naciones en filas y finalmente el desplazamiento o baile en zigzag. El término inti alude al sol en quechua; el significado específico de la forma de zigzag no ha sido interpretado y se mantiene abierto."@es ;
+    qr:estaEn qr:Tayancani ;
+    qr:estadoRevision "Por interpretar con informantes: significado específico de la formación y carrera en zigzag."@es ;
+    qr:instanciaDePractica qr:PracticaIntiAlabado ;
+    qr:ocurreEnLugar qr:Tayancani ;
+    qr:participaColectivo qr:UkumarisVariasNaciones ;
+    qr:realizadoPor qr:NacionPaucartambo ;
+    qr:sigueA qr:DescansoYanaqancha_2025,
+        qr:SalidaNocturnaYanaqancha2025 ;
+    qr:tieneNombreLocal "Inti Lloksimuy" ;
+    qr:tieneOrdenEvento 1 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es,
+        "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es ;
+    rdfs:comment "Ceremonia del amanecer en Tayankani. Se disponen queperinas, ukumaris forman filas y realizan desplazamientos en zigzag; su sentido particular queda abierto."@es .
+
+qr:Nacion a owl:Class ;
+    rdfs:label "Nacion" ;
+    rdfs:subClassOf qr:Colectivo .
+
+qr:Pachakunapata a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "P'achakunapata"@es ;
+    qr:estaEn qr:SantuarioQoylluriti ;
+    qr:tieneNombreLocal "P'achakunapata" ;
+    rdfs:comment "Punto o sector ceremonial del ingreso al Santuario, identificado en el TTL histórico."@es .
+
+qr:PasoCasaPrioste a qr:Actividad,
+        qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Paso por la casa del prioste (2025)"@es ;
+    qr:anioObservado 2025 ;
+    qr:antesDe qr:ViajeVehicular_Paucartambo_Mahuayani_2025 ;
+    qr:detalleEtnografico "Durante el viaje existe una parada en casa de un prioste, en la que se encuentran ukumaris, Qollas y Chunchus y se comparte descanso y comida. La casa se considera referencia contextual y se reserva su ubicación particular."@es ;
+    qr:instanciaDePractica qr:PracticaParadaPrioste ;
+    qr:ocurreEnLugar qr:CasaPriosteParada ;
+    qr:participaColectivo qr:ChunchusPaucartambo,
+        qr:QollasPaucartambo,
+        qr:UkumarisPaucartambo ;
+    qr:sigueA qr:ViajeVehicular_Paucartambo_Mahuayani_2025 ;
+    qr:tieneOrdenEvento 7 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es,
+        "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es ;
+    rdfs:comment "Visita y ritual en la casa del prioste durante el camino entre Paucartambo y Mahuayani."@es .
+
+qr:PracticaCorpusChristi a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Corpus Christi"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es ;
+    rdfs:comment "Danzas de regreso y escolares según relato; participación por agrupación por verificar"@es .
+
+qr:RecorridoCultural a owl:Class ;
+    rdfs:label "Recorrido cultural o itinerario de prácticas"@es ;
+    rdfs:subClassOf qr:Actividad .
+
+qr:RomeriaPaucartambo_2025_06_15 a qr:Actividad,
+        qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Romería en Paucartambo (2025)"@es ;
+    qr:antesDe qr:RitualVestimentaDanzantes_2025 ;
+    qr:asociadaAFestividad qr:QoyllurRiti2025 ;
+    qr:detalleEtnografico "La romería al cementerio de Paucartambo forma parte de la preparación y la memoria colectiva: se visita y recuerda a antiguos integrantes de las danzas y a familiares fallecidos. La secuencia relatada sitúa la romería después de la misa del domingo y antes de la preparación para partir."@es ;
+    qr:instanciaDePractica qr:PracticaRomeria ;
+    qr:ocurreEnLugar qr:CementerioPaucartambo ;
+    qr:sigueA qr:MisaInicial_Paucartambo_2025 ;
+    qr:tieneOrdenEvento 2 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es,
+        "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es ;
+    rdfs:comment "Romería y anuncio público antes de la partida"@es .
+
+qr:Sorriago a qr:Instrumento,
+        owl:NamedIndividual ;
+    rdfs:label "Sorriago"@es ;
+    qr:esParteDe qr:TrajeUkumari ;
+    qr:hechoDeRitual "cuero trenzado" ;
+    rdfs:comment "Látigo ceremonial de cuero trenzado portado por el ukuku."@es .
+
+qr:SubidaColquePunku_2025 a qr:Actividad,
+        qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Subida al Colque Punku (2025)"@es ;
+    qr:anioObservado 2025 ;
+    qr:asociadaAFestividad qr:QoyllurRiti2025 ;
+    qr:detalleEtnografico "Los ukumaris ascienden a Colque Punku durante la noche, en el relato aproximadamente desde las 23 horas hasta el amanecer. Se portan banderas y, desde la subida, pueden distinguirse las luces del Santuario. La marcha presenta exigencia física, frío y altitud; los tiempos recordados son aproximados y no cronometrajes de las fotografías."@es ;
+    qr:instanciaDePractica qr:PracticaAscensoGlaciar ;
+    qr:ocurreEnLugar qr:ColquePunku ;
+    qr:realizadoPor qr:Ukumaris_Paucartambo_2025 ;
+    qr:sigueA qr:CeremoniaVeneracion_Templo_Qoylluriti_2025 ;
+    qr:tieneDuracionHoras 6.5 ;
+    qr:tieneOrdenEvento 1 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es,
+        "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es ;
+    rdfs:comment "Ascenso nocturno al glaciar Colque Punku"@es .
+
+qr:ViajeVehicular_Paucartambo_Mahuayani_2025 a qr:Actividad,
+        qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Viaje vehicular a Mahuayani (2025)"@es ;
+    qr:anioObservado 2025 ;
+    qr:conduceA qr:Mahuayani ;
+    qr:desde qr:Paucartambo ;
+    qr:detalleEtnografico "El desplazamiento hacia Mahuayani se realiza en camiones por varias localidades. En el grupo relatado los ukumaris viajan juntos, mientras mamawairis y familiares apoyan transporte, preparación de alimentos y equipaje. Se trata de una organización observada en Nación Paucartambo; el nombre del recorrido no acredita por sí solo cada parada ritual."@es ;
+    qr:instanciaDePractica qr:PracticaLomada ;
+    qr:ocurreEnLugar qr:Paucartambo ;
+    qr:participaColectivo qr:UkumarisPaucartambo ;
+    qr:pasaPor qr:Ccatcca,
+        qr:Huancarani,
+        qr:Ocongate ;
+    qr:realizadoPor qr:Ukumaris_Paucartambo_2025 ;
+    qr:sigueA qr:RecorridoPuebloPaucartambo2025 ;
+    qr:sigueRuta qr:RutaPaucartamboMahuayani ;
+    qr:tieneOrdenEvento 8 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es,
+        "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es ;
+    rdfs:comment "Desplazamiento en vehículo desde Paucartambo hacia Mahuayani, con paradas según el itinerario de la Nación Paucartambo."@es .
+
+qr:Wataskama a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Wataskama / Watascama / Guatascama"@es ;
+    qr:detalleEtnografico "Sector del encuentro, juegos y cruces del riachuelo durante la Lomada."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es ;
+    skos:altLabel "Guatascama"@es,
+        "Watascama"@es .
+
+qr26:Mahuayani a qr26:LugarReferencia ;
+    rdfs:label "Mahuayani"@es ;
+    owl:sameAs qr:Mahuayani .
+
+qr26:Ocongate a qr26:LugarReferencia ;
+    rdfs:label "Ocongate"@es ;
+    owl:sameAs qr:Ocongate .
+
+qr26:Paucartambo a qr26:LugarReferencia ;
+    rdfs:label "Paucartambo"@es ;
+    owl:sameAs qr:Paucartambo .
+
+qr26:Tramo09 a qr26:Tramo ;
+    rdfs:label "GPX-09 · 2026-06-02_20-00_Tue tayancani"@es ;
+    dcterms:identifier "GPX-09" ;
+    dcterms:source "2026-06-02_20-00_Tue tayancani.gpx" ;
+    qr26:inicioUTC "2026-06-03T01:00:00+00:00"^^xsd:dateTime ;
+    qr26:longitudKm 12.352 ;
+    qr26:mencionaLugar qr26:Tayankani ;
+    qr26:modalidad "pie"@es ;
+    qr26:proximoAReferencia qr26:Yanaqancha .
+
+qr:Ausangate a qr:Apu,
+        owl:NamedIndividual ;
+    qr:contiene qr:ColquePunku ;
+    rdfs:comment "Apu Ausangate es el espíritu protector de la montaña más alta de la región Cusco (6384 msnm). En la cosmovisión andina, es uno de los apus más importantes. El nevado Ausangate contiene el glaciar Colque Punku, donde se realizan rituales durante Qoyllur Rit'i."@es .
+
+qr:Danzante a owl:Class ;
+    rdfs:label "Danzante"@es ;
+    rdfs:comment "Participante que ejecuta danzas rituales."@es ;
+    rdfs:subClassOf qr:Individuo ;
+    owl:disjointWith qr:Peregrino .
+
+qr:Escalerachayoq a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Escalerachayoq"@es ;
+    qr:tieneNombreLocal "Escalerachayoq" ;
+    rdfs:comment "Tramo de escaleras de piedra de la caminata nocturna hacia Tayankani, recordado como exigente por el participante."@es .
+
+qr:Instrumento a owl:Class ;
+    rdfs:label "Instrumento"@es ;
+    rdfs:comment "Instrumentos musicales o herramientas ceremoniales."@es ;
+    rdfs:subClassOf qr:ObjetoRitual .
+
+qr:RolParticipante a owl:Class ;
+    rdfs:label "Rol contextual de participación"@es .
+
+qr26:Ccatcca a qr26:LugarReferencia ;
+    rdfs:label "Ccatcca (Ccatca)"@es ;
+    owl:sameAs qr:Ccatcca .
+
+qr26:Huancarani a qr26:LugarReferencia ;
+    rdfs:label "Huancarani"@es ;
+    owl:sameAs qr:Huancarani .
+
+qr:Ccatcca a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Ccatcca" ;
+    rdfs:comment "Localidad andina mencionada como punto de paso en la ruta hacia el Santuario del Señor de Qoyllur Rit’i."@es .
+
+qr:Lomada_2025 a qr:Actividad,
+        qr:EventoRitual,
+        owl:NamedIndividual ;
+    rdfs:label "Lomada / Loman Pureq (2025)"@es ;
+    qr:antesDe qr:IntiAlabado_2025 ;
+    qr:asociadaAFestividad qr:QoyllurRiti2025 ;
+    qr:desde qr:SantuarioQoylluriti ;
+    qr:detalleEtnografico "La Lomada es la caminata de aproximadamente 24 horas que comienza en el Santuario después del descenso de los ukumaris desde Colque Punku. El relato de Paucartambo refiere el encuentro con Qollas que salen a recibirlos, la participación en el trayecto de ukumaris, Qollas y Chunchus, y una sucesión de encuentros, descansos y caminatas hasta Tayankani. Las danzas mantienen su música y no se impone jerarquía entre agrupaciones. La documentación visual es fragmentaria por las condiciones físicas y participativas de la marcha."@es ;
+    qr:instanciaDePractica qr:PracticaLomada ;
+    qr:ocurreEnLugar qr:SantuarioQoylluriti ;
+    qr:pasaPor qr:Escalerachayoq,
+        qr:IntiLloksimuy,
+        qr:MachuCruz,
+        qr:QespiCruz,
+        qr:QquchiyocWayqo,
+        qr:Yanaqancha,
+        qr:Yanaqocha ;
+    qr:sigueA qr:TrasladoCruz2025 ;
+    qr:sigueRuta qr:RutaLomada ;
+    qr:tieneDuracionHoras 24.0 ;
+    qr:tieneNombreLocal "lomada",
+        "loman pureq" ;
+    qr:tieneOrdenEvento 5 ;
+    dcterms:source "Grafo etnográfico original de 2025 (qoyllurity.ttl); se conserva su información cultural y se corrigen inconsistencias estructurales."@es,
+        "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es ;
+    rdfs:comment "Caminata ritual de aproximadamente 24 horas, iniciada en el Santuario tras el descenso de Colque Punku, con lugares de descanso y encuentro en la ruta."@es .
+
+qr:Mahuayani a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Mahuayani" ;
+    rdfs:comment "Punto de inicio de la caminata al santuario del Señor de Qoyllu Rit'i."@es .
+
+qr:PracticaIntiAlabado a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Formación y desplazamiento en zigzag del Inti Alabado"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es ;
+    rdfs:comment "Se vincula al Inti Alabado, no presupone un significado específico"@es .
+
+qr:Festividad a owl:Class ;
+    rdfs:label "Festividad" ;
+    rdfs:comment "Celebración ritual de carácter anual o periódico." .
+
+qr:FuenteBibliografica a owl:Class ;
+    rdfs:comment "Artículo académico o libro relacionado."@es ;
+    rdfs:subClassOf qr:RecursoMultimedia ;
+    owl:disjointWith qr:Lugar,
+        qr:ObjetoRitual,
+        qr:Participante,
+        qr:PracticaCultural .
+
+qr:UkumarisVariasNaciones a qr:Colectivo,
+        owl:NamedIndividual ;
+    rdfs:label "Ukumaris de diferentes naciones (conjunto descriptivo)"@es ;
+    qr:detalleEtnografico "Agrupación descriptiva de participantes de distintas naciones; identidades particulares no asignadas."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr26:Santuario a qr26:LugarReferencia ;
+    rdfs:label "Santuario del Señor de Qoyllur Rit’i"@es ;
+    owl:sameAs qr:SantuarioQoylluriti .
+
+qr:ColquePunku a qr:Lugar,
+        qr:LugarSagrado,
+        owl:NamedIndividual ;
+    rdfs:label "Glaciar Colque Punku"@es ;
+    qr:esParteDelApu qr:Ausangate ;
+    qr:estaEn qr:Ausangate ;
+    qr:tieneAltitudMetros 5200 ;
+    rdfs:comment "Glaciar asociado a rituales de altura durante la peregrinación de Qoyllur Rit’i. El glaciar Colque Punku ha sido escenario de ascensos rituales de los ukukus y otros grupos vinculados a prácticas simbólicas relacionadas con el hielo y la montaña."@es .
+
+qr:FestividadQoylluriti a qr:Festividad,
+        owl:NamedIndividual ;
+    rdfs:label "Festividad del Señor de Qoyllur Rit'i"@es ;
+    qr:esPeriodicoCon qr:Anual ;
+    qr:ocurreEnLugar qr:Ausangate,
+        qr:ColquePunku,
+        qr:SantuarioQoylluriti,
+        qr:Sinakara ;
+    qr:tieneDuracionHoras 120.0 ;
+    rdfs:comment "Peregrinación andina de carácter ritual que se realiza anualmente en el área de Sinakara en honor al Señor de Qoyllur Rit'i. La festividad tiene una duración aproximada de 5 días (120 horas), comenzando con la llegada de peregrinos y culminando con el retorno a sus comunidades. Es una de las festividades religiosas más importantes de los Andes peruanos, congregando a decenas de miles de peregrinos de múltiples naciones. La festividad sincretiza elementos del catolicismo colonial con tradiciones andinas ancestrales, siendo el culto al Apu Ausangate un eje fundamental. Incluye eventos clave como la subida ritual al glaciar Colque Punku, la lomada (caminata nocturna de 24 horas), procesiones, misas especiales y complejos sistemas de intercambio simbólico entre comunidades participantes."@es .
+
+qr:LugarSagrado a owl:Class ;
+    rdfs:label "Lugar Sagrado"@es ;
+    rdfs:comment "Lugar con significado ritual o religioso en la cosmovisión andina."@es ;
+    rdfs:subClassOf qr:Lugar .
+
+qr:Ocongate a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Ocongate" ;
+    rdfs:comment "Localidad de paso en la ruta hacia desde Paucartambo Mahuayani. También, es el destino final de la peregrinación del Señor de Qoyllu Rit'i."@es .
+
+qr:QoyllurRiti2026 a qr:Festividad,
+        owl:NamedIndividual ;
+    rdfs:label "Qoyllur Rit’i (2026)"@es ;
+    qr:detalleEtnografico "Edición documentada parcialmente desde la participación en Nación Paucartambo, sin generalizar a todos los itinerarios."@es ;
+    qr:documentadoEnRecorrido qr26:RecorridoRegistrado2026 ;
+    qr:edicionDe qr:FestividadQoylluriti ;
+    qr:participaColectivo qr:NacionPaucartambo ;
+    dcterms:date "2026"^^xsd:gYear ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es .
+
+qr:Ukumaris_Paucartambo_2025 a qr:Ukumari,
+        owl:NamedIndividual ;
+    rdfs:label "Ukumaris de Paucartambo (2025)"@es ;
+    qr:cantidadAproximada "40-60" ;
+    qr:ejecutaDanza qr:DanzaUkumari ;
+    qr:participaEn qr:Lomada_2025 ;
+    qr:perteneceA qr:NacionPaucartambo ;
+    qr:usaObjetoRitual qr:Sorriago ;
+    qr:usaVestimenta qr:TrajeUkumari ;
+    rdfs:seeAlso qr:UkumarisPaucartambo .
+
+qr:Yanaqancha a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Yanaqancha"@es ;
+    rdfs:comment "Lugar de descanso prolongado (4 horas) durante la Lomada. Aquí se deja la imagen del Señor de Tayankani."@es .
+
+qr:Colectivo a owl:Class ;
+    rdfs:label "Colectivo"@es ;
+    rdfs:comment "Participante colectivo (grupo, comunidad)."@es ;
+    rdfs:subClassOf qr:Participante .
+
+qr:PracticaLomada a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Desplazamiento de peregrinación"@es ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es .
+
+qr:Vestimenta a owl:Class ;
+    rdfs:label "Vestimenta"@es ;
+    rdfs:comment "Indumentaria ceremonial."@es ;
+    rdfs:subClassOf qr:ObjetoRitual .
+
+qr:TrajeUkumari a qr:Vestimenta,
+        owl:NamedIndividual ;
+    rdfs:label "Traje de Ukumari"@es ;
+    qr:hechoDeRitual "lana"@es ;
+    qr:tieneParte qr:CamisaBlanca,
+        qr:CruzCobreUkuku,
+        qr:GuantesUkuku,
+        qr:Huaqollo,
+        qr:Pellon,
+        qr:Puyka,
+        qr:SilbatoUkuku,
+        qr:Sorriago,
+        qr:Umakhara ;
+    rdfs:comment "Vestimenta ceremonial completa del ukuku que incluye: pellón (traje principal de lana), huaqollo (careta tejida de lana que cubre el rostro), umak'ara (pedazo de cuero en la cabeza), sorriago (látigo ceremonial de cuero trenzado), cruz de cobre portada en el pecho, silbato para anunciarse, puyka (caña para hacer ruido que imita a los osos), guantes y camisa blanca. El conjunto representa al oso andino y sus funciones rituales."@es .
+
+qr26:LugarReferencia a owl:Class ;
+    rdfs:label "Lugar de referencia"@es ;
+    rdfs:comment "Topónimo o referencia de campo, no delimitación geográfica oficial"@es ;
+    rdfs:subClassOf qr:Lugar .
+
+qr:QoyllurRiti2025 a qr:Festividad,
+        owl:NamedIndividual ;
+    rdfs:label "Qoyllur Rit’i (2025)"@es ;
+    qr:detalleEtnografico "Edición documentada parcialmente desde la participación en Nación Paucartambo, sin generalizar a todos los itinerarios."@es ;
+    qr:edicionDe qr:FestividadQoylluriti ;
+    qr:participaColectivo qr:NacionPaucartambo ;
+    dcterms:date "2025"^^xsd:gYear ;
+    dcterms:source "Testimonio del investigador-participante y documentación de campo 2025–2026."@es .
+
+qr:Paucartambo a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Paucartambo" ;
+    rdfs:comment "Paucartambo es un pueblo andino de la región Cusco con una vida ritual intensa, en torno a festividades como la Virgen del Carmen y su participación regional en la peregrinación al Señor de Qoyllur Rit’i. Funciona como espacio de reunión, organización y partida de danzantes y peregrinos."@es .
+
+qr:Tayancani a qr:Lugar,
+        owl:NamedIndividual ;
+    rdfs:label "Tayancani" ;
+    rdfs:comment "Localidad donde se deposita la imagen al final de la peregrinación"@es ;
+    skos:altLabel "Tayankani"@es .
+
+qr26:Tramo a owl:Class ;
+    rdfs:label "Tramo de trayectoria GPS"@es ;
+    rdfs:comment "Una traza temporal registrada por un dispositivo"@es ;
+    rdfs:subClassOf qr:RegistroEspacial .
+
+qr:Participante a owl:Class ;
+    rdfs:label "Participante"@es ;
+    rdfs:comment "Actor individual o colectivo que toma parte en la festividad del Señor de Qoyllu Rit'i. Un participante no puede ser simultáneamente un objeto ritual, práctica cultural o fuente bibliográfica."@es ;
+    owl:disjointWith qr:PracticaCultural .
+
+qr:UkumarisPaucartambo a qr:Colectivo,
+        owl:NamedIndividual ;
+    rdfs:label "Ukumaris de Nación Paucartambo"@es ;
+    qr:colectivoDeNacion qr:NacionPaucartambo ;
+    qr:detalleEtnografico "Agrupación participante de la nación; no designa a una persona determinada."@es ;
+    dcterms:source "Testimonio directo del investigador-participante de los ukumaris de Nación Paucartambo, entrevistas de reconstrucción etnográfica sobre las peregrinaciones 2025–2026."@es .
+
+qr:NacionPaucartambo a qr:Nacion,
+        owl:NamedIndividual ;
+    rdfs:label "Nación Paucartambo"@es ;
+    qr:detalleEtnografico "La nación es un colectivo de pertenencia y organización ritual; no equivale al pueblo como localización."@es ;
+    qr:participaEn qr:Lomada_2025 ;
+    rdfs:comment "Comunidad participante principal en la festividad del Señor de Qoyllu Rit'i."@es .
+
+qr:ObjetoRitual a owl:Class ;
+    rdfs:label "Objeto Ritual"@es ;
+    rdfs:comment "Artefacto material utilizado en ceremonias con significado simbólico."@es ;
+    owl:disjointWith qr:Participante,
+        qr:PracticaCultural .
+
+qr:SantuarioQoylluriti a qr:Lugar,
+        qr:LugarSagrado,
+        owl:NamedIndividual ;
+    rdfs:label "Santuario del Señor de Qoyllur Rit'i"@es ;
+    qr:contiene qr:CeldaUkukusPaucartambo,
+        qr:Mamachapata,
+        qr:Pachakunapata ;
+    qr:estaEn qr:Sinakara ;
+    rdfs:comment "Santuario de alta montaña donde se concentra la peregrinación anual del Señor de Qoyllur Rit’i."@es .
+
+qr:PracticaCultural a owl:Class ;
+    rdfs:label "Práctica Cultural"@es ;
+    rdfs:comment "Manifestación cultural de carácter ritual, artístico o tradicional dentro del contexto de la Festividad del Señor de Qoyllu Rit'i."@es .
+
+qr:EventoRitual a owl:Class ;
+    rdfs:label "EventoRitual" ;
+    rdfs:subClassOf qr:Actividad ;
+    owl:disjointWith qr:FuenteBibliografica .
+
+qr:Actividad a owl:Class ;
+    rdfs:label "Actividad documentada (ritual o logística)"@es .
+
+qr:Lugar a owl:Class ;
+    rdfs:label "Lugar" .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( qr:Apu qr:FuenteBibliografica qr:ObjetoRitual qr:Participante ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( qr:ImagenReligiosa qr:InsigniaRitual qr:Instrumento qr:OfrendaMaterial qr:Vestimenta ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( qr:Articulo qr:Libro qr:PaginaWeb ) .
+
