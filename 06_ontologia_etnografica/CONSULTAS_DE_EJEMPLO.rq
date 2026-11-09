@@ -1,0 +1,39 @@
+PREFIX qr: <urn:qoylluriti:registro2026:>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+# 1. Actividades que ocurren en Tayankani
+SELECT ?actividad ?nombre WHERE {
+  ?actividad a qr:ActividadDocumentada ; qr:ocurreEn qr:Tayankani ; rdfs:label ?nombre .
+} ORDER BY ?nombre
+
+# 2. Evidencia testimonial de Wataskama aun sin imagen
+SELECT ?testimonio ?nombre WHERE {
+  qr:EncuentroWataskamaDocumentado qr:tieneEvidencia ?testimonio .
+  ?testimonio rdfs:label ?nombre .
+}
+
+# 3. Videos y fotos Inti Alabado 2025 y 2026 (no se infieren actos exactos)
+SELECT ?lote ?archivo ?id WHERE {
+  VALUES ?lote { qr:Lote050_2025 qr:Lote050_2026 }
+  ?lote qr:incluyeMedio ?m .
+  ?m dcterms:identifier ?id ; qr:nombreArchivoOriginal ?archivo .
+} ORDER BY ?lote ?id
+
+# 4. Actividades que tienen preguntas abiertas
+SELECT ?actividad ?pregunta WHERE {
+  ?actividad a qr:ActividadDocumentada ; qr:tienePreguntaPendiente ?q .
+  ?q qr:textoPregunta ?pregunta .
+}
+
+# 5. Registros que NO tienen año de captura confirmado
+SELECT ?id ?archivo WHERE {
+  ?m a qr:RegistroAudiovisual ; dcterms:identifier ?id ; qr:nombreArchivoOriginal ?archivo .
+  FILTER NOT EXISTS { ?m qr:anioRegistro ?year }
+}
+
+# 6. Referencias históricas NO asertadas en la ontología nueva
+SELECT ?id ?sujeto ?predicado ?objeto WHERE {
+  ?c a qr:CandidatoConciliacion ; dcterms:identifier ?id ;
+     qr:sujetoLegado ?sujeto ; qr:predicadoLegado ?predicado ; qr:objetoLegado ?objeto .
+}
