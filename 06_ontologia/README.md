@@ -1,57 +1,27 @@
-# Ontología etnográfica Qoyllur Rit’i 2025–2026 — v0.3
+# Qoyllur Rit’i: ontología v0.4.1 con medios originales
 
-**Archivo de trabajo:** `qoylluriti_ontologia_etnografica_2025_2026_v03.ttl`
+Esta es una reparación de los enlaces a imágenes y videos de la ontología v0.4. El núcleo cultural se conserva sin cambios.
 
-## Qué representa
+## Contenido
 
-Modelo integrado de **festividades, prácticas culturales recurrentes, actividades situadas, lugares, naciones y colectivos, roles, objetos y recorridos**, con relaciones espaciales y temporales. La base conceptual y de instancias es `qoyllurity.ttl` (2025), enriquecido con testimonios de campo de 2025–2026 y los 12 tramos del TTL mínimo de 2026.
+- `qoylluriti_etnografia_v04_1_CON_MEDIOS.ttl`: grafo completo con rutas a imágenes y videos que **existen en este paquete**.
+- `qoylluriti_nucleo_cultural_v04.ttl`: grafo cultural y espacial original v0.4, sin modificaciones.
+- `qoylluriti_medios_v04_1.ttl`: relaciones y metadatos de los archivos multimedia.
+- `medios/`: 181 archivos originales por identificador (copiados sin alterar los bytes, SHA-256 comprobado).
+- `MEDIOS_VINCULADOS.csv`: correspondencia de cada medio con su archivo físico, entidades vinculadas y SHA-256.
+- `GALERIA_LOCAL.html`: galería de fotografías y videos para explorar el paquete descargado.
+- `consultar_imagenes.py`: ejemplo simple de consulta a los archivos desde una entidad RDF.
 
-**Una práctica se conserva como concepto continuo** (`PracticaIntiAlabado`). Sus realizaciones de 2025 y 2026 son individuos relacionados mediante `instanciaDePractica`. `IntiAlabado_2025` del grafo original se conserva como individuo histórico; no se creó un duplicado. Los 12 GPX se conservaron en el espacio de nombres `qr26:`.
+## Cómo funciona el vínculo
 
-## Dimensión etnográfica
+Las entidades culturales tienen `qr:tieneRegistroVisual` hacia un medio, y cada medio tiene `qr:archivoRelativo`, por ejemplo `medios/QR-MED-2026-050-01.jpg`. Esa ruta se resuelve **desde la carpeta que contiene el TTL**.
 
-Se incorporan las explicaciones del participante sobre la preparación, romería, transporte en camión, apoyo de mamawairis, subida y bajada de Colque Punku, transporte colectivo de la cruz, encuentro de Wataskama, Lomada, Yanaqancha y queperinas, paso nocturno por Escalerachayoq, Inti Alabado, bautizo de moroco, recibimiento de Ocongate, regreso nocturno y Corpus Christi.
+Para GraphRAG, la consulta `IntiAlabado → tieneRegistroVisual → Medio → archivoRelativo` permite recuperar directamente los bytes de la imagen. Los nombres de archivo y las ubicaciones no dependen de un servicio de mensajería.
 
-Los contenidos se consignan **en las actividades mismas**, mediante `detalleEtnografico`, `ocurreEnLugar`, `participaColectivo`, `involucraRol`, `involucraObjeto`, `instanciaDePractica`, `sigueA` y `asociadaAFestividad`.
+Las fotos de 2026 del Inti Alabado se recuperaron del segundo lote (11 fotografías), sustituyendo los 10 registros que repetían incorrectamente el lote de 2025. El paquete contiene 181 registros multimedia, 180 contenidos binarios distintos. Una misma fotografía se conservó en dos referencias documentales de 2025, con IDs independientes.
 
-## Relación con la fotografía y el audiovisual
+## Protección y uso
 
-El inventario audiovisual de 180 medios se mantiene **por separado** como catálogo de investigación. El TTL cultural **no genera individuos por fotografía**. La transmisión de archivos por WhatsApp no se presenta como fuente: las fuentes pertinentes son el trabajo de campo, los testimonios y las observaciones. El canal de envío no equivale al origen documental. La publicación de fotografías se decide por separado, en especial las fotos personales del bautizo y las de menores.
+**Archivo privado de trabajo:** las fotografías y videos muestran participantes y en algunas tomas personas menores. Requieren revisión de autorización para difusión antes de publicarlos en un repositorio público. Se recomienda subir solo el TTL cultural y, si procede, el índice sin datos personales; el archivo multimedia debe tener almacenamiento autorizado.
 
-## Criterios de conciliación
-
-- Se preservan los individuos y relaciones culturales del TTL histórico salvo errores de modelado explícitos.
-- `IntiAlabado_2025`, `Lomada_2025` y el viaje vehicular 2025 son actividades, no lugares.
-- `Escalerachayoq` y `Pachakunapata` quedan como lugares; se crean actividades separadas para los acontecimientos allí descritos.
-- Se retiran cinco autoenlaces y la propiedad `tieneImportancia` para evitar jerarquías culturales impuestas.
-- Las coordenadas puntuales del TTL 2025 quedan en el **archivo original** hasta su auditoría espacial, evitando afirmaciones geográficas exactas no validadas. Los GPX 2026 conservan sus metadatos y criterios de proximidad.
-- El TTL de 2025 contiene afirmaciones de su propia fuente; se conservan como conocimiento previamente documentado. Solo se marcan como pendientes cuestiones específicas: visibilidad del glaciar en Q’espi Cruz, denominación de danza de Yanaqancha, significado del zigzag y año de las fotografías de Ocongate.
-- Corpus Christi figura como festividad diferenciada; el vínculo con Qoyllur Rit’i describe **el cierre del itinerario de Nación Paucartambo**.
-
-## Principales métricas verificadas
-
-{
-  "triples": 1986,
-  "clases_owl": 34,
-  "practicas_individuos": 30,
-  "eventos_rituales": 34,
-  "otras_actividades": 51,
-  "lugares": 44,
-  "tramos_gps": 12,
-  "colectivos": 7,
-  "relaciones_objeto_owl": 50,
-  "nodos_imagen_individual": 0,
-  "triplas_removidas_de_baseline": 132
-}
-
-## Para Protégé
-
-Abrir `qoylluriti_ontologia_etnografica_2025_2026_v03.ttl` con Protégé Desktop como RDF/Turtle. Prefijos: `qr:` = `http://example.org/festividades#` (grafo histórico y ampliación cultural) y `qr26:` = `urn:qoylluriti:registro2026:` (GPX). El TTL se puede cargar y consultar con RDFLib.
-
-## Registro de versiones
-
-- **v0.1**: primera ampliación propuesta.
-- **v0.2**: integración audiovisual extensa. Se reemplaza como línea de trabajo ontológica.
-- **v0.3**: modelo cultural integrado, sin individuos por fotografía, con continuidad interanual y distinción entre lugar/evento.
-
-El repositorio GitHub **no se modificó automáticamente**.
+No se cambió ningún repositorio de GitHub.

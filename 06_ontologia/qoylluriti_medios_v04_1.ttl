@@ -1,0 +1,1273 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix qr: <http://example.org/festividades#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+qr:IntiAlabado qr:tieneRegistroVisual qr:Medio_QR_MED_2026_050_11 .
+
+qr:Medio_QR_FOT_2025_030_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-030-01.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-030-01" ;
+    qr:sha256 "8870e37c98c8e19dbb9fb3ca313ecc17764da2ef1199ae0ae92ebbea494ec2a9" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_030_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-030-02.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-030-02" ;
+    qr:sha256 "d5be3576971f211149592b5285d7051a6faae6b8c5c643806bc032cc83c1dde6" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_030_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-030-03.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-030-03" ;
+    qr:sha256 "617d7546cd7275c545b0dd915c5bd71aa32829236d3d32015040d2cbb909204e" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_030_04 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-030-04.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-030-04" ;
+    qr:sha256 "618c6ca03f7dcf3e007962c55649f5d25c3b44be552534f9a233c6c2a1d0413f" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_031_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-031-01.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-031-01" ;
+    qr:sha256 "192006144a6a10fa23d491a1ad34a1cff1fd522b85114c60c94bda5bd9393d3b" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_031_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-031-02.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-031-02" ;
+    qr:sha256 "4fe009b47fdc6782620030d616dcb701ccf5b8d98be92f67e7dba7cc6cafdaea" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_031_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-031-03.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-031-03" ;
+    qr:sha256 "5ae731b70472696b6ecb1ee088134067d70b870bbac161bf1795aea6df0cf116" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_031_04 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-031-04.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-031-04" ;
+    qr:sha256 "7889fdbd580502a694dfc2857415f365dda37359ffc3c41302126838859ccab6" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_031_05 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-031-05.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-031-05" ;
+    qr:sha256 "7bb489858b472bde4ff9c436e9dbb34628a00c9b365ea0f917c35dd084b79813" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_031_06 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-031-06.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-031-06" ;
+    qr:sha256 "445f7d0e368fde2f5a95cc38df16bdbf9680e8a1f4914dd35ff659fde2e76abb" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_035_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-035-01.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-035-01" ;
+    qr:sha256 "2e15443281bf1856fd6a448b9532977fba2bfbda311073d8e222de2e03b27596" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_035_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-035-02.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-035-02" ;
+    qr:sha256 "f5de9e595b4427af363176c426407430566480ec7aeefc70a9d01aa42a9bd4af" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_035_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-035-03.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-035-03" ;
+    qr:sha256 "35b96765d096b1063bd3bdc55a03e856d12bed0c38df552b3bbb6d7f5a8fa47f" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_038_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-038-01.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-038-01" ;
+    qr:sha256 "15115608a5dbc3c9a669a41821376d02d1417846b2c6a6765f0c3cb89724d41d" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_038_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-038-02.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-038-02" ;
+    qr:sha256 "cd2e00ff6719a61fad4bc9513637b1f6a336d5c13d3f48c7b273d05649700182" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_038_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-038-03.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-038-03" ;
+    qr:sha256 "9522d2af9da6c9fae3a19abb3a4eb751d9d743d79514371c787791fc5b9ad106" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_038_04 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-038-04.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-038-04" ;
+    qr:sha256 "5b3ad9440e245e4a33eb5634e11d9b7cdf1b2072aa82e71479fa6d980d8de8e5" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_038_05 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-038-05.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-038-05" ;
+    qr:sha256 "3f61f2f6db13edc4ac014ece942318c8d55a425a5bdc72b1558ba8185d2538cc" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_038_06 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-038-06.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-038-06" ;
+    qr:sha256 "a2fe8aa5b56fda500d8bcbd1943f3bb53b1588baa73b8521c8a19651bdfaa678" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_038_07 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-038-07.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-038-07" ;
+    qr:sha256 "99d53626299369ee62bdf941c1bee26f9b98da04c883b30f3799e95e3383a628" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_038_08 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-038-08.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-038-08" ;
+    qr:sha256 "bac37fe4884b162b41696c97929575f0ba30f4a331c1209bf4200cfac677c2bf" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_040_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-040-02.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-040-02" ;
+    qr:sha256 "73e55b9f25b6e29e777b3a78e58f5b8b8eac063c77e9aa55a4ba7638e7e2cee8" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_040_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-040-03.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-040-03" ;
+    qr:sha256 "0435998883593ccb6c5283a58e4aed7004afdef7af3d1545698a68f07e7c5e4a" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_040_04 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-040-04.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-040-04" ;
+    qr:sha256 "59a4bc82e8fb27a35c004491422e488029c0571d2a49661a2601420e3f2b1e28" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_040_05 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-040-05.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-040-05" ;
+    qr:sha256 "7d45962b7e85536a505dd7b7fd7d4ce9632d59c5c84e657d44b7760b0c8ef8ad" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_040_06 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-040-06.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-040-06" ;
+    qr:sha256 "020cf45e5b467458b81f6618c75d1960375e06b4eff01149ad7d51d0bdacd45d" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_041_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-041-01.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-041-01" ;
+    qr:sha256 "a781ecf6559a03874fe60e30078a086ef9ac001ce2ad8cb1dd7117f60f5d0b95" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_041_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-041-02.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-041-02" ;
+    qr:sha256 "1ad32c6d8beff04cf8e445ddc098810ce3d7af561fcbf1e3fbc52fd134507eb2" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_041_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-041-03.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-041-03" ;
+    qr:sha256 "78ac120e58d304ac494e1b70bb6c0d650b953481bdf45094d1294030293d0d14" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_041_04 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-041-04.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-041-04" ;
+    qr:sha256 "0953a5178ef0f6f2f001df34ab798f1f7a9666f12c82029bd229b7f69477c3fe" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_041_05 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-041-05.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-041-05" ;
+    qr:sha256 "29a862e3efbcfd139d779cb2f9bf45eb89236cedf881a00cef678b7fede71c6a" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_041_06 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-041-06.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-041-06" ;
+    qr:sha256 "85ca451f9306d0f8f0e22df7bd3d8da369b2559d8960b9d033fa9e466ebdb7ba" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_042_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-042-01.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-042-01" ;
+    qr:sha256 "ff59db1d6aae107d04331a99fe86de8ae14358dbbad7d00e3f88bc825c4ec058" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_042_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-042-02.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-042-02" ;
+    qr:sha256 "759a9905b68b33b95d52bf43e21ad40803ce02c5be5ef13ee7fccd66e1414884" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_042_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-042-03.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-042-03" ;
+    qr:sha256 "109b78c35ee4251c91f1b5a65bfbcc8e5f40de6d47143554a8a59ec5be35704e" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_042_04 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-042-04.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-042-04" ;
+    qr:sha256 "72bfba2f07aaf0af9e5c41d41d60b024bb6fcbf4c7ed942531e6ad3c13e8f6aa" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_042_05 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-042-05.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-042-05" ;
+    qr:sha256 "07ab3115e1ab9eea3e62d692ed8350c010039f941ae7820c2603511c8c7ebe4c" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-044-01.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-044-01" ;
+    qr:sha256 "9a01f109373320c96e74e0deacd03d1de9e2c43edd22da4102f1288da1e55138" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-044-02.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-044-02" ;
+    qr:sha256 "0a171e0c7030cc6bb9388f8987829660a2a357a8c510805ab535329932305d32" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-044-03.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-044-03" ;
+    qr:sha256 "d613bd71bbabddf5d7fc37fb4fb6679a2f8ead3fe088a20caaf2dd3bc9d3291c" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_04 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-044-04.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-044-04" ;
+    qr:sha256 "2298ea2228627a9f1c5b3146306726bd031fd3fe7fc2d532a7067551a29932ea" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_05 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-044-05.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-044-05" ;
+    qr:sha256 "65e4062307e91570905974d2cb691d2b91c316d93aeeb1e085b98b137606e637" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_06 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-044-06.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-044-06" ;
+    qr:sha256 "c7037f1939651632ca18ed74e69486955027a531b13566d849ad33863fc63457" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_07 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-044-07.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-044-07" ;
+    qr:sha256 "89036e9806b15b7b2a6609335d6d03fbc141eabd2cdc43a8ed223e91fe51218e" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_08 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-044-08.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-044-08" ;
+    qr:sha256 "ad5cf46fa93625e0f86a50414d63d5cf1db33af070e51f6269e7b6bc48c705fa" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_09 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-044-09.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-044-09" ;
+    qr:sha256 "62f91dc2cc9aab30c1f313f7284e9423adbb97c33eefacd8468acc30c48e9ea4" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_10 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-044-10.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-044-10" ;
+    qr:sha256 "9f44edda691cc2fb7585f563cbab14407f4212e2f9d00f0689f44df35075a3c8" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_11 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-044-11.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-044-11" ;
+    qr:sha256 "b338912e4c0ffa6bcab41dcbe63462dfe182925a201d4b9fb748c0afd9326c65" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_12 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-044-12.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-044-12" ;
+    qr:sha256 "b556a55e8955ec363649f4a2c0df9e7277c97b262c51d2c1ecb5fb02ec3104e5" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_046_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-046-01.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-046-01" ;
+    qr:sha256 "8edbc1206c3db79b1de9b49779a8e9183ddaae97599114f897fbb4cee4c806fa" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_046_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-046-02.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-046-02" ;
+    qr:sha256 "14a4615a68941b787d29e5375057150c2b479ae48ff25266a68cada640c79b72" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_046_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-046-03.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-046-03" ;
+    qr:sha256 "9a01f109373320c96e74e0deacd03d1de9e2c43edd22da4102f1288da1e55138" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-047-01.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-047-01" ;
+    qr:sha256 "cdea10c57848285de498355bc3bafa4b3384ff95323b2ec5c272d465d7facb06" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-047-02.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-047-02" ;
+    qr:sha256 "6439c623ccd3dde7a25bb4eee6d57b38900e0a803cf8032168a346004ad4d965" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-047-03.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-047-03" ;
+    qr:sha256 "330994600cda5680df4d44d8175066efa6cc48ec3d99499f55db2a2f07734291" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_04 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-047-04.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-047-04" ;
+    qr:sha256 "bdefc0b94cb5767cdbe6d8a476e97ca6e0cc91e45d92b9e2bac80d98639c9061" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_05 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-047-05.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-047-05" ;
+    qr:sha256 "b671f389393ce7c74d21cf607e768876a16323ea4d3c97e1a83320fff2ded1bf" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_06 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-047-06.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-047-06" ;
+    qr:sha256 "5c2e6ee65ef6782f724df04ccda92116984dbf76fb3c43c1721ddbba2656669a" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_07 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-047-07.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-047-07" ;
+    qr:sha256 "4d08189601022af78a1209c931025eab27dd94bed6d230b370e672ac313e2ec6" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_08 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-047-08.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-047-08" ;
+    qr:sha256 "078b27ad67c94b1e786fc7f72dc98959a3f139260c339169121af321e5d5a927" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_09 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-047-09.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-047-09" ;
+    qr:sha256 "da106c134a7cb9df9be89893880910aaa66732a150dfcaf90035dcc8639228d5" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_10 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-047-10.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-047-10" ;
+    qr:sha256 "7730e7c13480accd22da67f928d25426baf955cb9abb5d58b6de68d38989d55e" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_11 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-047-11.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-047-11" ;
+    qr:sha256 "fdb97c81055303d010b9e3516a49c8a5675d72fdf4594d1714bde3915c2a287f" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_12 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-047-12.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-047-12" ;
+    qr:sha256 "46cea5a8caa42672201bd105b06deae9d342d8bc77143117cde96bab87518939" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_13 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-047-13.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-047-13" ;
+    qr:sha256 "1911c2718482f56c2ae6440013293634c9236bb2ebec8ced4c607b2d1a75b83d" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_14 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-047-14.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-047-14" ;
+    qr:sha256 "1b1fd55a2682a5eb76dd3cf5f2ba0468504b39481cff91b41193655b46a912c5" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_15 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-047-15.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-047-15" ;
+    qr:sha256 "3f63c06eb050eeab8e20432cb984d2e31771cf2730ddca1d8d695c9144c59971" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_16 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-047-16.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-047-16" ;
+    qr:sha256 "d593279f405c453a4b417676bc55983a80550b10ca1ce101690803e4b3030e56" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_17 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-047-17.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-047-17" ;
+    qr:sha256 "62a21e57977ca39dffc9e1c07bb8e967cae54ce23ca7ecbafdbad044409bb093" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_18 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-047-18.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-047-18" ;
+    qr:sha256 "c6b091d02614c6032a1432c7bac9ef29548156be232e4a5d95dc71b47bee7b5e" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_19 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-047-19.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-047-19" ;
+    qr:sha256 "715f07502de314720462f9346c90efe08b9c606244814063417027d33d57f875" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_051_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-051-01.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-051-01" ;
+    qr:sha256 "f5fe875f46673ec72110acd5e64f5b7db43ebe91d27cfb6586c02a57e6befc57" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_051_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-051-02.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-051-02" ;
+    qr:sha256 "d7e145a01a6cb40717c63d3e7367c459ddcfa200bbb18df4bea1278c3e7c25d1" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_051_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-051-03.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-051-03" ;
+    qr:sha256 "38ac17f00aee5c315431a824475254e6c558cf04d745b92e0d6a455aa02bf94e" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_051_04 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-051-04.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-051-04" ;
+    qr:sha256 "57b56d0fd0ada572038bcf5cfa7f00805f1f3334756cd676911538dd40f5a51e" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_051_05 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2025-051-05.jpg" ;
+    qr:identificadorMedio "QR-FOT-2025-051-05" ;
+    qr:sha256 "7a5df1464b9d3a69276e089c23034c66cf82b48be01643ecb5865d95113f6dc1" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_031_01 a qr:MedioVisual ;
+    qr:archivoRelativo "medios/QR-FOT-2026-031-01.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-031-01" ;
+    qr:sha256 "565589800469277f8b4064442c977de993ced5bfb753acb3b2560f626f7882c0" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_036_01 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-036-01.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-036-01" ;
+    qr:sha256 "34bf6fc0be735db2d84a52fe577d4034ae18de80f6e0a8c9a3fd45374e8227a9" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_036_02 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-036-02.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-036-02" ;
+    qr:sha256 "ab026df3562450a25fec7bdc88cc6bee2d457826686ebb2f53c8c6d92463156b" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_036_03 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-036-03.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-036-03" ;
+    qr:sha256 "b5e1379d0c1c5e93fad86eb484ba84b4817761b4e01b6ad26d387d12e1d52e6c" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_036_04 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-036-04.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-036-04" ;
+    qr:sha256 "a8f60ba2fe16094ce0031816a5699d11ae82efbb29f33de33a291eea12be0655" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_036_05 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-036-05.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-036-05" ;
+    qr:sha256 "34e720826e0e99860d3e41d4c7f1ecaded8bf7efdda7ff8c755c192a743a4057" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_036_06 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-036-06.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-036-06" ;
+    qr:sha256 "61b8149475d431583bb9f017506940c087173f1bfe874c7f14290d5edac9427d" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_043_01 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-043-01.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-043-01" ;
+    qr:sha256 "b792e24596b58e6fd13adeedcad2a37f78df64aab3cadf3ab818db0779eecf14" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_043_02 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-043-02.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-043-02" ;
+    qr:sha256 "6c9e311f7063d23d0282d8bf15d81abab9878aa4e976c792b4fda9f690b7be70" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_043_03 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-043-03.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-043-03" ;
+    qr:sha256 "c52b5523578c6eedfebadc1d04cc58a82542ecdfdf9e1bcb6c063bdaab4c915b" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_043_04 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-043-04.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-043-04" ;
+    qr:sha256 "60b6cdf8f1d92f83788647ebd45dc43cdd9239ad51333d52ed643d1116c1bc6b" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_043_05 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-043-05.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-043-05" ;
+    qr:sha256 "857801738d4f05065db308cbd34232efadb5e48c67959b54eb71ef116f62fd13" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_043_06 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-043-06.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-043-06" ;
+    qr:sha256 "310b4aae7b1578a2192d3be4bb60473607fbb4e622ce9b0cc4752017f6e03d8e" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_043_07 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-043-07.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-043-07" ;
+    qr:sha256 "70e095c20fa43bb38b32f8001bb114491ef0ea68196edb322c9bf67f13999922" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_043_08 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-043-08.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-043-08" ;
+    qr:sha256 "108c7ddc5330357e986fbe0e10ad0630dca8f4c675462fb9f01a1b723ed2f743" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_043_09 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-043-09.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-043-09" ;
+    qr:sha256 "a97500039275a1b723e0e56a5aed81a7e0a18dc4b5470387513a991e31970ef8" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_043_10 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-043-10.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-043-10" ;
+    qr:sha256 "bf34da2a421ca678f72cd6f96b1daf5747466b1a0c5c296be3fa22b4c41276a2" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_043_11 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-043-11.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-043-11" ;
+    qr:sha256 "a847733b94b50ad2c6162a7da6ad6a2609771ab358cabbffd6e879e9fca6a963" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_045_01 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-045-01.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-045-01" ;
+    qr:sha256 "3090c56078b223b13cbe7ca93a32b0cf0c54166c14893f1958f87d4bc6ee75a4" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_045_02 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-045-02.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-045-02" ;
+    qr:sha256 "e2cae70247106f5b646e592e888d1fc5b563cb473d4e4319924000abc914eb2f" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_045_03 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-045-03.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-045-03" ;
+    qr:sha256 "7f63ff3e0490b15eb99b1907f6c60900d8817880df8b5b54f1b500ceb8edb04c" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_01 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-053-01.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-053-01" ;
+    qr:sha256 "ea3f44ba64a45a6976207aa089378df826d28cbf12e814f403d3a92bce4585e5" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_02 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-053-02.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-053-02" ;
+    qr:sha256 "90c391787301a4971f3ad697ed5dab9d58fc0621cf7024d9a49adeb8f146fbab" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_03 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-053-03.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-053-03" ;
+    qr:sha256 "f8345f6b857261e4138d2501b9a3c5d8916f712b38d68735e6cfb4ff056775c7" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_04 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-053-04.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-053-04" ;
+    qr:sha256 "87e97cdb6579be997679860de36ba5d309aaff133bde4fff0416252f0979a063" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_05 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-053-05.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-053-05" ;
+    qr:sha256 "40323a1dfd1ecf86da8b94398eb1d05fcb775c73f4d5bff83743631852d2814f" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_06 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-053-06.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-053-06" ;
+    qr:sha256 "3c7697c5f6ccd098a406b147697e431ea2abf9ead00f3e0f8c60c41960dc5cdb" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_07 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-053-07.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-053-07" ;
+    qr:sha256 "427965d589de9f281e4e667cc15880f895399ffbc7b1ba9d1738a4fb87e61fa0" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_08 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-053-08.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-053-08" ;
+    qr:sha256 "b2722ea0a25eb3dca9b02722221e0af81c856f9ee371fd70543a6663b1c52ade" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_09 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-053-09.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-053-09" ;
+    qr:sha256 "36e101e8c25c6ee0d1bf3bb1b158adba0390fdd166ff675e72e91215747e26cd" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_10 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-053-10.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-053-10" ;
+    qr:sha256 "b5664a2e0836a64c81652021c2c45d0f03ad705bd076e163c34e412dbd1608a8" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_11 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-053-11.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-053-11" ;
+    qr:sha256 "da53150c97a25bfbaf2495839f4ed5a47dda6b5347f538b6c9ea13b8504f5406" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_12 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-053-12.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-053-12" ;
+    qr:sha256 "44cb5513fa8a1604bcb13ac2a304f88e2a3f7dc39b09da016087c50f43b4972b" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_13 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-053-13.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-053-13" ;
+    qr:sha256 "8073aaa2cf09aeec9c63fd35f6ea39261b2b19e974d337592c18dc8a464598bf" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_14 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-053-14.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-053-14" ;
+    qr:sha256 "0dbe4765b8ed71b8cadf76a929b87958993c50d3cf7c0acb8189b35f151cb062" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_15 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-053-15.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-053-15" ;
+    qr:sha256 "0b7b6b3923d1e883b1df15168f4cd0eb6e4cb96706c8bb771435f0970dd88d2b" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0009 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-DRON-0009.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0009" ;
+    qr:sha256 "2a2f778706b5938a922e7d90f3e6ee6fee8dee6154614e3f9ead0fc165c1bae5" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0010 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-DRON-0010.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0010" ;
+    qr:sha256 "8f457cfad94e886695593e1bcc8f85742383953edd62eb1725812b3ad0cf6023" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0011 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-DRON-0011.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0011" ;
+    qr:sha256 "1e3c662246670f6cc133d715abf58afe10b3f3c27c01f7326c37a837daa3e998" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0012 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-DRON-0012.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0012" ;
+    qr:sha256 "36ecbe6513011e9e376cc11d6ab4648a3cf6efd839c938799bcb3aec0c70de82" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0013 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-DRON-0013.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0013" ;
+    qr:sha256 "0a89990ffb394f63fc4c05cffe284544eb1f9f6854530af9233325ceaf70733d" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0014 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-DRON-0014.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0014" ;
+    qr:sha256 "b725cfba7c8580bbeb4ab838dbdfa5a2089112b63e00872de86ee5bb6cf86a37" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0015 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-DRON-0015.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0015" ;
+    qr:sha256 "e43bfc48533ad7988c962f98d8a229f25ea687cdfc4ebe1fdb1f56f704216fdd" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0016 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-DRON-0016.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0016" ;
+    qr:sha256 "58f8d9b0bd51f3818f2ca5b5066a0e922c174721bc03908bc30735f2745579e6" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0017 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-DRON-0017.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0017" ;
+    qr:sha256 "7b0d2f3fb76b5adcde9286c855a1ab60beaf829551c4838d6fee71f30aa7da84" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0018 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-DRON-0018.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0018" ;
+    qr:sha256 "1c0b8d2694a11ff4f91e204a6c15142b6fe5ce86d82c43f6ef6477640e0b2feb" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0019 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-DRON-0019.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0019" ;
+    qr:sha256 "93b949c29520d8827216c97206017995a076b1b53a142a61b1afd7ca105eaa07" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0020 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-DRON-0020.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0020" ;
+    qr:sha256 "45e51ce3129c31002f4e63a454d9eb6dead667f4112ef89ddecebb3f7da24fd8" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0021 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-DRON-0021.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0021" ;
+    qr:sha256 "b19339f2e299ecabae329a8420177cd979239a6f78972ca86c1303ec616fcab9" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0022 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-DRON-0022.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0022" ;
+    qr:sha256 "b290ffdb59bd8f6a401977a94d801968517afc45e50ca2ba14708dfb283218e8" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0023 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-DRON-0023.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0023" ;
+    qr:sha256 "6b0ef3ba8ec65a3e99050cd40f1336521f7c7657aafbeeb728b0ae4190c04610" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0024 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-DRON-0024.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0024" ;
+    qr:sha256 "77ac21506812d9d6be14df1d8ec62dcac31359b3ad5a2571492b0e623c3fe942" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0025 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-DRON-0025.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0025" ;
+    qr:sha256 "f22f7dc3cc80729d042b8816265d06cf306388452095c928dcdb6cbb28ba7c17" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0026 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-DRON-0026.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0026" ;
+    qr:sha256 "92d69b33d9ae2e3e1013c35b7a2ab4bf56b4690a4fa189370307e6f1678da1ff" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0027 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-DRON-0027.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0027" ;
+    qr:sha256 "552f9048ad1d5ecfe27d046264d805999b65dacac8313e67e987f35ba07a8687" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0028 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-FOT-2026-DRON-0028.jpg" ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0028" ;
+    qr:sha256 "5e1e984140c8941dfbc264bc892b02be4def399a1fd0281aaefe3b23d9d939ac" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_ANO_PEND_052_01 a qr:MedioVisual ;
+    qr:archivoRelativo "medios/QR-FOT-ANO-PEND-052-01.jpg" ;
+    qr:identificadorMedio "QR-FOT-ANO-PEND-052-01" ;
+    qr:sha256 "45df0b307dd677247c8028d3bae8dca4bbd4623667a2e3c58aadf565ed2cecd2" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_ANO_PEND_052_02 a qr:MedioVisual ;
+    qr:archivoRelativo "medios/QR-FOT-ANO-PEND-052-02.jpg" ;
+    qr:identificadorMedio "QR-FOT-ANO-PEND-052-02" ;
+    qr:sha256 "64cff06bbc9dbb26108bbe54623460e831b0c9e3b1f397985b5930bbf76f2c86" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_ANO_PEND_052_03 a qr:MedioVisual ;
+    qr:archivoRelativo "medios/QR-FOT-ANO-PEND-052-03.jpg" ;
+    qr:identificadorMedio "QR-FOT-ANO-PEND-052-03" ;
+    qr:sha256 "b6b9d724bcfe27c6e7f54e09c4f1e949c42144b3264f5fbecb050b70436b8182" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_ANO_PEND_052_04 a qr:MedioVisual ;
+    qr:archivoRelativo "medios/QR-FOT-ANO-PEND-052-04.jpg" ;
+    qr:identificadorMedio "QR-FOT-ANO-PEND-052-04" ;
+    qr:sha256 "1a312aac157ffa163dcf73fe18307e83035d90d1077beff78246c008657ded39" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_ANO_PEND_052_05 a qr:MedioVisual ;
+    qr:archivoRelativo "medios/QR-FOT-ANO-PEND-052-05.jpg" ;
+    qr:identificadorMedio "QR-FOT-ANO-PEND-052-05" ;
+    qr:sha256 "200814075196dfe342d22484ea67f3e72866b70fa2e1ebe3e95eff77006fd9d5" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_CCATCCA_034_01 a qr:MedioVisual ;
+    qr:archivoRelativo "medios/QR-FOT-CCATCCA-034-01.jpg" ;
+    qr:identificadorMedio "QR-FOT-CCATCCA-034-01" ;
+    qr:sha256 "8e4c8e29406666a1601b4b513bba1c5082253dad8bb5d165ea416a6fb6e9bd62" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_CCATCCA_034_02 a qr:MedioVisual ;
+    qr:archivoRelativo "medios/QR-FOT-CCATCCA-034-02.jpg" ;
+    qr:identificadorMedio "QR-FOT-CCATCCA-034-02" ;
+    qr:sha256 "1c3b0da3726571c90b683002884d0baf7004c88bf041dcd1ebef9850cb0350b8" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_CCATCCA_034_03 a qr:MedioVisual ;
+    qr:archivoRelativo "medios/QR-FOT-CCATCCA-034-03.jpg" ;
+    qr:identificadorMedio "QR-FOT-CCATCCA-034-03" ;
+    qr:sha256 "89d03dedd675883112161886fa7e3ffd2b270967c3737443c2c2f9e4448e6fef" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2025_050_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-2025-050-01.jpg" ;
+    qr:identificadorMedio "QR-MED-2025-050-01" ;
+    qr:sha256 "9d875e4417fdd929db4032c0e5525d9a162792ee8bd45d27ec868b4cd0b51962" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2025_050_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-2025-050-02.jpg" ;
+    qr:identificadorMedio "QR-MED-2025-050-02" ;
+    qr:sha256 "2592ddcd19c68dc016114aed65a38cddac4eabc05e7fe1d6efda84cf6d31d171" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2025_050_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-2025-050-03.jpg" ;
+    qr:identificadorMedio "QR-MED-2025-050-03" ;
+    qr:sha256 "afccc43bc0c1a0b0d28059f371e78c24d02d16dfed1dac1654052f9391af9a7e" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2025_050_04 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-2025-050-04.jpg" ;
+    qr:identificadorMedio "QR-MED-2025-050-04" ;
+    qr:sha256 "efd34f3d08618556cbbc77db2df319493188e3a60ffcd237e0ff7c9fdbddc75b" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2025_050_05 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-2025-050-05.mp4" ;
+    qr:identificadorMedio "QR-MED-2025-050-05" ;
+    qr:sha256 "66a780af63ffbc3ce08a523e69fa9f91a4614ffe58089577d04868c71822407b" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_MED_2025_050_06 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-2025-050-06.jpg" ;
+    qr:identificadorMedio "QR-MED-2025-050-06" ;
+    qr:sha256 "808ee4d4bd5d7922305f4e732820541f176c0dbc4ddc91efa0e88ea3e5f9f4e4" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2025_050_07 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-2025-050-07.mp4" ;
+    qr:identificadorMedio "QR-MED-2025-050-07" ;
+    qr:sha256 "d7f13c37773c1e363423dab899520aaa3e1717f425a9cfc34186693f10571437" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_MED_2025_050_08 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-2025-050-08.jpg" ;
+    qr:identificadorMedio "QR-MED-2025-050-08" ;
+    qr:sha256 "1fefdf6e41d00702050541851e38b9b6bd158a042c0fc185e1f354da29fd392d" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2025_050_09 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-2025-050-09.mp4" ;
+    qr:identificadorMedio "QR-MED-2025-050-09" ;
+    qr:sha256 "9929f417775d2d344891d89df068923087b40a84c2d44cb22c650aac6d08fb36" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_MED_2025_050_10 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-2025-050-10.jpg" ;
+    qr:identificadorMedio "QR-MED-2025-050-10" ;
+    qr:sha256 "f706749f1fb3a79cffc40171cf6e80803c26fe16c450a22bce5691b2e1e8df12" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2026_050_01 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-2026-050-01.jpg" ;
+    qr:identificadorMedio "QR-MED-2026-050-01" ;
+    qr:sha256 "b3a103e0bfc7f09332f1ee579177517b0f7a9ad94ff978437e57dc0264212297" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2026_050_02 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-2026-050-02.jpg" ;
+    qr:identificadorMedio "QR-MED-2026-050-02" ;
+    qr:sha256 "83fce334fd8defb0b17bb88d29af9e7bf26571b475eb9f198ace90028ef24da0" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2026_050_03 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-2026-050-03.jpg" ;
+    qr:identificadorMedio "QR-MED-2026-050-03" ;
+    qr:sha256 "fc9d1e4ec73b9157c3108908b4573c04d888c879275cd0170bf97f3309bb9626" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2026_050_04 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-2026-050-04.jpg" ;
+    qr:identificadorMedio "QR-MED-2026-050-04" ;
+    qr:sha256 "50e9f774cd5dda374dac3739b1d59246a3ea7d767b1f2025a87184934f82f85a" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2026_050_05 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-2026-050-05.jpg" ;
+    qr:identificadorMedio "QR-MED-2026-050-05" ;
+    qr:sha256 "542f6a7eaf77845a538ac238e07abf4fe038b78670ee9141f5465fbd54d0f46d" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2026_050_06 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-2026-050-06.jpg" ;
+    qr:identificadorMedio "QR-MED-2026-050-06" ;
+    qr:sha256 "b7b36046036399627276f7629b76c956231d9650badf52e14bb3a7df197d5f2f" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2026_050_07 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-2026-050-07.jpg" ;
+    qr:identificadorMedio "QR-MED-2026-050-07" ;
+    qr:sha256 "0e1996df4395dbdfceb80a07d664f788f084e760753aa1b3dbb92c83d722e697" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2026_050_08 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-2026-050-08.jpg" ;
+    qr:identificadorMedio "QR-MED-2026-050-08" ;
+    qr:sha256 "97586aaaa20dacde22442bdebe55db3fab1e46bdbedc985bc7c6fdf356d001e1" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2026_050_09 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-2026-050-09.jpg" ;
+    qr:identificadorMedio "QR-MED-2026-050-09" ;
+    qr:sha256 "bb738a28a0092210312ea20d261ca3a174f9d84d90da24e2a3d85633f6bc8817" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2026_050_10 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-2026-050-10.jpg" ;
+    qr:identificadorMedio "QR-MED-2026-050-10" ;
+    qr:sha256 "0ad2323194a061fa27a1522467f12f0c8fa1893b8f1fb6571ceb3fec7f61e21b" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_SF_049_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-SF-049-01.jpg" ;
+    qr:identificadorMedio "QR-MED-SF-049-01" ;
+    qr:sha256 "04905753e26a7c762a061751d370917f9476cea282d702bbf3503f9ebe2c9041" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_SF_049_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-SF-049-02.jpg" ;
+    qr:identificadorMedio "QR-MED-SF-049-02" ;
+    qr:sha256 "64c37ccf4b62978de308e80fe2c8d96e3698b33e8eb4a1a1373d63289c6efc5d" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_SF_049_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-SF-049-03.jpg" ;
+    qr:identificadorMedio "QR-MED-SF-049-03" ;
+    qr:sha256 "9f03e437b2f1bfaceeffab555e93446390625f723f5d80b92037b1cb688070f6" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_SF_049_04 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-SF-049-04.jpg" ;
+    qr:identificadorMedio "QR-MED-SF-049-04" ;
+    qr:sha256 "419e55ad88f2eec46caaefb6f3e8155eea6c031220b78e2b3a9854a5b4168e9d" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_SF_049_05 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-SF-049-05.jpg" ;
+    qr:identificadorMedio "QR-MED-SF-049-05" ;
+    qr:sha256 "b6e47a13b207d2a6993121afbe129c4b846e23c4ef39d0460d3a51c809ea04a8" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_SF_049_06 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-SF-049-06.jpg" ;
+    qr:identificadorMedio "QR-MED-SF-049-06" ;
+    qr:sha256 "7ed530149878f172a035157270fb5e6e7a735248ca15b49f37ad045ed677ae71" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_SF_049_07 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-SF-049-07.jpg" ;
+    qr:identificadorMedio "QR-MED-SF-049-07" ;
+    qr:sha256 "fdd6f93386c6cd99be2937efcc11f3ab8adde0b4cee768bed7210e4099fa9e31" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_SF_049_08 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-SF-049-08.jpg" ;
+    qr:identificadorMedio "QR-MED-SF-049-08" ;
+    qr:sha256 "7c0d654d15b5b5dd3092aee4f78ac5ece3c4146ac1ccb915e2550451213fe16a" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_SF_049_09 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-SF-049-09.mp4" ;
+    qr:identificadorMedio "QR-MED-SF-049-09" ;
+    qr:sha256 "a57fb4d94e0edbe13932ebd8bc67687a4b7861336daa825c88a4e1786c68d776" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_MED_SF_049_10 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-SF-049-10.mp4" ;
+    qr:identificadorMedio "QR-MED-SF-049-10" ;
+    qr:sha256 "81806c8b5f1e1a45a801b213ac37f78b71782a5528e3013499abaf35def04927" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_MED_SF_049_11 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-SF-049-11.mp4" ;
+    qr:identificadorMedio "QR-MED-SF-049-11" ;
+    qr:sha256 "b29fd5955f1365b96fad0de37a2308b8b27333c907b3cdc5792b324db125d79c" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_MED_SF_049_12 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-SF-049-12.mp4" ;
+    qr:identificadorMedio "QR-MED-SF-049-12" ;
+    qr:sha256 "0a73bfeceaea0af4226532533ef38196d7224f08b85f01d979f07005c497a87f" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_VID_2025_031_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-VID-2025-031-01.mp4" ;
+    qr:identificadorMedio "QR-VID-2025-031-01" ;
+    qr:sha256 "79da4ecbb85dc6e98c2639fcde710ade1d443d624e5abaf4eb8f9154edd91366" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_VID_2025_040_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-VID-2025-040-01.mp4" ;
+    qr:identificadorMedio "QR-VID-2025-040-01" ;
+    qr:sha256 "87ae06dd2811c9ae78af0f3d2fc33bd1693befab0bd9e4774730f3b21cdd002a" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_VID_2025_041_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-VID-2025-041-01.mp4" ;
+    qr:identificadorMedio "QR-VID-2025-041-01" ;
+    qr:sha256 "b1e0a9a28083c5effb37b29da435831378fe36fa0abf070f83fe81e6933e6ffd" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_VID_2025_044_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-VID-2025-044-01.mp4" ;
+    qr:identificadorMedio "QR-VID-2025-044-01" ;
+    qr:sha256 "9eb4608798974809ae926006c5683535cd15c7fdda0b68f6e239fb9ce8980466" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_VID_2025_046_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-VID-2025-046-01.mp4" ;
+    qr:identificadorMedio "QR-VID-2025-046-01" ;
+    qr:sha256 "bfdceeec6ea9a740a99e5e7e3d6e7d753265c2d322b5fc55ec08c5fca9218c34" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_VID_2025_046_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-VID-2025-046-02.mp4" ;
+    qr:identificadorMedio "QR-VID-2025-046-02" ;
+    qr:sha256 "ba13b907b2275a389693d6ab8ed8b92ba56f2258ab53e702cb9d0a976554561a" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_VID_2025_046_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-VID-2025-046-03.mp4" ;
+    qr:identificadorMedio "QR-VID-2025-046-03" ;
+    qr:sha256 "4ed009e729699b6248d294e5ff8ef1b4089c2d1caf5917e9e0e40b4f6ed14f5a" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_VID_2026_036_01 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-VID-2026-036-01.mp4" ;
+    qr:identificadorMedio "QR-VID-2026-036-01" ;
+    qr:sha256 "cff47cacfa6ffaf9a0f56d2bfeaea51e7ea3b3ff19e2de0fea0570c1ef66c9ea" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Tayancani qr:tieneRegistroVisual qr:Medio_QR_MED_2026_050_11 .
+
+qr:archivoRelativo a owl:DatatypeProperty ;
+    rdfs:label "Archivo multimedia relativo al directorio del TTL"@es .
+
+qr:sha256 a owl:DatatypeProperty ;
+    rdfs:label "Huella SHA-256 de los bytes originales"@es .
+
+qr:Medio_QR_MED_2026_050_11 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-2026-050-11.jpg" ;
+    qr:identificadorMedio "QR-MED-2026-050-11" ;
+    qr:sha256 "7e9be149a940d43579e3ded5877b9ad7b55501293fd36e8bb0e810b53999cef2" ;
+    qr:tipoMedio "Fotografía"@es .
+
