@@ -1,0 +1,200 @@
+{
+  "proyecto": "P-2026-LIM-26",
+  "titulo": "Grafos de conocimiento para la documentación de festividades andinas: Señor de Qoyllur Rit’i y Virgen del Carmen de Paucartambo",
+  "archivo": "PRUEBAS_SPARQL.json",
+  "fecha_preparacion": "2026-11-12",
+  "grafo_referencia": {
+    "ruta_repositorio": "06_ontologia/qoylluriti_etnografia_v04_1_CON_MEDIOS.ttl",
+    "url": "https://github.com/javier-vz/proyecto_qoyllurity_2026/blob/main/06_ontologia/qoylluriti_etnografia_v04_1_CON_MEDIOS.ttl",
+    "version_publica_declarada": "v0.4.1",
+    "nota": "El informe original menciona además una versión v0.4.2 local. Sus resultados no deben atribuirse a este fichero sin ejecutar nuevamente las pruebas."
+  },
+  "estado_ejecucion": "PENDIENTE_DE_EJECUCION",
+  "nota_metodologica": "Este JSON documenta casos de prueba y aserciones reproducibles; NO es un registro de resultados ejecutados. Los valores esperados se basan en el inventario y deben contrastarse ejecutando cada consulta en la versión exacta del TTL. La existencia de una ruta RDF no verifica por sí misma que el archivo binario correspondiente exista.",
+  "prefijos_sparql": "PREFIX qr: <http://example.org/festividades#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>",
+  "total_casos": 13,
+  "casos": [
+    {
+      "id": "SP01",
+      "nombre": "Número total de triples",
+      "consulta": "PREFIX qr: <http://example.org/festividades#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nSELECT (COUNT(*) AS ?total) WHERE { ?s ?p ?o . }",
+      "validacion": {
+        "campo": "total",
+        "operador": ">=",
+        "valor": 500
+      },
+      "criterio": "El grafo integrado contiene al menos 500 triples.",
+      "ejecutada": false,
+      "resultado_observado": null,
+      "cumple": null
+    },
+    {
+      "id": "SP02",
+      "nombre": "Clases OWL declaradas",
+      "consulta": "PREFIX qr: <http://example.org/festividades#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nSELECT (COUNT(DISTINCT ?clase) AS ?total) WHERE { ?clase rdf:type owl:Class . }",
+      "validacion": {
+        "campo": "total",
+        "operador": ">=",
+        "valor": 5
+      },
+      "criterio": "Existen al menos cinco clases OWL.",
+      "ejecutada": false,
+      "resultado_observado": null,
+      "cumple": null
+    },
+    {
+      "id": "SP03",
+      "nombre": "Agrupaciones vinculadas a Nación Paucartambo",
+      "consulta": "PREFIX qr: <http://example.org/festividades#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nSELECT DISTINCT ?agrupacion ?etiqueta WHERE {\n  ?agrupacion qr:formaParteDe qr:NacionPaucartambo .\n  OPTIONAL { ?agrupacion rdfs:label ?etiqueta . }\n} ORDER BY ?agrupacion",
+      "validacion": {
+        "campo": "filas",
+        "operador": ">=",
+        "valor": 1
+      },
+      "criterio": "Se recupera al menos una agrupación asociada a Nación Paucartambo.",
+      "ejecutada": false,
+      "resultado_observado": null,
+      "cumple": null
+    },
+    {
+      "id": "SP04",
+      "nombre": "Prácticas y lugares",
+      "consulta": "PREFIX qr: <http://example.org/festividades#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nSELECT DISTINCT ?practica ?lugar WHERE {\n  ?practica qr:ocurreEn ?lugar .\n} ORDER BY ?practica ?lugar",
+      "validacion": {
+        "campo": "filas",
+        "operador": ">=",
+        "valor": 1
+      },
+      "criterio": "Se recupera alguna relación entre una práctica y un lugar.",
+      "ejecutada": false,
+      "resultado_observado": null,
+      "cumple": null
+    },
+    {
+      "id": "SP05",
+      "nombre": "Fotografías o videos vinculados con Inti Alabado",
+      "consulta": "PREFIX qr: <http://example.org/festividades#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nSELECT DISTINCT ?medio ?archivo ?anio WHERE {\n  qr:IntiAlabado qr:tieneRegistroVisual ?medio .\n  ?medio qr:archivoRelativo ?archivo .\n  OPTIONAL { ?medio qr:anioRegistro ?anio . }\n} ORDER BY ?archivo",
+      "validacion": {
+        "campo": "filas",
+        "operador": ">=",
+        "valor": 1
+      },
+      "criterio": "El Inti Alabado permite recuperar por lo menos una ruta de medio.",
+      "ejecutada": false,
+      "resultado_observado": null,
+      "cumple": null
+    },
+    {
+      "id": "SP06",
+      "nombre": "Rutas con lugar de inicio y llegada",
+      "consulta": "PREFIX qr: <http://example.org/festividades#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nSELECT DISTINCT ?ruta ?inicio ?fin WHERE {\n  ?ruta qr:iniciaEn ?inicio ;\n        qr:terminaEn ?fin .\n} ORDER BY ?ruta",
+      "validacion": {
+        "campo": "filas",
+        "operador": ">=",
+        "valor": 1
+      },
+      "criterio": "Se recupera al menos una ruta con ambos extremos documentados.",
+      "ejecutada": false,
+      "resultado_observado": null,
+      "cumple": null
+    },
+    {
+      "id": "SP07",
+      "nombre": "Tramos GPS del grafo",
+      "consulta": "PREFIX qr: <http://example.org/festividades#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nSELECT (COUNT(DISTINCT ?tramo) AS ?total) WHERE { ?tramo rdf:type qr:TramoGPS . }",
+      "validacion": {
+        "campo": "total",
+        "operador": "==",
+        "valor": 12
+      },
+      "criterio": "El inventario de la versión evaluada contiene doce entidades TramoGPS.",
+      "ejecutada": false,
+      "resultado_observado": null,
+      "cumple": null
+    },
+    {
+      "id": "SP08",
+      "nombre": "Referencias audiovisuales",
+      "consulta": "PREFIX qr: <http://example.org/festividades#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nSELECT (COUNT(DISTINCT ?medio) AS ?total) WHERE { ?medio rdf:type qr:MedioVisual . }",
+      "validacion": {
+        "campo": "total",
+        "operador": "==",
+        "valor": 181
+      },
+      "criterio": "Se esperan 181 referencias audiovisuales en el inventario vinculado.",
+      "ejecutada": false,
+      "resultado_observado": null,
+      "cumple": null
+    },
+    {
+      "id": "SP09",
+      "nombre": "Contenidos digitales distintos por hash",
+      "consulta": "PREFIX qr: <http://example.org/festividades#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nSELECT (COUNT(DISTINCT ?hash) AS ?total) WHERE {\n  ?medio rdf:type qr:MedioVisual ;\n         qr:sha256 ?hash .\n}",
+      "validacion": {
+        "campo": "total",
+        "operador": "==",
+        "valor": 180
+      },
+      "criterio": "Se esperan 180 hashes únicos para las 181 referencias.",
+      "ejecutada": false,
+      "resultado_observado": null,
+      "cumple": null
+    },
+    {
+      "id": "SP10",
+      "nombre": "Cantidad de enlaces cultura–medio",
+      "consulta": "PREFIX qr: <http://example.org/festividades#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nSELECT (COUNT(*) AS ?total) WHERE { ?entidad qr:tieneRegistroVisual ?medio . }",
+      "validacion": {
+        "campo": "total",
+        "operador": ">=",
+        "valor": 181
+      },
+      "criterio": "Se esperan al menos 181 enlaces cultura–medio.",
+      "ejecutada": false,
+      "resultado_observado": null,
+      "cumple": null
+    },
+    {
+      "id": "SP11",
+      "nombre": "Medios con rutas fuera de medios/",
+      "consulta": "PREFIX qr: <http://example.org/festividades#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nSELECT ?medio ?archivo WHERE {\n  ?medio rdf:type qr:MedioVisual ;\n         qr:archivoRelativo ?archivo .\n  FILTER(!STRSTARTS(STR(?archivo), \"medios/\"))\n} ORDER BY ?medio",
+      "validacion": {
+        "campo": "filas",
+        "operador": "==",
+        "valor": 0
+      },
+      "criterio": "Todas las rutas relativas declaradas deben comenzar por medios/.",
+      "ejecutada": false,
+      "resultado_observado": null,
+      "cumple": null
+    },
+    {
+      "id": "SP12",
+      "nombre": "Inventario audiovisual según año registrado",
+      "consulta": "PREFIX qr: <http://example.org/festividades#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nSELECT ?anio (COUNT(DISTINCT ?medio) AS ?total) WHERE {\n  ?medio rdf:type qr:MedioVisual ;\n         qr:anioRegistro ?anio .\n} GROUP BY ?anio ORDER BY ?anio",
+      "validacion": {
+        "campo": "filas",
+        "operador": ">=",
+        "valor": 2
+      },
+      "criterio": "El grafo expone medios identificados por año; los registros sin año deben revisarse por separado.",
+      "ejecutada": false,
+      "resultado_observado": null,
+      "cumple": null
+    },
+    {
+      "id": "SP13",
+      "nombre": "Medios sin año consignado",
+      "consulta": "PREFIX qr: <http://example.org/festividades#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nSELECT ?medio ?archivo WHERE {\n  ?medio rdf:type qr:MedioVisual ;\n         qr:archivoRelativo ?archivo .\n  FILTER NOT EXISTS { ?medio qr:anioRegistro ?anio . }\n} ORDER BY ?medio",
+      "validacion": {
+        "campo": "filas",
+        "operador": ">=",
+        "valor": 0
+      },
+      "criterio": "Consulta diagnóstica: identificar medios con año pendiente de conciliación.",
+      "ejecutada": false,
+      "resultado_observado": null,
+      "cumple": null
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+# CONSULTAS SPARQL — PROYECTO P-2026-LIM-26
+# Grafo público de referencia: 06_ontologia/qoylluriti_etnografia_v04_1_CON_MEDIOS.ttl
+# Ejecutar cada bloque SP01–SP13 POR SEPARADO en Protégé o RDFLib.
+# No concatenar consultas al ejecutarlas: cada bloque empieza por PREFIX.
+# Fecha de preparación: 2026-11-12
+
+# ====================================================================
+# SP01 | Número total de triples
+# Criterio: El grafo integrado contiene al menos 500 triples.
+PREFIX qr: <http://example.org/festividades#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT (COUNT(*) AS ?total) WHERE { ?s ?p ?o . }
+
+
+# ====================================================================
+# SP02 | Clases OWL declaradas
+# Criterio: Existen al menos cinco clases OWL.
+PREFIX qr: <http://example.org/festividades#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT (COUNT(DISTINCT ?clase) AS ?total) WHERE { ?clase rdf:type owl:Class . }
+
+
+# ====================================================================
+# SP03 | Agrupaciones vinculadas a Nación Paucartambo
+# Criterio: Se recupera al menos una agrupación asociada a Nación Paucartambo.
+PREFIX qr: <http://example.org/festividades#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT DISTINCT ?agrupacion ?etiqueta WHERE {
+  ?agrupacion qr:formaParteDe qr:NacionPaucartambo .
+  OPTIONAL { ?agrupacion rdfs:label ?etiqueta . }
+} ORDER BY ?agrupacion
+
+
+# ====================================================================
+# SP04 | Prácticas y lugares
+# Criterio: Se recupera alguna relación entre una práctica y un lugar.
+PREFIX qr: <http://example.org/festividades#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT DISTINCT ?practica ?lugar WHERE {
+  ?practica qr:ocurreEn ?lugar .
+} ORDER BY ?practica ?lugar
+
+
+# ====================================================================
+# SP05 | Fotografías o videos vinculados con Inti Alabado
+# Criterio: El Inti Alabado permite recuperar por lo menos una ruta de medio.
+PREFIX qr: <http://example.org/festividades#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT DISTINCT ?medio ?archivo ?anio WHERE {
+  qr:IntiAlabado qr:tieneRegistroVisual ?medio .
+  ?medio qr:archivoRelativo ?archivo .
+  OPTIONAL { ?medio qr:anioRegistro ?anio . }
+} ORDER BY ?archivo
+
+
+# ====================================================================
+# SP06 | Rutas con lugar de inicio y llegada
+# Criterio: Se recupera al menos una ruta con ambos extremos documentados.
+PREFIX qr: <http://example.org/festividades#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT DISTINCT ?ruta ?inicio ?fin WHERE {
+  ?ruta qr:iniciaEn ?inicio ;
+        qr:terminaEn ?fin .
+} ORDER BY ?ruta
+
+
+# ====================================================================
+# SP07 | Tramos GPS del grafo
+# Criterio: El inventario de la versión evaluada contiene doce entidades TramoGPS.
+PREFIX qr: <http://example.org/festividades#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT (COUNT(DISTINCT ?tramo) AS ?total) WHERE { ?tramo rdf:type qr:TramoGPS . }
+
+
+# ====================================================================
+# SP08 | Referencias audiovisuales
+# Criterio: Se esperan 181 referencias audiovisuales en el inventario vinculado.
+PREFIX qr: <http://example.org/festividades#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT (COUNT(DISTINCT ?medio) AS ?total) WHERE { ?medio rdf:type qr:MedioVisual . }
+
+
+# ====================================================================
+# SP09 | Contenidos digitales distintos por hash
+# Criterio: Se esperan 180 hashes únicos para las 181 referencias.
+PREFIX qr: <http://example.org/festividades#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT (COUNT(DISTINCT ?hash) AS ?total) WHERE {
+  ?medio rdf:type qr:MedioVisual ;
+         qr:sha256 ?hash .
+}
+
+
+# ====================================================================
+# SP10 | Cantidad de enlaces cultura–medio
+# Criterio: Se esperan al menos 181 enlaces cultura–medio.
+PREFIX qr: <http://example.org/festividades#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT (COUNT(*) AS ?total) WHERE { ?entidad qr:tieneRegistroVisual ?medio . }
+
+
+# ====================================================================
+# SP11 | Medios con rutas fuera de medios/
+# Criterio: Todas las rutas relativas declaradas deben comenzar por medios/.
+PREFIX qr: <http://example.org/festividades#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?medio ?archivo WHERE {
+  ?medio rdf:type qr:MedioVisual ;
+         qr:archivoRelativo ?archivo .
+  FILTER(!STRSTARTS(STR(?archivo), "medios/"))
+} ORDER BY ?medio
+
+
+# ====================================================================
+# SP12 | Inventario audiovisual según año registrado
+# Criterio: El grafo expone medios identificados por año; los registros sin año deben revisarse por separado.
+PREFIX qr: <http://example.org/festividades#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?anio (COUNT(DISTINCT ?medio) AS ?total) WHERE {
+  ?medio rdf:type qr:MedioVisual ;
+         qr:anioRegistro ?anio .
+} GROUP BY ?anio ORDER BY ?anio
+
+
+# ====================================================================
+# SP13 | Medios sin año consignado
+# Criterio: Consulta diagnóstica: identificar medios con año pendiente de conciliación.
+PREFIX qr: <http://example.org/festividades#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?medio ?archivo WHERE {
+  ?medio rdf:type qr:MedioVisual ;
+         qr:archivoRelativo ?archivo .
+  FILTER NOT EXISTS { ?medio qr:anioRegistro ?anio . }
+} ORDER BY ?medio
