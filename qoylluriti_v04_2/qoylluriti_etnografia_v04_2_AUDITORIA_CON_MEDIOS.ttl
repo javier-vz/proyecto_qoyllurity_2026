@@ -1,0 +1,2021 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix qr: <http://example.org/festividades#> .
+@prefix qr26: <urn:qoylluriti:registro2026:> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+qr:CanchaOcongate a qr:Lugar ;
+    rdfs:label "Cancha de Ocongate"@es ;
+    qr:ubicadoEn qr:Ocongate ;
+    rdfs:comment "Espacio donde se reúnen los grupos al llegar desde Tayankani; hay público en las graderías y la espera continúa hasta la noche."@es .
+
+qr:ChunchusPaucartambo a qr:AgrupacionDanza ;
+    rdfs:label "Qapaq Chunchos de Nación Paucartambo"@es ;
+    qr:formaParteDe qr:NacionPaucartambo ;
+    qr:participaEn qr:CorpusChristiPaucartambo,
+        qr:DanzaLaderaYanaqancha,
+        qr:EncuentroWataskama,
+        qr:Lomada,
+        qr:PreparacionPaucartambo,
+        qr:ProcesionImagenTayankani ;
+    qr:recorre qr:RutaLomada ;
+    dcterms:source <urn:qoylluriti:fuente:auditoria_etnografica_participante_2026> ;
+    rdfs:comment "Agrupación de Qapaq Chunchos de Nación Paucartambo, anteriormente rotulada de forma abreviada «Chunchus». Su caporal recibe la denominación de Rey Chuncho. En algunos momentos del recorrido se le observa encabezando junto al caporal de los Qapaq Qollas. La organización observada no autoriza asignar una primacía ritual o administrativa permanente a la agrupación. Participan en la Lomada desplazándose como agrupación diferenciada."@es .
+
+qr:EscolaresCorpusChristi a qr:Colectivo ;
+    rdfs:label "Escolares participantes en Corpus Christi de Paucartambo"@es ;
+    qr:participaEn qr:CorpusChristiPaucartambo ;
+    rdfs:comment "Escolares de localidades próximas que participan vestidos como diferentes danzas, entre ellas ukumaris. Las observaciones de 2026 incluyen numerosos niños."@es .
+
+qr:GrutaYanaqancha a qr:Lugar ;
+    rdfs:label "Gruta de Yanaqancha"@es ;
+    qr:ubicadoEn qr:Yanaqancha ;
+    rdfs:comment "Sector de gruta por el que transcurre parte de la ruta de la Lomada en las inmediaciones de Yanaqancha."@es .
+
+qr:IglesiaCcatcca a qr:Lugar ;
+    rdfs:label "Iglesia de Ccatcca"@es ;
+    qr:ubicadoEn qr:Ccatcca ;
+    rdfs:comment "Iglesia señalada como lugar de visita durante la parada de la peregrinación."@es .
+
+qr:LosaHuascarCarpapampa a qr:Lugar ;
+    rdfs:label "Losa deportiva Huáscar"@es ;
+    qr:ubicadoEn qr:Carpapampa ;
+    rdfs:comment "Lugar del ensayo general de las danzas antes de la salida de Paucartambo."@es .
+
+qr:Mamawairis a qr:Colectivo ;
+    rdfs:label "Mamawairis"@es ;
+    qr:participaEn qr:PermanenciaSantuario,
+        qr:PreparacionPaucartambo ;
+    rdfs:comment "Familiares y acompañantes que sostienen parte de la organización material del recorrido: transporte, comida, bultos y apoyo durante el viaje y la permanencia en los lugares de descanso."@es .
+
+qr:Pachakunapata a qr:Lugar ;
+    rdfs:label "P’achakunapata"@es ;
+    qr:ubicadoEn qr:SantuarioQoylluriti ;
+    rdfs:comment "Hito por el que se pasa durante el ingreso al Santuario."@es .
+
+qr:PlazaCcatcca a qr:Lugar ;
+    rdfs:label "Plaza de Ccatcca"@es ;
+    qr:ubicadoEn qr:Ccatcca ;
+    rdfs:comment "Espacio referido en el registro histórico para el descanso y la comida compartida durante el viaje."@es .
+
+qr:PlazaOcongate a qr:Lugar ;
+    rdfs:label "Plaza de Ocongate"@es ;
+    qr:ubicadoEn qr:Ocongate ;
+    rdfs:comment "Plaza de Ocongate, uno de los espacios del pueblo por los que circulan agrupaciones y peregrinos en su regreso."@es .
+
+qr:PlazaPaucartambo a qr:Lugar ;
+    rdfs:label "Plaza de Paucartambo"@es ;
+    qr:ubicadoEn qr:Paucartambo ;
+    rdfs:comment "Espacio público vinculado a las actividades de preparación y recorridos urbanos."@es .
+
+qr:PoblacionOcongate a qr:Colectivo ;
+    rdfs:label "Población de Ocongate"@es ;
+    qr:vinculadoALugar qr:Ocongate ;
+    rdfs:comment "Personas del pueblo que reciben a los peregrinos en el tramo de retorno desde Tayankani; se relata alegría y ofrecimiento de chicha a los grupos que llegan."@es .
+
+qr:Prioste a qr:Rol ;
+    rdfs:label "Prioste"@es ;
+    rdfs:comment "Rol asociado a la acogida y organización de una parada del viaje, donde coinciden integrantes de diversas agrupaciones."@es .
+
+qr:QollasPaucartambo a qr:AgrupacionDanza ;
+    rdfs:label "Qapaq Qollas de Nación Paucartambo"@es ;
+    qr:formaParteDe qr:NacionPaucartambo ;
+    qr:participaEn qr:CantoQespiCruz,
+        qr:CorpusChristiPaucartambo,
+        qr:DanzaLaderaYanaqancha,
+        qr:EncuentroWataskama,
+        qr:Lomada,
+        qr:PreparacionPaucartambo,
+        qr:ProcesionImagenTayankani ;
+    qr:recorre qr:RutaLomada ;
+    dcterms:source <urn:qoylluriti:fuente:auditoria_etnografica_participante_2026> ;
+    rdfs:comment "Agrupación de Qapaq Qollas de Nación Paucartambo, identificada antes en el grafo con el rótulo abreviado «Qollas». Se encuentran con los ukumaris de Paucartambo en el sector alto del Santuario durante el descenso de Colque Punku y ejecutan el canto de despedida en Q’espi Cruz. Su caporal aparece al frente del desplazamiento junto con el de los Qapaq Chunchos en algunos momentos observados. Esto no implica una jerarquía general entre danzas."@es .
+
+qr:Ukumaris a qr:AgrupacionDanza ;
+    rdfs:label "Ukumaris / ukukus"@es ;
+    qr:participaEn qr:AscensoColquePunku,
+        qr:DescensoColquePunku,
+        qr:IntiAlabado,
+        qr:TrasladoCruzColquePunku ;
+    rdfs:comment "Denominación de los danzantes conocidos como ukumaris o ukukus, presentes en diferentes naciones. Entre sus acciones durante la peregrinación se encuentran el ascenso a Colque Punku, las carreras en zigzag del Inti Alabado y el traslado de la cruz entre naciones."@es .
+
+qr:UkumarisPaucartambo a qr:AgrupacionDanza ;
+    rdfs:label "Ukumaris de Nación Paucartambo"@es ;
+    qr:formaParteDe qr:NacionPaucartambo ;
+    qr:incluyeRol qr:Antiguo,
+        qr:Caporal,
+        qr:Moroco ;
+    qr:participaEn qr:AscensoColquePunku,
+        qr:BautizoMorocos,
+        qr:BautizoPrimerAscensoColquePunku,
+        qr:CorpusChristiPaucartambo,
+        qr:DanzaLaderaYanaqancha,
+        qr:DescensoColquePunku,
+        qr:DespedidaMachuCruz,
+        qr:DespedidaYanaqocha,
+        qr:EncuentroWataskama,
+        qr:IntiAlabado,
+        qr:Lomada,
+        qr:PermanenciaSantuario,
+        qr:PermanenciaYanaqancha,
+        qr:PreparacionPaucartambo,
+        qr:ProcesionImagenTayankani,
+        qr:RomeriaPaucartambo,
+        qr:TrasladoCruzColquePunku ;
+    qr:recorre qr:ItinerarioPaucartambo,
+        qr:RutaColquePunkuSantuario,
+        qr:RutaLomada,
+        qr:RutaMahuayaniSantuario,
+        qr:RutaOcongatePaucartambo,
+        qr:RutaPaucartamboMahuayani,
+        qr:RutaSantuarioColquePunku,
+        qr:RutaTayankaniOcongate ;
+    dcterms:source <urn:qoylluriti:fuente:auditoria_etnografica_participante_2026> ;
+    rdfs:comment "Agrupación de ukumaris de Nación Paucartambo. Entre sus integrantes se reconocen caporales, morocos durante sus tres primeros años y antiguos desde el cuarto. Al solicitar su incorporación, al interesado se le comunica el compromiso de participar en tres peregrinaciones anuales consecutivas; si no puede asumirlo, se recomienda postergar el ingreso. Esta expectativa tiene para el participante una dimensión devocional y de responsabilidad ante los compañeros. La continuidad posterior suele volverse más flexible. La agrupación participa en el ascenso y descenso de Colque Punku, la Lomada, el Inti Alabado y otras actividades; no todas las prácticas son realizadas por todos sus miembros. La descripción es situada y no se generaliza a las demás naciones."@es .
+
+qr:anioRegistro a owl:DatatypeProperty ;
+    rdfs:label "Año del registro audiovisual"@es .
+
+qr:cierraRecorrido a owl:ObjectProperty ;
+    rdfs:label "cierra recorrido"@es ;
+    rdfs:comment "Celebración que cierra la secuencia vivida del recorrido de Paucartambo."@es .
+
+qr:continuaHacia a owl:ObjectProperty ;
+    rdfs:label "continúa hacia"@es ;
+    rdfs:comment "Relación de continuidad entre lugares o rutas de un recorrido conocido."@es .
+
+qr:formaParteDe a owl:ObjectProperty ;
+    rdfs:label "forma parte de"@es ;
+    rdfs:comment "Relación entre agrupaciones, naciones y prácticas incluidas en una festividad."@es .
+
+qr:identificadorGPS a owl:DatatypeProperty ;
+    rdfs:label "Identificador GPS"@es .
+
+qr:identificadorMedio a owl:DatatypeProperty ;
+    rdfs:label "Identificador del medio en el inventario"@es .
+
+qr:incluyeRol a owl:ObjectProperty ;
+    rdfs:label "incluye rol"@es ;
+    rdfs:comment "Rol desempeñado por integrantes de un colectivo."@es .
+
+qr:incluyeRuta a owl:ObjectProperty ;
+    rdfs:label "incluye ruta"@es ;
+    rdfs:comment "Vincula el itinerario general con sus caminos estables."@es .
+
+qr:iniciaEn a owl:ObjectProperty ;
+    rdfs:label "inicia en"@es ;
+    rdfs:comment "Lugar de inicio de una ruta."@es .
+
+qr:inicioUTC a owl:DatatypeProperty ;
+    rdfs:label "Inicio UTC"@es .
+
+qr:longitudKm a owl:DatatypeProperty ;
+    rdfs:label "Longitud del tramo, kilómetros"@es .
+
+qr:modalidad a owl:DatatypeProperty ;
+    rdfs:label "Modalidad de desplazamiento"@es .
+
+qr:ocurreEn a owl:ObjectProperty ;
+    rdfs:label "ocurre en"@es ;
+    rdfs:comment "Lugar reconocido de una práctica recurrente."@es .
+
+qr:participaEn a owl:ObjectProperty ;
+    rdfs:label "participa en"@es ;
+    rdfs:comment "Un colectivo participa en una práctica."@es .
+
+qr:pasaPor a owl:ObjectProperty ;
+    rdfs:label "pasa por"@es ;
+    rdfs:comment "Hito intermedio conocido de una ruta, sin imponer un orden cuando este no está establecido."@es .
+
+qr:recorre a owl:ObjectProperty ;
+    rdfs:label "recorre"@es ;
+    rdfs:comment "Colectivo que sigue una ruta en el recorrido descrito."@es .
+
+qr:seRealizaEnRuta a owl:ObjectProperty ;
+    rdfs:label "se realiza en ruta"@es ;
+    rdfs:comment "Práctica que se desarrolla a lo largo de un camino."@es .
+
+qr:sigueA a owl:ObjectProperty ;
+    rdfs:label "sigue a"@es ;
+    rdfs:comment "Orden habitual entre prácticas en la secuencia local descrita."@es .
+
+qr:terminaEn a owl:ObjectProperty ;
+    rdfs:label "termina en"@es ;
+    rdfs:comment "Lugar de llegada de una ruta."@es .
+
+qr:tieneRegistroVisual a owl:ObjectProperty ;
+    rdfs:label "tiene registro visual"@es ;
+    rdfs:comment "Vincula una práctica, lugar o ruta con el identificador de una imagen o video."@es .
+
+qr:tieneTramoGPS a owl:ObjectProperty ;
+    rdfs:label "tiene tramo GPS"@es ;
+    rdfs:comment "Vincula una ruta conocida con un segmento de GPS registrado."@es .
+
+qr:tipoMedio a owl:DatatypeProperty ;
+    rdfs:label "Tipo de medio visual"@es .
+
+qr:ubicadoEn a owl:ObjectProperty ;
+    rdfs:label "ubicado en"@es ;
+    rdfs:comment "Un lugar, sector o referencia espacial se encuentra dentro de otro."@es .
+
+qr:usaObjeto a owl:ObjectProperty ;
+    rdfs:label "usa objeto"@es ;
+    rdfs:comment "Objeto empleado en una práctica."@es .
+
+qr:vinculadoALugar a owl:ObjectProperty ;
+    rdfs:label "vinculado a lugar"@es ;
+    rdfs:comment "Vínculo conocido de un colectivo con una localidad; no supone exclusividad territorial."@es .
+
+qr:Antiguo a qr:Rol,
+        owl:NamedIndividual ;
+    rdfs:label "Antiguo"@es ;
+    dcterms:source <urn:qoylluriti:fuente:auditoria_etnografica_participante_2026> ;
+    rdfs:comment "Denominación de quien, entre los ukumaris de Paucartambo, ha completado sus tres primeros años y se encuentra desde el cuarto año de participación. Normalmente tiene mayor flexibilidad respecto de algunos encargos de los morocos; no implica ausencia de compromisos con la agrupación."@es .
+
+qr:BautizoMorocos a qr:PracticaCultural ;
+    rdfs:label "Bautizo de morocos en Tayankani"@es ;
+    qr:formaParteDe qr:FestividadQoylluriti ;
+    qr:ocurreEn qr:GrutaTayankani ;
+    qr:sigueA qr:IntiAlabado ;
+    qr:tieneRegistroVisual qr:Medio_QR_FOT_2025_051_01,
+        qr:Medio_QR_FOT_2025_051_02,
+        qr:Medio_QR_FOT_2025_051_03,
+        qr:Medio_QR_FOT_2025_051_04,
+        qr:Medio_QR_FOT_2025_051_05 ;
+    dcterms:source <urn:qoylluriti:fuente:auditoria_etnografica_participante_2026> ;
+    rdfs:comment "Bautizo de morocos realizado en la gruta de Tayankani, después del Inti Alabado y al finalizar la Lomada. En la experiencia personal de un danzante de Paucartambo este momento es especialmente significativo para el reconocimiento como integrante de la danza, tras haber compartido las exigencias del recorrido. No se lo confunde con la iniciación que ocurre durante el primer ascenso a Colque Punku. La asignación de las cinco fotografías ya vinculadas a este individuo se mantiene por compatibilidad, pero exige inspección visual antes de emplearse para documentar gestos específicos."@es .
+
+qr:BautizoPrimerAscensoColquePunku a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Iniciación durante el primer ascenso a Colque Punku"@es ;
+    qr:formaParteDe qr:FestividadQoylluriti ;
+    qr:ocurreEn qr:ColquePunku ;
+    qr:usaObjeto qr:Sorriago ;
+    dcterms:source <urn:qoylluriti:fuente:auditoria_etnografica_participante_2026> ;
+    rdfs:comment "Primer momento de bautizo o iniciación de quien llega por primera vez al sector de Colque Punku durante la peregrinación. El registro previo del TTL describe una acción con sorriago y un abrazo del caporal, cuyos detalles gestuales deben reconfirmarse mediante testimonios o evidencia visual. Se distingue del bautizo realizado en Tayankani después del Inti Alabado. El compromiso de continuidad de tres años se comunica desde antes de la primera peregrinación; el momento exacto de su formalización sigue sin confirmarse."@es .
+
+qr:CantoQespiCruz a qr:PracticaCultural ;
+    rdfs:label "Canto en Q’espi Cruz"@es ;
+    qr:formaParteDe qr:FestividadQoylluriti,
+        qr:Lomada ;
+    qr:ocurreEn qr:QespiCruz ;
+    qr:seRealizaEnRuta qr:RutaLomada ;
+    qr:sigueA qr:PermanenciaYanaqancha ;
+    dcterms:source <urn:qoylluriti:fuente:auditoria_etnografica_participante_2026> ;
+    rdfs:comment "Durante la madrugada, después del paso por Yanaqancha, los Qapaq Qollas de Nación Paucartambo ejecutan un canto de despedida en Q’espi Cruz. Danzantes de otras agrupaciones presentes, incluidos ukumaris y Qapaq Chunchos, observan con respeto. La relación participaEn se reserva aquí a los ejecutantes del canto: no expresa la presencia como observador."@es .
+
+qr:CapillaTayankani a qr:Lugar ;
+    rdfs:label "Capilla de Tayankani"@es ;
+    qr:ubicadoEn qr:Tayancani ;
+    rdfs:comment "Lugar en que permanece la imagen del Señor de Tayankani durante parte del calendario local."@es .
+
+qr:Caporal a qr:Rol ;
+    rdfs:label "Caporal"@es ;
+    dcterms:source <urn:qoylluriti:fuente:auditoria_etnografica_participante_2026> ;
+    rdfs:comment "Rol de conducción o coordinación en una agrupación de danza, con denominaciones específicas según la comparsa. Entre los Qapaq Chunchos de Nación Paucartambo el caporal es llamado Rey Chuncho; el caporal de los Qapaq Qollas también cumple funciones visibles durante el recorrido. El registro anterior describe intervenciones de caporales en iniciaciones y durante Wataskama; los detalles de prácticas particulares requieren corroboración antes de formalizar relaciones de autoridad o jerarquías."@es .
+
+qr:CeldaUkukusPaucartambo a qr:Lugar ;
+    rdfs:label "Celda de los ukumaris de Paucartambo"@es ;
+    qr:ubicadoEn qr:SantuarioQoylluriti ;
+    rdfs:comment "Espacio utilizado para dejar equipo, preparar comida y descansar en el sector del Santuario, próximo al sendero de subida a Colque Punku. Se encuentra en el entorno de bofedal."@es .
+
+qr:CementerioPaucartambo a qr:Lugar ;
+    rdfs:label "Cementerio de Paucartambo"@es ;
+    qr:ubicadoEn qr:Paucartambo ;
+    rdfs:comment "La romería visita y recuerda a antiguos integrantes de las danzas y familiares fallecidos antes de iniciar el viaje."@es .
+
+qr:CruzColquePunku a qr:Objeto ;
+    rdfs:label "Cruz de Colque Punku"@es ;
+    rdfs:comment "La cruz es llevada hacia arriba, a la zona de gruta de Colque Punku, el día anterior a su descenso. Después, ukumaris de distintas naciones participan por turnos en transportarla hacia abajo. Durante el traslado pueden producirse juegos y disputas físicamente intensas entre los participantes."@es .
+
+qr:DespedidaMachuCruz a qr:PracticaCultural ;
+    rdfs:label "Pausa de despedida en Machu Cruz"@es ;
+    qr:formaParteDe qr:FestividadQoylluriti,
+        qr:Lomada ;
+    qr:ocurreEn qr:MachuCruz ;
+    qr:seRealizaEnRuta qr:RutaLomada ;
+    rdfs:comment "En el recorrido de la Lomada aparece Machu Cruz, donde se describe una pausa para compartir maíz y queso como despedida antes de seguir caminando. La pausa ocurre durante el desplazamiento y se continúa caminando después de compartir alimentos."@es .
+
+qr:DespedidaYanaqocha a qr:PracticaCultural ;
+    rdfs:label "Despedida en Yanaqocha"@es ;
+    qr:formaParteDe qr:FestividadQoylluriti,
+        qr:Lomada ;
+    qr:ocurreEn qr:Yanaqocha ;
+    qr:seRealizaEnRuta qr:RutaLomada ;
+    rdfs:comment "En la laguna Yanaqocha los integrantes de la Nación se despiden con carreras y abrazos durante la Lomada."@es .
+
+qr:GrutaColquePunku a qr:Lugar ;
+    rdfs:label "Gruta de Colque Punku"@es ;
+    qr:ubicadoEn qr:ColquePunku ;
+    rdfs:comment "Sector de la cruz que se asciende previamente y se desciende después. Se distingue de la gruta utilizada por los ukumaris de Paucartambo en Tayankani."@es .
+
+qr:GrutaTayankani a qr:Lugar ;
+    rdfs:label "Gruta de Tayankani"@es ;
+    qr:tieneRegistroVisual qr:Medio_QR_FOT_2025_051_01,
+        qr:Medio_QR_FOT_2025_051_02,
+        qr:Medio_QR_FOT_2025_051_03,
+        qr:Medio_QR_FOT_2025_051_04,
+        qr:Medio_QR_FOT_2025_051_05 ;
+    qr:ubicadoEn qr:Tayancani ;
+    rdfs:comment "Gruta utilizada por los ukumaris de Nación Paucartambo para un momento del bautizo de morocos después del Inti Alabado."@es .
+
+qr:IglesiaPaucartambo a qr:Lugar ;
+    rdfs:label "Iglesia de Paucartambo"@es ;
+    qr:ubicadoEn qr:Paucartambo ;
+    rdfs:comment "Se celebra la misa previa a la partida. El recorrido por el pueblo también pasa por la iglesia."@es .
+
+qr:ImagenSenorTayankani a qr:Objeto ;
+    rdfs:label "Imagen del Señor de Tayankani"@es ;
+    rdfs:comment "Imagen relacionada con procesiones y desplazamientos entre el Santuario, Tayankani y Ocongate, tal como se describe en el recorrido y en el TTL histórico."@es .
+
+qr:LaderaYanaqancha a qr:Lugar ;
+    rdfs:label "Cerro de Yanaqancha"@es ;
+    qr:ubicadoEn qr:Yanaqancha ;
+    rdfs:comment "Ladera donde parte de los ukumaris participa en una danza durante la parada en Yanaqancha."@es .
+
+qr:Mamachapata a qr:Lugar ;
+    rdfs:label "Mamachapata"@es ;
+    qr:ubicadoEn qr:SantuarioQoylluriti ;
+    rdfs:comment "Sector del Santuario hacia el que se dirige la procesión con la imagen del Señor de Tayankani."@es .
+
+qr:Medio_QR_FOT_2025_035_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-035-01" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_035_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-035-02" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_035_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-035-03" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_038_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-038-01" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_038_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-038-02" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_038_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-038-03" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_038_04 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-038-04" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_038_05 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-038-05" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_038_06 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-038-06" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_038_07 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-038-07" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_038_08 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-038-08" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0009 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0009" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0010 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0010" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0011 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0011" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0012 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0012" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0013 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0013" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0014 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0014" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0015 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0015" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0016 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0016" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0017 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0017" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0018 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0018" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0019 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0019" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0020 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0020" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0021 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0021" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0022 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0022" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0023 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0023" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0024 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0024" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0025 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0025" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0026 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0026" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0027 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0027" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_DRON_0028 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-DRON-0028" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Moroco a qr:Rol ;
+    rdfs:label "Moroco"@es ;
+    dcterms:source <urn:qoylluriti:fuente:auditoria_etnografica_participante_2026> ;
+    rdfs:comment "Denominación del integrante de la agrupación de ukumaris durante sus tres primeros años de participación. Durante este periodo suele asumir encargos, colaboración y transporte de qeperinas y otros bultos. La obligación de participar tres años seguidos se comunica antes del ingreso. Estas tareas no se presentan como idénticas para todos los morocos ni en todas las actividades."@es .
+
+qr:Nacion a owl:Class ;
+    rdfs:label "Nación de la peregrinación"@es ;
+    rdfs:subClassOf qr:Colectivo .
+
+qr:QquchiyocWayqo a qr:Lugar ;
+    rdfs:label "Qquchiyoc Wayq’o"@es ;
+    rdfs:comment "Quebrada con un riachuelo en el camino de la Lomada, en el sector comprendido entre Yanaqancha y Q’espi Cruz."@es .
+
+qr:RiachueloWataskama a qr:Lugar ;
+    rdfs:label "Riachuelo de Wataskama"@es ;
+    qr:ubicadoEn qr:Wataskama ;
+    rdfs:comment "Referencia física del lugar donde se corre y se cruza de una orilla a otra durante el encuentro."@es .
+
+qr:RomeriaPaucartambo a qr:PracticaCultural ;
+    rdfs:label "Romería en Paucartambo"@es ;
+    qr:formaParteDe qr:FestividadQoylluriti,
+        qr:PreparacionPaucartambo ;
+    qr:ocurreEn qr:CementerioPaucartambo ;
+    rdfs:comment "Después de la misa y antes de la partida se visita el cementerio de Paucartambo. Allí se recuerda a los integrantes de las danzas que ya murieron, a los antiguos y a los familiares fallecidos. La visita es parte de la preparación del grupo, antes de regresar a las calles y salir en camiones."@es .
+
+qr:Sinakara a qr:Lugar ;
+    rdfs:label "Sinakara"@es ;
+    rdfs:comment "Entorno de montaña en el que está el Santuario de Qoyllur Rit’i. En la experiencia relatada se reconoce a Sinakara como apu."@es .
+
+qr:Sorriago a qr:Objeto ;
+    rdfs:label "Sorriago"@es ;
+    rdfs:comment "Elemento utilizado por el caporal durante el bautizo de morocos, con golpes rituales seguidos de un abrazo, según lo descrito para la experiencia del grupo."@es .
+
+<https://doi.org/10.1017/lar.2025.10085> dcterms:bibliographicCitation "Salas Carreño, Guillermo (2025, publicación en línea; volumen 2026). How and Why the Quyllurit’i Pilgrimage Is Related to the Tupac Amaru Rebellion. Latin American Research Review, 61(2), 253-271. https://doi.org/10.1017/lar.2025.10085" .
+
+<https://doi.org/10.18800/anthropologica.198701.008> dcterms:bibliographicCitation "Flores Lizana, J. Carlos (1987). El santuario de Qoyllur-rit’i (una peregrinación andina). Expresión y germen de organización campesina. Anthropologica. https://doi.org/10.18800/anthropologica.198701.008" .
+
+<https://doi.org/10.18800/anthropologica.202002.006> dcterms:bibliographicCitation "Torres Lezama, Vicente (2020). Kallpachakuy: Coca, bebida y cigarro como fuerza y protección en la peregrinación a Qoyllurit’i. Anthropologica, 38(45), 133-159. https://doi.org/10.18800/anthropologica.202002.006" .
+
+qr26:Tramo01 a qr:TramoGPS ;
+    rdfs:label "GPX-01 · 2026-05-31_18-56_Sun paucartambo huancarani"@es ;
+    qr:identificadorGPS "GPX-01" ;
+    qr:inicioUTC "2026-05-31T23:56:50+00:00"^^xsd:dateTime ;
+    qr:longitudKm 42.649 ;
+    qr:modalidad "vehiculo"@es .
+
+qr26:Tramo02 a qr:TramoGPS ;
+    rdfs:label "GPX-02 · 2026-05-31_21-06_Sun huancarani ccatcca"@es ;
+    qr:identificadorGPS "GPX-02" ;
+    qr:inicioUTC "2026-06-01T02:06:30+00:00"^^xsd:dateTime ;
+    qr:longitudKm 25.455 ;
+    qr:modalidad "vehiculo"@es .
+
+qr26:Tramo03 a qr:TramoGPS ;
+    rdfs:label "GPX-03 · 2026-06-01_03-01_Mon ocongate mahuayani"@es ;
+    qr:identificadorGPS "GPX-03" ;
+    qr:inicioUTC "2026-06-01T08:01:42+00:00"^^xsd:dateTime ;
+    qr:longitudKm 21.573 ;
+    qr:modalidad "vehiculo"@es .
+
+qr26:Tramo04 a qr:TramoGPS ;
+    rdfs:label "GPX-04 · 2026-06-01_05-12_Mahu santuario"@es ;
+    qr:identificadorGPS "GPX-04" ;
+    qr:inicioUTC "2026-06-01T10:12:42+00:00"^^xsd:dateTime ;
+    qr:longitudKm 9.679 ;
+    qr:modalidad "pie"@es .
+
+qr26:Tramo05 a qr:TramoGPS ;
+    rdfs:label "GPX-05 · 2026-06-01_23-53_Mon santuario Colque punku"@es ;
+    qr:identificadorGPS "GPX-05" ;
+    qr:inicioUTC "2026-06-02T04:53:55+00:00"^^xsd:dateTime ;
+    qr:longitudKm 2.018 ;
+    qr:modalidad "pie"@es .
+
+qr26:Tramo06 a qr:TramoGPS ;
+    rdfs:label "GPX-06 · 2026-06-02_07-16_Tue glaciar santuario"@es ;
+    qr:identificadorGPS "GPX-06" ;
+    qr:inicioUTC "2026-06-02T12:16:07+00:00"^^xsd:dateTime ;
+    qr:longitudKm 1.187 ;
+    qr:modalidad "pie"@es .
+
+qr26:Tramo07 a qr:TramoGPS ;
+    rdfs:label "GPX-07 · 2026-06-02_10-56_Tue santuario wataskama"@es ;
+    qr:identificadorGPS "GPX-07" ;
+    qr:inicioUTC "2026-06-02T15:56:47+00:00"^^xsd:dateTime ;
+    qr:longitudKm 5.739 ;
+    qr:modalidad "pie"@es .
+
+qr26:Tramo08 a qr:TramoGPS ;
+    rdfs:label "GPX-08 · 2026-06-02_15-46_watascama yanacancha"@es ;
+    qr:identificadorGPS "GPX-08" ;
+    qr:inicioUTC "2026-06-02T20:46:09+00:00"^^xsd:dateTime ;
+    qr:longitudKm 1.99 ;
+    qr:modalidad "pie"@es .
+
+qr26:Tramo09 a qr:TramoGPS ;
+    rdfs:label "GPX-09 · 2026-06-02_20-00_Tue tayancani"@es ;
+    qr:identificadorGPS "GPX-09" ;
+    qr:inicioUTC "2026-06-03T01:00:00+00:00"^^xsd:dateTime ;
+    qr:longitudKm 12.352 ;
+    qr:modalidad "pie"@es .
+
+qr26:Tramo10 a qr:TramoGPS ;
+    rdfs:label "GPX-10 · 2026-06-03_06-20_Wed"@es ;
+    qr:identificadorGPS "GPX-10" ;
+    qr:inicioUTC "2026-06-03T11:20:33+00:00"^^xsd:dateTime ;
+    qr:longitudKm 2.319 ;
+    qr:modalidad "pie"@es .
+
+qr26:Tramo11 a qr:TramoGPS ;
+    rdfs:label "GPX-11 · 2026-06-03_14-07_Wed"@es ;
+    qr:identificadorGPS "GPX-11" ;
+    qr:inicioUTC "2026-06-03T19:07:06+00:00"^^xsd:dateTime ;
+    qr:longitudKm 1.259 ;
+    qr:modalidad "pie"@es .
+
+qr26:Tramo12 a qr:TramoGPS ;
+    rdfs:label "GPX-12 · Ccatcca ocongate"@es ;
+    qr:identificadorGPS "GPX-12" ;
+    qr:inicioUTC "2026-06-01T05:25:43+00:00"^^xsd:dateTime ;
+    qr:longitudKm 31.373 ;
+    qr:modalidad "vehiculo"@es .
+
+qr:Carpapampa a qr:Lugar ;
+    rdfs:label "Carpapampa, Paucartambo"@es ;
+    qr:ubicadoEn qr:Paucartambo ;
+    rdfs:comment "Barrio donde se ubica la losa Huáscar, lugar del ensayo general previo a la peregrinación."@es .
+
+qr:Escalerachayoq a qr:Lugar ;
+    rdfs:label "Escalerachayoq"@es ;
+    qr:continuaHacia qr:Tayancani ;
+    rdfs:comment "Sector de escalones de piedra del camino nocturno hacia Tayankani. La bajada es prolongada y exigente físicamente."@es .
+
+qr:Festividad a owl:Class ;
+    rdfs:label "Festividad"@es ;
+    rdfs:subClassOf qr:PracticaCultural .
+
+qr:Huancarani a qr:Lugar ;
+    rdfs:label "Huancarani"@es ;
+    qr:continuaHacia qr:Ccatcca ;
+    rdfs:comment "Localidad y punto de paso en el recorrido vehicular desde Paucartambo hacia Ccatcca."@es .
+
+qr:MachuCruz a qr:Lugar ;
+    rdfs:label "Machu Cruz"@es ;
+    rdfs:comment "Hito de la Lomada en el que se hace una pausa de despedida y se comparte maíz y queso antes de seguir."@es .
+
+qr:Medio_QR_FOT_2025_030_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-030-01" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_030_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-030-02" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_030_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-030-03" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_030_04 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-030-04" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_031_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-031-01" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_031_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-031-02" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_031_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-031-03" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_031_04 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-031-04" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_031_05 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-031-05" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_031_06 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-031-06" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_040_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-040-02" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_040_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-040-03" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_040_04 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-040-04" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_040_05 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-040-05" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_040_06 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-040-06" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_041_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-041-01" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_041_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-041-02" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_041_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-041-03" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_041_04 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-041-04" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_041_05 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-041-05" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_041_06 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-041-06" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_042_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-042-01" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_042_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-042-02" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_042_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-042-03" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_042_04 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-042-04" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_042_05 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-042-05" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-044-01" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-044-02" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-044-03" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_04 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-044-04" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_05 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-044-05" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_06 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-044-06" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_07 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-044-07" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_08 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-044-08" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_09 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-044-09" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_10 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-044-10" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_11 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-044-11" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_044_12 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-044-12" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_046_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-046-01" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_046_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-046-02" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_046_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-046-03" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-047-01" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-047-02" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-047-03" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_04 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-047-04" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_05 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-047-05" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_06 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-047-06" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_07 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-047-07" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_08 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-047-08" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_09 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-047-09" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_10 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-047-10" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_11 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-047-11" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_12 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-047-12" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_13 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-047-13" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_14 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-047-14" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_15 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-047-15" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_16 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-047-16" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_17 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-047-17" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_18 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-047-18" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_047_19 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-047-19" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_051_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-051-01" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_051_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-051-02" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_051_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-051-03" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_051_04 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-051-04" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2025_051_05 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2025-051-05" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_031_01 a qr:MedioVisual ;
+    qr:identificadorMedio "QR-FOT-2026-031-01" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_036_01 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-036-01" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_036_02 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-036-02" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_043_01 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-043-01" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_043_02 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-043-02" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_043_03 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-043-03" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_043_04 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-043-04" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_043_05 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-043-05" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_043_06 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-043-06" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_043_07 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-043-07" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_043_08 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-043-08" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_043_09 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-043-09" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_043_10 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-043-10" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_043_11 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-043-11" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_045_01 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-045-01" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_045_02 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-045-02" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_045_03 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-045-03" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_01 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-053-01" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_02 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-053-02" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_03 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-053-03" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_04 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-053-04" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_05 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-053-05" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_06 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-053-06" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_07 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-053-07" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_08 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-053-08" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_09 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-053-09" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_10 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-053-10" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_11 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-053-11" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_12 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-053-12" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_13 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-053-13" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_14 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-053-14" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_053_15 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-053-15" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_ANO_PEND_052_01 a qr:MedioVisual ;
+    qr:identificadorMedio "QR-FOT-ANO-PEND-052-01" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_ANO_PEND_052_02 a qr:MedioVisual ;
+    qr:identificadorMedio "QR-FOT-ANO-PEND-052-02" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_ANO_PEND_052_03 a qr:MedioVisual ;
+    qr:identificadorMedio "QR-FOT-ANO-PEND-052-03" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_ANO_PEND_052_04 a qr:MedioVisual ;
+    qr:identificadorMedio "QR-FOT-ANO-PEND-052-04" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_ANO_PEND_052_05 a qr:MedioVisual ;
+    qr:identificadorMedio "QR-FOT-ANO-PEND-052-05" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_CCATCCA_034_01 a qr:MedioVisual ;
+    qr:identificadorMedio "QR-FOT-CCATCCA-034-01" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_CCATCCA_034_02 a qr:MedioVisual ;
+    qr:identificadorMedio "QR-FOT-CCATCCA-034-02" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_CCATCCA_034_03 a qr:MedioVisual ;
+    qr:identificadorMedio "QR-FOT-CCATCCA-034-03" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2025_050_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-2025-050-01" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2025_050_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-2025-050-02" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2025_050_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-2025-050-03" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2025_050_04 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-2025-050-04" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2025_050_05 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-2025-050-05" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_MED_2025_050_06 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-2025-050-06" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2025_050_07 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-2025-050-07" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_MED_2025_050_08 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-2025-050-08" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2025_050_09 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-2025-050-09" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_MED_2025_050_10 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-2025-050-10" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2026_050_01 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-2026-050-01" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2026_050_02 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-2026-050-02" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2026_050_03 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-2026-050-03" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2026_050_04 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-2026-050-04" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2026_050_05 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-2026-050-05" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_MED_2026_050_06 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-2026-050-06" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2026_050_07 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-2026-050-07" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_MED_2026_050_08 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-2026-050-08" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2026_050_09 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-2026-050-09" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_MED_2026_050_10 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-2026-050-10" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_2026_050_11 a qr:MedioVisual,
+        owl:NamedIndividual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:archivoRelativo "medios/QR-MED-2026-050-11.jpg" ;
+    qr:identificadorMedio "QR-MED-2026-050-11" ;
+    qr:sha256 "7e9be149a940d43579e3ded5877b9ad7b55501293fd36e8bb0e810b53999cef2" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_SF_049_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-SF-049-01" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_SF_049_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-SF-049-02" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_SF_049_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-SF-049-03" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_SF_049_04 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-SF-049-04" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_SF_049_05 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-SF-049-05" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_SF_049_06 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-SF-049-06" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_SF_049_07 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-SF-049-07" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_SF_049_08 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-SF-049-08" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_MED_SF_049_09 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-SF-049-09" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_MED_SF_049_10 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-SF-049-10" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_MED_SF_049_11 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-SF-049-11" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_MED_SF_049_12 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-MED-SF-049-12" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_VID_2025_031_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-VID-2025-031-01" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_VID_2025_040_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-VID-2025-040-01" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_VID_2025_041_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-VID-2025-041-01" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_VID_2025_044_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-VID-2025-044-01" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_VID_2025_046_01 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-VID-2025-046-01" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_VID_2025_046_02 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-VID-2025-046-02" ;
+    qr:tipoMedio "Video"@es .
+
+qr:Medio_QR_VID_2025_046_03 a qr:MedioVisual ;
+    qr:anioRegistro "2025"^^xsd:gYear ;
+    qr:identificadorMedio "QR-VID-2025-046-03" ;
+    qr:tipoMedio "Video"@es .
+
+qr:QespiCruz a qr:Lugar ;
+    rdfs:label "Q’espi Cruz"@es ;
+    rdfs:comment "Hito alto de paso y descanso en la Lomada, también llamado Quespi Cruz. Desde el recorrido se contempla el paisaje de montaña; queda por precisar si es uno de los últimos puntos desde donde se observa el glaciar."@es .
+
+qr:RutaMahuayaniSantuario a qr:Ruta ;
+    rdfs:label "Camino de Mahuayani al Santuario"@es ;
+    qr:iniciaEn qr:Mahuayani ;
+    qr:terminaEn qr:SantuarioQoylluriti ;
+    qr:tieneRegistroVisual qr:Medio_QR_FOT_2025_038_01,
+        qr:Medio_QR_FOT_2025_038_02,
+        qr:Medio_QR_FOT_2025_038_03,
+        qr:Medio_QR_FOT_2025_038_04,
+        qr:Medio_QR_FOT_2025_038_05,
+        qr:Medio_QR_FOT_2025_038_06,
+        qr:Medio_QR_FOT_2025_038_07,
+        qr:Medio_QR_FOT_2025_038_08,
+        qr:Medio_QR_FOT_2026_036_03,
+        qr:Medio_QR_FOT_2026_036_04,
+        qr:Medio_QR_FOT_2026_036_05,
+        qr:Medio_QR_FOT_2026_036_06,
+        qr:Medio_QR_VID_2026_036_01 ;
+    qr:tieneTramoGPS qr26:Tramo04 ;
+    rdfs:comment "El camino se inicia entre camiones, puestos de comida y peregrinos con pertenencias. Desde poco después de Mahuayani puede verse el pueblo desde arriba. Los ukumaris cargan carpas, bolsas de dormir, vestimenta y comida; los morocos llevan también leña y otros bultos en esta etapa. Parte de la carga puede subir en caballos. La llegada conduce al sector del Santuario."@es .
+
+qr:RutaOcongatePaucartambo a qr:Ruta ;
+    rdfs:label "Camino de regreso de Ocongate a Paucartambo"@es ;
+    qr:iniciaEn qr:Ocongate ;
+    qr:terminaEn qr:Paucartambo ;
+    rdfs:comment "Desde Ocongate se regresa en camión durante la noche. Los participantes llegan a Paucartambo de madrugada y descansan. A la mañana siguiente se celebra Corpus Christi por las calles del pueblo."@es .
+
+qr:RutaPaucartamboMahuayani a qr:Ruta ;
+    rdfs:label "Camino de Paucartambo a Mahuayani"@es ;
+    qr:iniciaEn qr:Paucartambo ;
+    qr:pasaPor qr:Ccatcca,
+        qr:Huancarani,
+        qr:Ocongate ;
+    qr:terminaEn qr:Mahuayani ;
+    qr:tieneRegistroVisual qr:Medio_QR_FOT_2025_035_01,
+        qr:Medio_QR_FOT_2025_035_02,
+        qr:Medio_QR_FOT_2025_035_03,
+        qr:Medio_QR_FOT_2026_036_01,
+        qr:Medio_QR_FOT_2026_036_02,
+        qr:Medio_QR_FOT_2026_036_03,
+        qr:Medio_QR_FOT_2026_036_04,
+        qr:Medio_QR_FOT_2026_036_05,
+        qr:Medio_QR_FOT_2026_036_06,
+        qr:Medio_QR_FOT_CCATCCA_034_01,
+        qr:Medio_QR_FOT_CCATCCA_034_02,
+        qr:Medio_QR_FOT_CCATCCA_034_03,
+        qr:Medio_QR_VID_2026_036_01 ;
+    qr:tieneTramoGPS qr26:Tramo01,
+        qr26:Tramo02,
+        qr26:Tramo03,
+        qr26:Tramo12 ;
+    rdfs:comment "El grupo parte de Paucartambo en camiones. En el trayecto se pasa por Huancarani, Ccatcca y Ocongate antes de llegar a Mahuayani. Los ukumaris viajan en conjunto y las mamawairis apoyan el transporte y las tareas de alimentación. En Ccatcca se comparte carne y maíz con población local; se visita una iglesia y se descansa. También se recuerda una parada en casa de un prioste, donde se encuentran ukumaris, Qollas y Chunchus."@es .
+
+qr:RutaTayankaniOcongate a qr:Ruta ;
+    rdfs:label "Camino de Tayankani a Ocongate"@es ;
+    qr:iniciaEn qr:Tayancani ;
+    qr:terminaEn qr:Ocongate ;
+    qr:tieneRegistroVisual qr:Medio_QR_FOT_ANO_PEND_052_01,
+        qr:Medio_QR_FOT_ANO_PEND_052_02,
+        qr:Medio_QR_FOT_ANO_PEND_052_03,
+        qr:Medio_QR_FOT_ANO_PEND_052_04,
+        qr:Medio_QR_FOT_ANO_PEND_052_05 ;
+    qr:tieneTramoGPS qr26:Tramo10,
+        qr26:Tramo11 ;
+    rdfs:comment "Después del Inti Alabado se continúa a pie hacia Ocongate. La gente del pueblo recibe a las agrupaciones con alegría; también se ofrece chicha. En la cancha se reúnen los grupos y el público ocupa las graderías. Allí se permanece hasta la noche."@es .
+
+qr:TrasladoCruzColquePunku a qr:PracticaCultural ;
+    rdfs:label "Traslado de la cruz de Colque Punku"@es ;
+    qr:formaParteDe qr:DescensoColquePunku,
+        qr:FestividadQoylluriti ;
+    qr:ocurreEn qr:ColquePunku,
+        qr:SantuarioQoylluriti ;
+    qr:seRealizaEnRuta qr:RutaColquePunkuSantuario ;
+    qr:sigueA qr:AscensoColquePunku ;
+    qr:tieneRegistroVisual qr:Medio_QR_FOT_2025_046_01,
+        qr:Medio_QR_FOT_2025_046_02,
+        qr:Medio_QR_FOT_2025_046_03,
+        qr:Medio_QR_VID_2025_046_01,
+        qr:Medio_QR_VID_2025_046_02,
+        qr:Medio_QR_VID_2025_046_03 ;
+    qr:usaObjeto qr:CruzColquePunku ;
+    rdfs:comment "La cruz había sido llevada el día anterior a la zona de gruta de Colque Punku. Durante el descenso, ukumaris de distintas naciones se turnan en llevarla hacia el Santuario. Se produce un juego de fuerza y de relevo entre grupos; en ocasiones la disputa por llevarla puede ponerse áspera. En un video de 2025 se ve a ukumaris de Nación Paucartambo transportándola, sin que sea necesario que el video muestre el instante del cambio de turno. La concentración de banderas forma parte de la llegada del descenso."@es .
+
+qr:Yanaqocha a qr:Lugar ;
+    rdfs:label "Laguna Yanaqocha"@es ;
+    rdfs:comment "Hito de la Lomada donde el TTL de 2025 describe saludos y despedidas entre integrantes de la Nación."@es .
+
+<https://hdl.handle.net/20.500.12918/3606> dcterms:bibliographicCitation "Chaucca Mancco, Roger (2018). Los Pablitos de Paucartambo. Tesis de Antropología, Universidad Nacional de San Antonio Abad del Cusco. Sección 5.4.2, pp. 81-83 (wataskama y Qochapata)." .
+
+qr:BanderasNaciones a qr:Objeto ;
+    rdfs:label "Banderas de las naciones"@es ;
+    rdfs:comment "Banderas portadas por las agrupaciones y visibles en los encuentros de ukumaris, el ascenso y descenso de Colque Punku y el Inti Alabado."@es .
+
+qr:DanzaLaderaYanaqancha a qr:PracticaCultural,
+        owl:NamedIndividual ;
+    rdfs:label "Danza colectiva en la ladera de Yanaqancha"@es ;
+    qr:formaParteDe qr:FestividadQoylluriti,
+        qr:Lomada ;
+    qr:ocurreEn qr:LaderaYanaqancha,
+        qr:Yanaqancha ;
+    dcterms:source <urn:qoylluriti:fuente:auditoria_etnografica_participante_2026> ;
+    rdfs:comment "Durante la parada en Yanaqancha se realiza una danza colectiva en la ladera, con participación de integrantes de las danzas de Nación Paucartambo que cumplen la antigüedad requerida (según testimonio: al menos dos años en la danza). Mientras tanto otros participantes cumplen tareas de transporte de qeperinas y descanso. El nombre local preciso de la danza continúa pendiente de confirmación. La presencia de una agrupación no implica que todos sus miembros dancen."@es .
+
+qr:IntiAlabado a qr:PracticaCultural ;
+    rdfs:label "Inti Alabado"@es ;
+    qr:formaParteDe qr:FestividadQoylluriti,
+        qr:Lomada ;
+    qr:ocurreEn qr:Tayancani ;
+    qr:seRealizaEnRuta qr:RutaLomada ;
+    qr:sigueA qr:PermanenciaYanaqancha ;
+    qr:tieneRegistroVisual qr:Medio_QR_MED_2025_050_01,
+        qr:Medio_QR_MED_2025_050_02,
+        qr:Medio_QR_MED_2025_050_03,
+        qr:Medio_QR_MED_2025_050_04,
+        qr:Medio_QR_MED_2025_050_05,
+        qr:Medio_QR_MED_2025_050_06,
+        qr:Medio_QR_MED_2025_050_07,
+        qr:Medio_QR_MED_2025_050_08,
+        qr:Medio_QR_MED_2025_050_09,
+        qr:Medio_QR_MED_2025_050_10,
+        qr:Medio_QR_MED_2026_050_01,
+        qr:Medio_QR_MED_2026_050_02,
+        qr:Medio_QR_MED_2026_050_03,
+        qr:Medio_QR_MED_2026_050_04,
+        qr:Medio_QR_MED_2026_050_05,
+        qr:Medio_QR_MED_2026_050_06,
+        qr:Medio_QR_MED_2026_050_07,
+        qr:Medio_QR_MED_2026_050_08,
+        qr:Medio_QR_MED_2026_050_09,
+        qr:Medio_QR_MED_2026_050_10,
+        qr:Medio_QR_MED_2026_050_11 ;
+    qr:usaObjeto qr:BanderasNaciones,
+        qr:Queperina ;
+    rdfs:comment "Al amanecer en Tayankani, al final de la Lomada, las queperinas se reúnen en un mismo sector. Los ukumaris de diferentes naciones se forman en filas y después realizan desplazamientos en zigzag, corriendo y bailando por la ladera. Las fotografías de 2025 muestran el comienzo de la secuencia, con las queperinas reunidas, y luego la formación; las de 2026 permiten observar las filas y los desplazamientos desde otros momentos. El significado específico de la forma en zigzag permanece abierto. Después se desarrollan otros momentos de los ukumaris, incluido el bautizo de morocos de Paucartambo en su gruta."@es .
+
+qr:ItinerarioPaucartambo a qr:Ruta ;
+    rdfs:label "Itinerario de Nación Paucartambo"@es ;
+    qr:incluyeRuta qr:RutaColquePunkuSantuario,
+        qr:RutaLomada,
+        qr:RutaMahuayaniSantuario,
+        qr:RutaOcongatePaucartambo,
+        qr:RutaPaucartamboMahuayani,
+        qr:RutaSantuarioColquePunku,
+        qr:RutaTayankaniOcongate ;
+    qr:iniciaEn qr:Paucartambo ;
+    qr:terminaEn qr:Paucartambo ;
+    rdfs:comment "Itinerario que parte de Paucartambo, continúa por los caminos hacia Mahuayani, el Santuario y Colque Punku, sigue en la Lomada hasta Tayankani, llega a Ocongate y regresa a Paucartambo. Describe la secuencia vivida con Nación Paucartambo, con medios y detalles de 2025 y 2026. Las etapas de retorno cierran el ciclo espacial."@es .
+
+qr:Mahuayani a qr:Lugar ;
+    rdfs:label "Mahuayani"@es ;
+    qr:continuaHacia qr:SantuarioQoylluriti ;
+    qr:tieneRegistroVisual qr:Medio_QR_FOT_2026_036_01,
+        qr:Medio_QR_FOT_2026_036_02,
+        qr:Medio_QR_FOT_2026_036_03,
+        qr:Medio_QR_FOT_2026_036_04,
+        qr:Medio_QR_FOT_2026_036_05,
+        qr:Medio_QR_FOT_2026_036_06,
+        qr:Medio_QR_VID_2026_036_01 ;
+    rdfs:comment "Punto de transición entre el traslado en camiones y la caminata hacia el Santuario. Los peregrinos preparan y cargan sus pertenencias."@es .
+
+qr:Medio_QR_FOT_2026_036_03 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-036-03" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_036_04 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-036-04" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_036_05 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-036-05" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_FOT_2026_036_06 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-FOT-2026-036-06" ;
+    qr:tipoMedio "Fotografía"@es .
+
+qr:Medio_QR_VID_2026_036_01 a qr:MedioVisual ;
+    qr:anioRegistro "2026"^^xsd:gYear ;
+    qr:identificadorMedio "QR-VID-2026-036-01" ;
+    qr:tipoMedio "Video"@es .
+
+qr:NacionPaucartambo a qr:Nacion ;
+    rdfs:label "Nación Paucartambo"@es ;
+    qr:vinculadoALugar qr:Paucartambo ;
+    rdfs:comment "Colectivo de pertenencia que reúne agrupaciones participantes de la peregrinación. El nombre de la Nación identifica una organización colectiva, mientras que Paucartambo es también la localidad vinculada a su partida y regreso."@es .
+
+qr:PermanenciaSantuario a qr:PracticaCultural ;
+    rdfs:label "Permanencia y descanso en el Santuario"@es ;
+    qr:formaParteDe qr:FestividadQoylluriti ;
+    qr:ocurreEn qr:CeldaUkukusPaucartambo,
+        qr:SantuarioQoylluriti ;
+    qr:sigueA qr:PreparacionPaucartambo ;
+    qr:tieneRegistroVisual qr:Medio_QR_FOT_2025_040_02,
+        qr:Medio_QR_FOT_2025_040_03,
+        qr:Medio_QR_FOT_2025_040_04,
+        qr:Medio_QR_FOT_2025_040_05,
+        qr:Medio_QR_FOT_2025_040_06,
+        qr:Medio_QR_VID_2025_040_01 ;
+    qr:usaObjeto qr:Queperina ;
+    rdfs:comment "Tras subir desde Mahuayani se llega al Santuario. Los ukumaris tienen un espacio de campamento en el sector alto, hacia el sendero de Colque Punku, cerca de un bofedal; allí dejan queperinas, carpas, bolsas de dormir y otros objetos, comen y descansan. Hay circulación continua de peregrinos, pequeñas instalaciones y puestos, así como actividades en la iglesia, antes del ascenso nocturno. Las fotografías de 2025 muestran momentos de ingreso y estancia en el templo; el campamento se conoce por el relato de la experiencia."@es .
+
+qr:PermanenciaYanaqancha a qr:PracticaCultural ;
+    rdfs:label "Descanso y actividades en Yanaqancha"@es ;
+    qr:formaParteDe qr:FestividadQoylluriti,
+        qr:Lomada ;
+    qr:ocurreEn qr:Yanaqancha ;
+    qr:seRealizaEnRuta qr:RutaLomada ;
+    qr:sigueA qr:EncuentroWataskama ;
+    qr:tieneRegistroVisual qr:Medio_QR_MED_SF_049_01,
+        qr:Medio_QR_MED_SF_049_02,
+        qr:Medio_QR_MED_SF_049_03,
+        qr:Medio_QR_MED_SF_049_04,
+        qr:Medio_QR_MED_SF_049_05,
+        qr:Medio_QR_MED_SF_049_06,
+        qr:Medio_QR_MED_SF_049_07,
+        qr:Medio_QR_MED_SF_049_08,
+        qr:Medio_QR_MED_SF_049_09,
+        qr:Medio_QR_MED_SF_049_10,
+        qr:Medio_QR_MED_SF_049_11,
+        qr:Medio_QR_MED_SF_049_12 ;
+    qr:usaObjeto qr:Queperina ;
+    dcterms:source <urn:qoylluriti:fuente:auditoria_etnografica_participante_2026> ;
+    rdfs:comment "Parada durante la Lomada destinada a descanso, alimentación y organización de pertenencias en el sector de Yanaqancha. Los morocos asumen con frecuencia el traslado de qeperinas y otros bultos. En la ladera cercana ocurre además una danza que se documenta como práctica diferenciada, con requisitos de antigüedad para quienes la ejecutan. La simultaneidad de labores no implica que todos los integrantes participen en la danza."@es .
+
+qr:ProcesionImagenTayankani a qr:PracticaCultural ;
+    rdfs:label "Procesiones de la imagen del Señor de Tayankani"@es ;
+    qr:formaParteDe qr:FestividadQoylluriti ;
+    qr:ocurreEn qr:CapillaTayankani,
+        qr:Mamachapata,
+        qr:Ocongate,
+        qr:SantuarioQoylluriti ;
+    qr:usaObjeto qr:ImagenSenorTayankani ;
+    rdfs:comment "La imagen del Señor de Tayankani es llevada en procesiones por distintos sectores del camino. El recorrido incluye el paso por Mamachapata, la capilla de Tayankani y el traslado hacia Ocongate. Son momentos de una práctica procesional continua con varios lugares vinculados."@es .
+
+qr:Queperina a qr:Objeto ;
+    rdfs:label "Queperina"@es ;
+    rdfs:comment "Tela o bulto usado para cargar pertenencias a la espalda. Los morocos trasladan queperinas durante la caminata y, de modo destacado, hacia los espacios de descanso en Yanaqancha."@es .
+
+qr:RutaSantuarioColquePunku a qr:Ruta ;
+    rdfs:label "Camino del Santuario a Colque Punku"@es ;
+    qr:iniciaEn qr:SantuarioQoylluriti ;
+    qr:terminaEn qr:ColquePunku ;
+    qr:tieneRegistroVisual qr:Medio_QR_FOT_2025_041_01,
+        qr:Medio_QR_FOT_2025_041_02,
+        qr:Medio_QR_FOT_2025_041_03,
+        qr:Medio_QR_FOT_2025_041_04,
+        qr:Medio_QR_FOT_2025_041_05,
+        qr:Medio_QR_FOT_2025_041_06,
+        qr:Medio_QR_VID_2025_041_01 ;
+    qr:tieneTramoGPS qr26:Tramo05 ;
+    rdfs:comment "Ascenso nocturno desde el Santuario hasta el sector de Colque Punku. Desde la altura se ven las luces del Santuario y en algunas ocasiones fuegos artificiales. Se asciende con banderas; la marcha es físicamente exigente y se llega antes o cerca del amanecer."@es .
+
+qr:AgrupacionDanza a owl:Class ;
+    rdfs:label "Agrupación de danza"@es ;
+    rdfs:subClassOf qr:Colectivo .
+
+qr:AscensoColquePunku a qr:PracticaCultural ;
+    rdfs:label "Ascenso a Colque Punku"@es ;
+    qr:formaParteDe qr:FestividadQoylluriti ;
+    qr:ocurreEn qr:ColquePunku,
+        qr:GrutaColquePunku ;
+    qr:seRealizaEnRuta qr:RutaSantuarioColquePunku ;
+    qr:sigueA qr:PermanenciaSantuario ;
+    qr:tieneRegistroVisual qr:Medio_QR_FOT_2025_041_01,
+        qr:Medio_QR_FOT_2025_041_02,
+        qr:Medio_QR_FOT_2025_041_03,
+        qr:Medio_QR_FOT_2025_041_04,
+        qr:Medio_QR_FOT_2025_041_05,
+        qr:Medio_QR_FOT_2025_041_06,
+        qr:Medio_QR_FOT_2025_042_01,
+        qr:Medio_QR_FOT_2025_042_02,
+        qr:Medio_QR_FOT_2025_042_03,
+        qr:Medio_QR_FOT_2025_042_04,
+        qr:Medio_QR_FOT_2025_042_05,
+        qr:Medio_QR_FOT_2026_043_01,
+        qr:Medio_QR_FOT_2026_043_02,
+        qr:Medio_QR_FOT_2026_043_03,
+        qr:Medio_QR_FOT_2026_043_04,
+        qr:Medio_QR_FOT_2026_043_05,
+        qr:Medio_QR_FOT_2026_043_06,
+        qr:Medio_QR_FOT_2026_043_07,
+        qr:Medio_QR_FOT_2026_043_08,
+        qr:Medio_QR_FOT_2026_043_09,
+        qr:Medio_QR_FOT_2026_043_10,
+        qr:Medio_QR_FOT_2026_043_11,
+        qr:Medio_QR_VID_2025_041_01 ;
+    qr:usaObjeto qr:BanderasNaciones ;
+    rdfs:comment "Los ukumaris ascienden de noche desde el Santuario, aproximadamente desde las once, y alcanzan el sector de Colque Punku cerca de las cuatro o cinco de la mañana. Se camina en altura con otras naciones y con banderas; durante la subida se distinguen las luces del Santuario y, en 2025, fuegos artificiales. En la zona del glaciar hay una gruta o sector de la cruz. La marcha, el frío, la altura y el esfuerzo son parte de la experiencia corporal de quienes participan. El sector mantiene su importancia aunque hayan cambiado las condiciones del hielo entre las observaciones de 2025 y 2026."@es .
+
+qr:Ccatcca a qr:Lugar ;
+    rdfs:label "Ccatcca"@es ;
+    qr:continuaHacia qr:Ocongate ;
+    qr:tieneRegistroVisual qr:Medio_QR_FOT_CCATCCA_034_01,
+        qr:Medio_QR_FOT_CCATCCA_034_02,
+        qr:Medio_QR_FOT_CCATCCA_034_03 ;
+    rdfs:comment "Parada del viaje en la que se comparte comida. Se ha descrito la entrega de carne y maíz a personas del lugar."@es .
+
+qr:CorpusChristiPaucartambo a qr:Festividad ;
+    rdfs:label "Corpus Christi en Paucartambo"@es ;
+    qr:cierraRecorrido qr:ItinerarioPaucartambo ;
+    qr:ocurreEn qr:Paucartambo ;
+    qr:tieneRegistroVisual qr:Medio_QR_FOT_2026_053_01,
+        qr:Medio_QR_FOT_2026_053_02,
+        qr:Medio_QR_FOT_2026_053_03,
+        qr:Medio_QR_FOT_2026_053_04,
+        qr:Medio_QR_FOT_2026_053_05,
+        qr:Medio_QR_FOT_2026_053_06,
+        qr:Medio_QR_FOT_2026_053_07,
+        qr:Medio_QR_FOT_2026_053_08,
+        qr:Medio_QR_FOT_2026_053_09,
+        qr:Medio_QR_FOT_2026_053_10,
+        qr:Medio_QR_FOT_2026_053_11,
+        qr:Medio_QR_FOT_2026_053_12,
+        qr:Medio_QR_FOT_2026_053_13,
+        qr:Medio_QR_FOT_2026_053_14,
+        qr:Medio_QR_FOT_2026_053_15 ;
+    rdfs:comment "Por la mañana, después de que los peregrinos han regresado de Ocongate durante la madrugada y descansado, se celebra Corpus Christi por las calles de Paucartambo. Participan danzas que han vuelto al pueblo y también escolares de comunidades o localidades cercanas; en 2026 se observaron numerosos niños vestidos como distintas danzas, incluidos ukumaris. Se ven procesiones, andas con imágenes, música y público. En la secuencia de Nación Paucartambo, esta celebración marca el cierre vivido de Qoyllur Rit’i. Corpus Christi también se celebra en Cusco, donde tiene gran relevancia, y en Paucartambo adopta su celebración local."@es .
+
+qr:DescensoColquePunku a qr:PracticaCultural ;
+    rdfs:label "Descenso desde Colque Punku"@es ;
+    qr:formaParteDe qr:FestividadQoylluriti ;
+    qr:ocurreEn qr:ColquePunku,
+        qr:SantuarioQoylluriti ;
+    qr:seRealizaEnRuta qr:RutaColquePunkuSantuario ;
+    qr:sigueA qr:AscensoColquePunku ;
+    qr:tieneRegistroVisual qr:Medio_QR_FOT_2025_044_01,
+        qr:Medio_QR_FOT_2025_044_02,
+        qr:Medio_QR_FOT_2025_044_03,
+        qr:Medio_QR_FOT_2025_044_04,
+        qr:Medio_QR_FOT_2025_044_05,
+        qr:Medio_QR_FOT_2025_044_06,
+        qr:Medio_QR_FOT_2025_044_07,
+        qr:Medio_QR_FOT_2025_044_08,
+        qr:Medio_QR_FOT_2025_044_09,
+        qr:Medio_QR_FOT_2025_044_10,
+        qr:Medio_QR_FOT_2025_044_11,
+        qr:Medio_QR_FOT_2025_044_12,
+        qr:Medio_QR_FOT_2025_046_01,
+        qr:Medio_QR_FOT_2025_046_02,
+        qr:Medio_QR_FOT_2025_046_03,
+        qr:Medio_QR_FOT_2026_045_01,
+        qr:Medio_QR_FOT_2026_045_02,
+        qr:Medio_QR_FOT_2026_045_03,
+        qr:Medio_QR_VID_2025_044_01,
+        qr:Medio_QR_VID_2025_046_01,
+        qr:Medio_QR_VID_2025_046_02,
+        qr:Medio_QR_VID_2025_046_03 ;
+    qr:usaObjeto qr:BanderasNaciones ;
+    dcterms:source <urn:qoylluriti:fuente:auditoria_etnografica_participante_2026> ;
+    rdfs:comment "Los ukumaris descienden al amanecer desde Colque Punku hacia el Santuario; en la experiencia relatada la bajada ocurre aproximadamente entre las siete y ocho de la mañana. Primero se encuentran ukumaris de distintas naciones durante el descenso. Más abajo, en el sector alto del Santuario, los ukumaris de Paucartambo encuentran a los Qapaq Qollas de la misma nación. Este encuentro se inserta en un conjunto de celebraciones simultáneas, pero NO constituye el inicio inmediato de la Lomada. En 2025 se registró abundante nieve y suelo congelado; en 2026, un día soleado con menos nieve. Durante el descenso circula también la cruz transportada entre naciones."@es .
+
+qr:EncuentroWataskama a qr:PracticaCultural ;
+    rdfs:label "Encuentro en Wataskama"@es ;
+    qr:formaParteDe qr:FestividadQoylluriti,
+        qr:Lomada ;
+    qr:ocurreEn qr:RiachueloWataskama,
+        qr:Wataskama ;
+    qr:seRealizaEnRuta qr:RutaLomada ;
+    dcterms:source <https://hdl.handle.net/20.500.12918/3606>,
+        <urn:qoylluriti:fuente:auditoria_etnografica_participante_2026> ;
+    rdfs:comment "Encuentro de despedida conocido como Wataskama durante la Lomada de Nación Paucartambo. Agrupaciones de danza se saludan sucesivamente en pares y realizan carreras breves de fuerte exigencia física, cruzando el riachuelo en el sector; no forman una sola caravana. Según observación participante, suelen intervenir danzantes jóvenes, sin que esto permita inferir perfiles etarios generales de cada agrupación. Chaucca Mancco (2018, pp. 81-83) registra en Qochapata un encuentro, carreras, abrazos y despedidas con la expresión «wataskama hermano» («hasta el próximo año, hermano») durante su trabajo de campo de 2017. Su descripción de sanciones y su lista de comparsas no deben extrapolarse sin corroboración a 2025-2026. La nómina completa de danzas participantes y el nombre geográfico preciso están pendientes de consulta con un informante."@es .
+
+qr:Rol a owl:Class ;
+    rdfs:label "Rol de participación"@es .
+
+qr:RutaColquePunkuSantuario a qr:Ruta ;
+    rdfs:label "Camino de descenso de Colque Punku al Santuario"@es ;
+    qr:iniciaEn qr:ColquePunku ;
+    qr:terminaEn qr:SantuarioQoylluriti ;
+    qr:tieneRegistroVisual qr:Medio_QR_FOT_2025_044_01,
+        qr:Medio_QR_FOT_2025_044_02,
+        qr:Medio_QR_FOT_2025_044_03,
+        qr:Medio_QR_FOT_2025_044_04,
+        qr:Medio_QR_FOT_2025_044_05,
+        qr:Medio_QR_FOT_2025_044_06,
+        qr:Medio_QR_FOT_2025_044_07,
+        qr:Medio_QR_FOT_2025_044_08,
+        qr:Medio_QR_FOT_2025_044_09,
+        qr:Medio_QR_FOT_2025_044_10,
+        qr:Medio_QR_FOT_2025_044_11,
+        qr:Medio_QR_FOT_2025_044_12,
+        qr:Medio_QR_VID_2025_044_01 ;
+    qr:tieneTramoGPS qr26:Tramo06 ;
+    rdfs:comment "Descenso desde el sector del glaciar hacia el Santuario. Se reúnen ukumaris de diferentes naciones, con numerosas banderas. El regreso puede realizarse sobre nieve y suelo congelado, como se vivió en 2025, o con mucha menos nieve visible, como se observó en 2026."@es .
+
+qr:Colectivo a owl:Class ;
+    rdfs:label "Colectivo de participantes"@es .
+
+qr:Objeto a owl:Class ;
+    rdfs:label "Objeto utilizado en las prácticas"@es .
+
+qr:Wataskama a qr:Lugar ;
+    rdfs:label "Wataskama"@es ;
+    qr:continuaHacia qr:Yanaqancha ;
+    dcterms:source <https://hdl.handle.net/20.500.12918/3606>,
+        <urn:qoylluriti:fuente:auditoria_etnografica_participante_2026> ;
+    rdfs:comment "Wataskama es la denominación utilizada por el investigador participante para el sector del encuentro de despedida durante la Lomada; también nombra la práctica misma, representada por un individuo diferente (EncuentroWataskama). Se conserva esta grafía confirmada. La tesis de Chaucca Mancco (2018, pp. 81-83) sitúa un encuentro wataskama en la colina Qochapata junto a un riachuelo. Queda PENDIENTE confirmar si aquel topónimo corresponde exactamente al lugar registrado aquí en 2025-2026; no se establece equivalencia geográfica automática."@es .
+
+qr:PreparacionPaucartambo a qr:PracticaCultural ;
+    rdfs:label "Preparación y salida desde Paucartambo"@es ;
+    qr:formaParteDe qr:FestividadQoylluriti ;
+    qr:ocurreEn qr:Carpapampa,
+        qr:IglesiaPaucartambo,
+        qr:Paucartambo ;
+    qr:tieneRegistroVisual qr:Medio_QR_FOT_2025_030_01,
+        qr:Medio_QR_FOT_2025_030_02,
+        qr:Medio_QR_FOT_2025_030_03,
+        qr:Medio_QR_FOT_2025_030_04,
+        qr:Medio_QR_FOT_2025_031_01,
+        qr:Medio_QR_FOT_2025_031_02,
+        qr:Medio_QR_FOT_2025_031_03,
+        qr:Medio_QR_FOT_2025_031_04,
+        qr:Medio_QR_FOT_2025_031_05,
+        qr:Medio_QR_FOT_2025_031_06,
+        qr:Medio_QR_FOT_2026_031_01,
+        qr:Medio_QR_VID_2025_031_01 ;
+    rdfs:comment "El sábado anterior a la salida se realiza un ensayo general en la losa deportiva Huáscar del barrio Carpapampa. El domingo hay misa en la iglesia y romería al cementerio para visitar a integrantes antiguos de las danzas y familiares fallecidos. Los ukumaris se visten y se reúnen en el pueblo, recorren y corren por sus calles y pasan por la iglesia antes de organizar el transporte. Cada agrupación realiza sus preparativos y los ukumaris suben juntos a un camión, con otros vehículos de apoyo para mamawairis, cocina y equipaje. En esta etapa se reconoce el trabajo compartido antes de partir a Mahuayani."@es .
+
+qr:Tayancani a qr:Lugar ;
+    rdfs:label "Tayankani"@es ;
+    qr:continuaHacia qr:Ocongate ;
+    qr:tieneRegistroVisual qr:Medio_QR_MED_2025_050_01,
+        qr:Medio_QR_MED_2025_050_02,
+        qr:Medio_QR_MED_2025_050_03,
+        qr:Medio_QR_MED_2025_050_04,
+        qr:Medio_QR_MED_2025_050_05,
+        qr:Medio_QR_MED_2025_050_06,
+        qr:Medio_QR_MED_2025_050_07,
+        qr:Medio_QR_MED_2025_050_08,
+        qr:Medio_QR_MED_2025_050_09,
+        qr:Medio_QR_MED_2025_050_10,
+        qr:Medio_QR_MED_2026_050_01,
+        qr:Medio_QR_MED_2026_050_02,
+        qr:Medio_QR_MED_2026_050_03,
+        qr:Medio_QR_MED_2026_050_04,
+        qr:Medio_QR_MED_2026_050_05,
+        qr:Medio_QR_MED_2026_050_06,
+        qr:Medio_QR_MED_2026_050_07,
+        qr:Medio_QR_MED_2026_050_08,
+        qr:Medio_QR_MED_2026_050_09,
+        qr:Medio_QR_MED_2026_050_10,
+        qr:Medio_QR_MED_2026_050_11 ;
+    rdfs:comment "Lugar del amanecer y del Inti Alabado, después de la caminata nocturna. También se realizan actividades de los ukumaris en su gruta antes de continuar hacia Ocongate."@es .
+
+qr:Yanaqancha a qr:Lugar ;
+    rdfs:label "Yanaqancha"@es ;
+    qr:continuaHacia qr:Escalerachayoq ;
+    qr:tieneRegistroVisual qr:Medio_QR_MED_SF_049_01,
+        qr:Medio_QR_MED_SF_049_02,
+        qr:Medio_QR_MED_SF_049_03,
+        qr:Medio_QR_MED_SF_049_04,
+        qr:Medio_QR_MED_SF_049_05,
+        qr:Medio_QR_MED_SF_049_06,
+        qr:Medio_QR_MED_SF_049_07,
+        qr:Medio_QR_MED_SF_049_08,
+        qr:Medio_QR_MED_SF_049_09,
+        qr:Medio_QR_MED_SF_049_10,
+        qr:Medio_QR_MED_SF_049_11,
+        qr:Medio_QR_MED_SF_049_12 ;
+    rdfs:comment "Sector de descanso durante la Lomada. La aproximación incluye una bajada hacia un terreno de aspecto húmedo o pantanoso; se concentran pertenencias, puestos de comida y peregrinos. Luego se vuelve a caminar de noche."@es .
+
+qr:ColquePunku a qr:Lugar ;
+    rdfs:label "Colque Punku"@es ;
+    qr:tieneRegistroVisual qr:Medio_QR_FOT_2025_042_01,
+        qr:Medio_QR_FOT_2025_042_02,
+        qr:Medio_QR_FOT_2025_042_03,
+        qr:Medio_QR_FOT_2025_042_04,
+        qr:Medio_QR_FOT_2025_042_05,
+        qr:Medio_QR_FOT_2026_043_01,
+        qr:Medio_QR_FOT_2026_043_02,
+        qr:Medio_QR_FOT_2026_043_03,
+        qr:Medio_QR_FOT_2026_043_04,
+        qr:Medio_QR_FOT_2026_043_05,
+        qr:Medio_QR_FOT_2026_043_06,
+        qr:Medio_QR_FOT_2026_043_07,
+        qr:Medio_QR_FOT_2026_043_08,
+        qr:Medio_QR_FOT_2026_043_09,
+        qr:Medio_QR_FOT_2026_043_10,
+        qr:Medio_QR_FOT_2026_043_11 ;
+    rdfs:comment "Sector de alta montaña y glaciar alcanzado durante la noche desde el Santuario. En 2025 el descenso se realizó con abundante nieve; en 2026 se observó considerablemente menos nieve. La comparación es descriptiva de ambas experiencias."@es .
+
+qr:Ruta a owl:Class ;
+    rdfs:label "Camino o ruta reconocible"@es .
+
+qr:Ocongate a qr:Lugar ;
+    rdfs:label "Ocongate"@es ;
+    qr:continuaHacia qr:Mahuayani ;
+    qr:tieneRegistroVisual qr:Medio_QR_FOT_ANO_PEND_052_01,
+        qr:Medio_QR_FOT_ANO_PEND_052_02,
+        qr:Medio_QR_FOT_ANO_PEND_052_03,
+        qr:Medio_QR_FOT_ANO_PEND_052_04,
+        qr:Medio_QR_FOT_ANO_PEND_052_05 ;
+    rdfs:comment "Localidad atravesada en la ida a Mahuayani y alcanzada nuevamente después de Tayankani. Al regreso hay recibimiento, encuentro en la cancha y posterior partida nocturna en camión."@es .
+
+qr:Lomada a qr:PracticaCultural ;
+    rdfs:label "Lomada, camino de las 24 horas"@es ;
+    qr:formaParteDe qr:FestividadQoylluriti ;
+    qr:ocurreEn qr:SantuarioQoylluriti,
+        qr:Tayancani,
+        qr:Wataskama,
+        qr:Yanaqancha ;
+    qr:seRealizaEnRuta qr:RutaLomada ;
+    qr:sigueA qr:DescensoColquePunku ;
+    qr:tieneRegistroVisual qr:Medio_QR_FOT_2025_047_01,
+        qr:Medio_QR_FOT_2025_047_02,
+        qr:Medio_QR_FOT_2025_047_03,
+        qr:Medio_QR_FOT_2025_047_04,
+        qr:Medio_QR_FOT_2025_047_05,
+        qr:Medio_QR_FOT_2025_047_06,
+        qr:Medio_QR_FOT_2025_047_07,
+        qr:Medio_QR_FOT_2025_047_08,
+        qr:Medio_QR_FOT_2025_047_09,
+        qr:Medio_QR_FOT_2025_047_10,
+        qr:Medio_QR_FOT_2025_047_11,
+        qr:Medio_QR_FOT_2025_047_12,
+        qr:Medio_QR_FOT_2025_047_13,
+        qr:Medio_QR_FOT_2025_047_14,
+        qr:Medio_QR_FOT_2025_047_15,
+        qr:Medio_QR_FOT_2025_047_16,
+        qr:Medio_QR_FOT_2025_047_17,
+        qr:Medio_QR_FOT_2025_047_18,
+        qr:Medio_QR_FOT_2025_047_19 ;
+    dcterms:source <urn:qoylluriti:fuente:auditoria_etnografica_participante_2026> ;
+    rdfs:comment "La Lomada o recorrido de aproximadamente 24 horas comienza desde el Santuario algunas horas después del descenso de los ukumaris de Colque Punku y de su encuentro con los Qapaq Qollas de Nación Paucartambo. Ukumaris, Qapaq Qollas y Qapaq Chunchos participan como agrupaciones de una misma nación, pero parten en momentos cercanos y se desplazan por separado, no como una caravana única. La ruta pasa por Wataskama y Yanaqancha y continúa de noche hacia Tayankani, con el exigente paso por Escalerachayoq. También se reconocen los hitos Machu Cruz, Q’espi Cruz, Qquchiyoc Wayq’o y Yanaqocha; no se asigna aquí un orden completo a todos los hitos secundarios. El trabajo de campo está condicionado por las responsabilidades y los límites de observación de quien realiza el recorrido como danzante."@es .
+
+qr:Paucartambo a qr:Lugar ;
+    rdfs:label "Paucartambo"@es ;
+    qr:continuaHacia qr:Huancarani ;
+    qr:tieneRegistroVisual qr:Medio_QR_FOT_2025_030_01,
+        qr:Medio_QR_FOT_2025_030_02,
+        qr:Medio_QR_FOT_2025_030_03,
+        qr:Medio_QR_FOT_2025_030_04,
+        qr:Medio_QR_FOT_2025_031_01,
+        qr:Medio_QR_FOT_2025_031_02,
+        qr:Medio_QR_FOT_2025_031_03,
+        qr:Medio_QR_FOT_2025_031_04,
+        qr:Medio_QR_FOT_2025_031_05,
+        qr:Medio_QR_FOT_2025_031_06,
+        qr:Medio_QR_FOT_2026_031_01,
+        qr:Medio_QR_FOT_2026_053_01,
+        qr:Medio_QR_FOT_2026_053_02,
+        qr:Medio_QR_FOT_2026_053_03,
+        qr:Medio_QR_FOT_2026_053_04,
+        qr:Medio_QR_FOT_2026_053_05,
+        qr:Medio_QR_FOT_2026_053_06,
+        qr:Medio_QR_FOT_2026_053_07,
+        qr:Medio_QR_FOT_2026_053_08,
+        qr:Medio_QR_FOT_2026_053_09,
+        qr:Medio_QR_FOT_2026_053_10,
+        qr:Medio_QR_FOT_2026_053_11,
+        qr:Medio_QR_FOT_2026_053_12,
+        qr:Medio_QR_FOT_2026_053_13,
+        qr:Medio_QR_FOT_2026_053_14,
+        qr:Medio_QR_FOT_2026_053_15,
+        qr:Medio_QR_VID_2025_031_01 ;
+    rdfs:comment "Localidad desde la que parte y a la que regresa el grupo de Nación Paucartambo. En sus calles se realizan preparativos, recorridos festivos y Corpus Christi."@es .
+
+qr:RutaLomada a qr:Ruta ;
+    rdfs:label "Ruta de la Lomada"@es ;
+    qr:iniciaEn qr:SantuarioQoylluriti ;
+    qr:pasaPor qr:Escalerachayoq,
+        qr:MachuCruz,
+        qr:QespiCruz,
+        qr:QquchiyocWayqo,
+        qr:Wataskama,
+        qr:Yanaqancha,
+        qr:Yanaqocha ;
+    qr:terminaEn qr:Tayancani ;
+    qr:tieneRegistroVisual qr:Medio_QR_FOT_2025_047_01,
+        qr:Medio_QR_FOT_2025_047_02,
+        qr:Medio_QR_FOT_2025_047_03,
+        qr:Medio_QR_FOT_2025_047_04,
+        qr:Medio_QR_FOT_2025_047_05,
+        qr:Medio_QR_FOT_2025_047_06,
+        qr:Medio_QR_FOT_2025_047_07,
+        qr:Medio_QR_FOT_2025_047_08,
+        qr:Medio_QR_FOT_2025_047_09,
+        qr:Medio_QR_FOT_2025_047_10,
+        qr:Medio_QR_FOT_2025_047_11,
+        qr:Medio_QR_FOT_2025_047_12,
+        qr:Medio_QR_FOT_2025_047_13,
+        qr:Medio_QR_FOT_2025_047_14,
+        qr:Medio_QR_FOT_2025_047_15,
+        qr:Medio_QR_FOT_2025_047_16,
+        qr:Medio_QR_FOT_2025_047_17,
+        qr:Medio_QR_FOT_2025_047_18,
+        qr:Medio_QR_FOT_2025_047_19 ;
+    qr:tieneTramoGPS qr26:Tramo07,
+        qr26:Tramo08,
+        qr26:Tramo09 ;
+    rdfs:comment "Camino de unas 24 horas que comienza en el Santuario después del descenso de Colque Punku y sigue hacia Tayankani. En el recorrido se encuentran Wataskama, Yanaqancha, Q’espi Cruz, Yanaqocha, Machu Cruz y el paso por Escalerachayoq, aunque las posiciones de ciertos hitos secundarios aún deben fijarse con el GPS y la memoria de campo. La marcha combina sectores abiertos, bajadas pronunciadas, descansos cortos y un tramo nocturno muy exigente."@es .
+
+qr:TramoGPS a owl:Class ;
+    rdfs:label "Tramo de trayectoria GPS"@es .
+
+qr:SantuarioQoylluriti a qr:Lugar ;
+    rdfs:label "Santuario del Señor de Qoyllur Rit’i"@es ;
+    qr:continuaHacia qr:ColquePunku,
+        qr:Wataskama ;
+    qr:tieneRegistroVisual qr:Medio_QR_FOT_2025_040_02,
+        qr:Medio_QR_FOT_2025_040_03,
+        qr:Medio_QR_FOT_2025_040_04,
+        qr:Medio_QR_FOT_2025_040_05,
+        qr:Medio_QR_FOT_2025_040_06,
+        qr:Medio_QR_FOT_2026_045_01,
+        qr:Medio_QR_FOT_2026_045_02,
+        qr:Medio_QR_FOT_2026_045_03,
+        qr:Medio_QR_VID_2025_040_01 ;
+    qr:ubicadoEn qr:Sinakara ;
+    rdfs:comment "Lugar de llegada desde Mahuayani, concentración de peregrinos y agrupaciones, misa, campamento y punto de partida del ascenso a Colque Punku y de la Lomada."@es .
+
+<urn:qoylluriti:fuente:auditoria_etnografica_participante_2026> dcterms:date "2026-11"^^xsd:gYearMonth ;
+    dcterms:description "Relato y aclaraciones del investigador participante en la auditoría etnográfica de noviembre de 2026 sobre experiencias 2025-2026. Fuente conversacional no depositada públicamente; las afirmaciones no se generalizan a otras naciones."@es .
+
+qr:FestividadQoylluriti a qr:Festividad ;
+    rdfs:label "Qoyllur Rit’i"@es ;
+    qr:seRealizaEnRuta qr:ItinerarioPaucartambo ;
+    qr:tieneRegistroVisual qr:Medio_QR_FOT_2026_DRON_0009,
+        qr:Medio_QR_FOT_2026_DRON_0010,
+        qr:Medio_QR_FOT_2026_DRON_0011,
+        qr:Medio_QR_FOT_2026_DRON_0012,
+        qr:Medio_QR_FOT_2026_DRON_0013,
+        qr:Medio_QR_FOT_2026_DRON_0014,
+        qr:Medio_QR_FOT_2026_DRON_0015,
+        qr:Medio_QR_FOT_2026_DRON_0016,
+        qr:Medio_QR_FOT_2026_DRON_0017,
+        qr:Medio_QR_FOT_2026_DRON_0018,
+        qr:Medio_QR_FOT_2026_DRON_0019,
+        qr:Medio_QR_FOT_2026_DRON_0020,
+        qr:Medio_QR_FOT_2026_DRON_0021,
+        qr:Medio_QR_FOT_2026_DRON_0022,
+        qr:Medio_QR_FOT_2026_DRON_0023,
+        qr:Medio_QR_FOT_2026_DRON_0024,
+        qr:Medio_QR_FOT_2026_DRON_0025,
+        qr:Medio_QR_FOT_2026_DRON_0026,
+        qr:Medio_QR_FOT_2026_DRON_0027,
+        qr:Medio_QR_FOT_2026_DRON_0028 ;
+    dcterms:description "v0.4.2: auditoría etnográfica de noviembre 2026; revisión no exhaustiva, con observaciones situadas y fuentes de distinto alcance."@es ;
+    dcterms:source <urn:qoylluriti:fuente:auditoria_etnografica_participante_2026> ;
+    rdfs:comment "La peregrinación conecta Paucartambo, Ccatcca, Ocongate, Mahuayani, el Santuario de Sinakara, Colque Punku y el recorrido de la Lomada hasta Tayankani y el regreso. Este grafo documenta principalmente el trayecto y las actividades observadas desde la participación con los ukumaris de Nación Paucartambo en 2025-2026. Otras naciones, danzas y devotos desarrollan numerosas actividades simultáneas que no pudieron ser observadas de manera exhaustiva desde esa posición. Su ausencia en el grafo no implica que no ocurrieran. La secuencia no se interpreta como calendario universal ni como una sucesión lineal de todos los acontecimientos de Qoyllur Rit’i."@es ;
+    rdfs:seeAlso <https://doi.org/10.1017/lar.2025.10085>,
+        <https://doi.org/10.18800/anthropologica.198701.008>,
+        <https://doi.org/10.18800/anthropologica.202002.006> .
+
+qr:PracticaCultural a owl:Class ;
+    rdfs:label "Práctica cultural recurrente"@es .
+
+qr:Lugar a owl:Class ;
+    rdfs:label "Lugar o sector de referencia"@es .
+
+qr:MedioVisual a owl:Class ;
+    rdfs:label "Fotografía o video"@es .
+

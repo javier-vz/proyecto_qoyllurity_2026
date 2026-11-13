@@ -1,0 +1,29 @@
+{
+  "archivo": "qoylluriti_etnografia_v04_2_AUDITORIA_CON_MEDIOS.ttl",
+  "git_sha_blob_v041": "e6dbee2775a84ccda836a71b2c60876420ced8d5",
+  "proveniencia": "El grafo v0.4.1 se recompone semánticamente desde la copia integral v0.4 y el parche multimedia constatado en el archivo v0.4.1 de GitHub; serialización y orden de triples pueden variar.",
+  "triples_v04": 1644,
+  "triples_v041_reconstruida": 1653,
+  "triples_v042": 1702,
+  "clases_owl": 11,
+  "propiedades_objeto_owl": 18,
+  "propiedades_datos_owl": 7,
+  "medios": 181,
+  "enlaces_medios": 336,
+  "triple_sujetos_nuevos": [
+    "BautizoPrimerAscensoColquePunku",
+    "DanzaLaderaYanaqancha",
+    "Antiguo"
+  ],
+  "sha256_v042": "2b59191f4632306d12ed63510eb9a77ab8a148305c86fad7ea2a15471c877269",
+  "pendientes": [
+    "Corroborar la localización geográfica y posible correspondencia Wataskama–Qochapata",
+    "Confirmar lista de comparsas de Nación Paucartambo en 2025-2026",
+    "Verificar imágenes QR-FOT-2025-051-01 a 05 antes de atribuirlas a un bautizo específico",
+    "Confirmar detalles gestuales y temporalidad del primer bautizo/compromiso trienal",
+    "Confirmar nombre local de la danza colectiva en la ladera de Yanaqancha",
+    "Verificar si cada comparsa identificada participa en la danza de Yanaqancha y su criterio exacto de antigüedad",
+    "Revisar orden de hitos secundarios de Lomada contra GPS y entrevistas",
+    "Verificar detalles del saludo y eventuales sanciones en Wataskama 2025-2026"
+  ]
+}
